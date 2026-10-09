@@ -40,12 +40,12 @@ body{ font-family:"Inter",system-ui,sans-serif; font-feature-settings:"cv11","ss
 
 /* cover and closing */
 .content .bleed{ position:absolute; inset:0; background-size:cover; background-position:center; }
-.cover{ position:absolute; left:132px; right:132px; bottom:104px; color:#fff; }
-.cv-lock svg{ height:64px; width:auto; display:block; margin-left:-16px; margin-bottom:56px; }
-.cv-title{ font-size:108px; font-weight:500; letter-spacing:-0.03em; line-height:1.04; }
-.cv-sub{ font-size:24px; color:#c9cad1; margin-top:18px; }
-.cv-chip{ position:absolute; right:0; bottom:6px; font-size:18px; color:var(--ink); padding:14px 22px; border-radius:19px;
-  background:#eeeef0; border:1px solid #ffffff; }
+.cv-photo{ position:absolute; right:0; top:0; width:1020px; height:1080px; object-fit:cover; display:block; }
+.cover{ position:absolute; left:86px; top:64px; bottom:96px; width:740px; color:var(--ink); }
+.cv-lock svg{ height:44px; width:auto; display:block; margin-left:-11px; }
+.cv-title{ position:absolute; left:0; bottom:176px; font-size:96px; font-weight:500; letter-spacing:-0.03em; line-height:1.04; }
+.cv-sub{ position:absolute; left:0; bottom:88px; font-size:21px; line-height:1.5; color:var(--body); max-width:640px; }
+.cv-chip{ position:absolute; left:0; bottom:0; font-size:17px; color:var(--muted); }
 .ground-plain .content{ top:0; bottom:0; left:0; right:0; }
 .closing{ position:absolute; inset:0; display:flex; align-items:center; justify-content:center; }
 .closing svg{ height:110px; width:auto; }

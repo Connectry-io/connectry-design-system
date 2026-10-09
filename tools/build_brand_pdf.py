@@ -116,33 +116,24 @@ def guide_pages(stem, label, title, cols=2, split=None):
 
 
 # 1 cover
-def baked_cover(src):
-    """Photo with the brand scrim burned into the pixels (no CSS transparency, so every PDF viewer
-    renders it identically): black rising from the bottom, 55% at the foot to 8% at 40% height."""
+def cover_photo(src):
+    """The photograph as shot, cropped to the cover's right panel. No scrim, no overlay."""
     dst = IMG / 'cover.jpg'
     im = Image.open(src).convert('RGB')
-    im = im.resize((2400, round(im.height * 2400 / im.width)), Image.LANCZOS)
-    tw, th = 2400, 1350
-    top = max(0, (im.height - th) // 2)
-    im = im.crop((0, top, tw, top + th))
-    mask = Image.new('L', (1, th))
-    for y in range(th):
-        f = y / (th - 1)                      # 0 top .. 1 bottom
-        a = 0.0 if f < 0.4 else 0.08 + (0.55 - 0.08) * ((f - 0.4) / 0.6)
-        if f >= 0.4 and f < 0.4 + 1e-9:
-            a = 0.08
-        mask.putpixel((0, y), round(255 * a))
-    mask = mask.resize((tw, th))
-    im = Image.composite(Image.new('RGB', (tw, th), (0, 0, 0)), im, mask)
+    tw, th = 2040, 2160                         # 1020 x 1080 at 2x
+    sc = th / im.height
+    im = im.resize((round(im.width * sc), th), Image.LANCZOS)
+    left = min(max(0, im.width - tw - round(im.width * 0.04)), im.width - tw)  # keep the person, right side
+    im = im.crop((left, 0, left + tw, th))
     im.save(dst, 'JPEG', quality=88, optimize=True, progressive=True)
     return dst.as_uri()
 
 
-cover_img = baked_cover(P / 'assets/Imagery/03-kitchen-morning.jpg')
+cover_img = cover_photo(P / 'assets/Imagery/03-kitchen-morning.jpg')
 page('', f'''
-<div class="bleed" style="background-image:url('{cover_img}')"></div>
+<img class="cv-photo" src="{cover_img}">
 <div class="cover">
-  <div class="cv-lock">{LOCKUP_WHITE}</div>
+  <div class="cv-lock">{LOCKUP_INK}</div>
   <div class="cv-title">Brand guidelines.</div>
   <div class="cv-sub">Version 2.1 · The whole Connectry system: brand, marketing and product UI.</div>
   <div class="cv-chip">{esc(tokens["meta"]["slogan"])}</div>
