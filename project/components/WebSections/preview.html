@@ -1,0 +1,425 @@
+<!-- @dsCard group="Website" height=2770 width=1100 -->
+<meta charset="utf-8"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+<style>/* Connectry site core: tokens, type, glass, nav, hero (A1), shared section components.
+   One radius family: 28 frames, 19 glass cards, 11 inner. Inter only. One blue. */
+:root{
+  --ground:#f5f5f7;--surface:#fff;--ink:#1a1a1a;--body:#43444d;--muted:#5b5c66;--faint:#80818d;--hair:rgba(0,0,0,.08);
+  --blue:#4a6fa5;--blue-hover:#3f6093;--blue-light:#7fa3d6;
+  --font:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --ease:cubic-bezier(.2,.7,.2,1);--cine:cubic-bezier(.65,0,.25,1);--settle:cubic-bezier(.22,1,.36,1);
+  --gut:max(20px,6vw);--max:1240px;
+  --r-frame:28px;--r-card:19px;--r-in:11px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ground);color:var(--body);font-family:var(--font);font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased;font-feature-settings:"cv11","ss01";overflow-x:hidden}
+h1,h2,h3{color:var(--ink);font-weight:500;letter-spacing:-.03em;margin:0;text-wrap:balance}
+p{margin:0;text-wrap:pretty}
+a{color:inherit}
+img,video{display:block;max-width:100%}
+:focus-visible{outline:2px solid var(--blue);outline-offset:3px;border-radius:6px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- type scale ---------- */
+.eyebrow{font-size:13px;letter-spacing:.09em;text-transform:uppercase;font-weight:500;color:var(--blue)}
+.h2{font-size:clamp(34px,5.2vw,64px);line-height:1.03;letter-spacing:-.035em}
+.h3{font-size:clamp(22px,2.2vw,28px);line-height:1.15;letter-spacing:-.02em}
+.lede{font-size:clamp(17px,1.45vw,20px);line-height:1.55;color:var(--body);max-width:34em}
+.small{font-size:14px;color:var(--muted)}
+
+/* ---------- glass ---------- */
+.glass{position:relative;background-color:rgba(255,255,255,.72);-webkit-backdrop-filter:blur(14px) saturate(1.7) brightness(1.04);backdrop-filter:blur(14px) saturate(1.7) brightness(1.04);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.95),inset 0 -1px 0 rgba(0,0,0,.05),0 24px 60px rgba(0,0,0,.16),0 2px 6px rgba(0,0,0,.06);border-radius:var(--r-card);color:var(--ink)}
+.glass.on-film{background-color:rgba(255,255,255,.76);box-shadow:inset 0 1px 0 rgba(255,255,255,.95),inset 0 -1px 0 rgba(0,0,0,.06),0 30px 80px rgba(0,0,0,.4),0 2px 8px rgba(0,0,0,.14)}
+.glass.dark{background-color:rgba(24,25,28,.62);color:#fff;box-shadow:inset 0 1px 0 rgba(255,255,255,.14),0 30px 80px rgba(0,0,0,.4)}
+
+/* ---------- buttons, fields ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:44px;padding:0 20px;border-radius:var(--r-in);border:0;background:var(--blue);color:#fff;font:inherit;font-size:15px;font-weight:500;text-decoration:none;cursor:pointer;transition:background .2s,transform .2s var(--settle)}
+.btn:hover{background:var(--blue-hover)}
+.btn:active{transform:scale(.97)}
+.btn.ghost{background:rgba(255,255,255,.14);color:#fff;box-shadow:inset 0 0 0 1px rgba(255,255,255,.45);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}
+.btn.quiet{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1px var(--hair)}
+.join{display:flex;align-items:center;gap:8px;padding:7px;border-radius:var(--r-card);width:min(460px,100%)}
+.join input{flex:1 1 0;width:0;min-width:0;height:44px;border:0;outline:0;background:transparent;font:inherit;font-size:16px;color:var(--ink);padding:0 10px 0 12px}
+.join input::placeholder{color:#6c6d78}
+.join .btn{flex:0 0 auto}
+.join-note{font-size:14px;color:var(--muted);margin-top:12px;min-height:1.4em}
+
+/* ---------- nav: no logo until you scroll ---------- */
+.nav{position:fixed;left:0;right:0;top:0;z-index:50;height:68px;display:flex;align-items:center;justify-content:space-between;padding:0 var(--gut);color:#fff;transition:background .5s var(--ease),box-shadow .5s,color .5s}
+.nav>a{display:flex;align-items:center;height:100%;border-radius:6px}
+.nav .lk{display:block;height:24px;width:auto;opacity:0;transform:translateY(-6px);transition:opacity .7s var(--ease),transform .7s var(--settle);pointer-events:none}
+.nav .links{display:flex;align-items:center;gap:30px;font-size:15px;font-weight:500}
+.nav .links a:not(.btn){text-decoration:none;opacity:.88}
+.nav .links a:not(.btn):hover{opacity:1}
+.nav .btn{height:38px;padding:0 16px;font-size:14px}
+.nav.solid .lk{opacity:1;transform:none;pointer-events:auto}
+.nav.solid.light{background:rgba(245,245,247,.74);-webkit-backdrop-filter:blur(20px) saturate(1.8);backdrop-filter:blur(20px) saturate(1.8);box-shadow:inset 0 -1px 0 var(--hair);color:var(--ink)}
+.nav.solid.dark{background:rgba(18,19,21,.6);-webkit-backdrop-filter:blur(20px) saturate(1.6);backdrop-filter:blur(20px) saturate(1.6);box-shadow:inset 0 -1px 0 rgba(255,255,255,.08);color:#fff}
+.nav.solid.light .btn.ghost{background:var(--blue);box-shadow:none}
+@media (max-width:760px){.nav{height:60px;justify-content:center}.nav .links{display:none}.nav .lk{height:22px}}
+
+/* ======================= HERO (A1) ======================= */
+.hero{position:relative;height:100svh;min-height:560px;max-height:1100px;overflow:hidden;background:#000;container-type:size;color:#fff;isolation:isolate}
+.hero{--u:min(1cqw,1.85cqh)}
+@container (max-aspect-ratio: 4/5){.hero-in{--u:min(2.05cqw,1.1cqh)}}
+.hero-in{position:absolute;inset:0;--u:min(1cqw,1.85cqh);--barh:max(46px,calc(var(--u)*5.2))}
+@container (max-aspect-ratio: 4/5){.hero-in{--u:min(2.05cqw,1.1cqh);--cardh:calc(var(--u)*19.5);--barw:calc(100cqw - 36px);--cardw:calc(100cqw - 24px);--barh:64px}
+ /* phones: a question may take two lines inside a slightly taller bar, never clipped */
+ .hero-in .q{height:auto;max-height:2.7em;white-space:normal;line-height:1.3;overflow:hidden;font-size:15px}
+ .hero-in .q .typed{display:inline}
+ .hero-in .q.typing .caret,.hero-in .q .typed{transform:none}
+ .hero-in .m.card .q{font-size:13px;white-space:nowrap}
+ .hero-in .m.card .q .typed{display:inline-block}}
+.hero video,.hero .still{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 42%}
+.hero .still{opacity:0}.hero .still.show{opacity:1}
+.hero .veil{position:absolute;inset:0;background:#000;opacity:.1;transition:opacity 3s var(--ease);pointer-events:none}
+.hero .halo{position:absolute;inset:0;opacity:0;pointer-events:none;background:radial-gradient(ellipse 48% 38% at 50% 50%,rgba(0,0,0,.42),rgba(0,0,0,0) 100%);transition:opacity 1.6s var(--ease)}
+@container (max-aspect-ratio: 4/5){.hero .halo{background:radial-gradient(ellipse 90% 34% at 50% 48%,rgba(0,0,0,.5),rgba(0,0,0,0) 100%)}}
+.hero .topfade{position:absolute;left:0;right:0;top:0;height:22%;background:linear-gradient(to bottom,rgba(0,0,0,.34),rgba(0,0,0,0));pointer-events:none}
+.hero .x{opacity:0;transform:translateY(calc(var(--u)*.9));filter:blur(calc(var(--u)*.5));transition:opacity 1.4s var(--settle),transform 1.6s var(--settle),filter 1.4s var(--settle)}
+.hero .x.in{opacity:1;transform:none;filter:none}
+.hero .x.out{opacity:0;transform:translateY(calc(var(--u)*-.8));filter:blur(calc(var(--u)*.5));transition-duration:1s}
+.kick{position:absolute;left:16px;right:16px;top:36.5%;margin:0;text-align:center;font-size:max(24px,calc(var(--u)*2.45));font-weight:500;letter-spacing:-.025em;line-height:1.1;color:#fff;text-shadow:0 2px 20px rgba(0,0,0,.45)}
+.kick .a{color:#7fa3d6}
+.hero h1.kick{font-weight:500}
+
+.m{--r:calc(var(--u)*1.9);position:absolute;left:50%;top:46.5%;transform:translateX(-50%);width:0;height:calc(var(--u)*.14);margin-top:calc(var(--barh)/2 - var(--u)*.07);border-radius:var(--r);overflow:hidden;opacity:0;color:#1a1a1a;display:flex;flex-direction:column;
+  background-color:rgba(255,255,255,0);-webkit-backdrop-filter:blur(0px) saturate(1) brightness(1);backdrop-filter:url(#lens) blur(0px) saturate(1) brightness(1);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0),inset 0 -1px 0 rgba(0,0,0,0),0 0 0 rgba(255,255,255,0),0 0 0 rgba(0,0,0,0);
+  transition:width 1.4s var(--cine),height 1.4s var(--cine),margin-top 1.4s var(--cine),background-color 1.4s var(--ease),box-shadow 1.4s var(--ease),backdrop-filter 1.4s var(--ease),-webkit-backdrop-filter 1.4s var(--ease),opacity 1s var(--ease),transform 1.2s var(--settle),filter 1.1s var(--ease)}
+.m::after{content:"";position:absolute;inset:0;pointer-events:none;border-radius:inherit;background:linear-gradient(105deg,rgba(255,255,255,0) 35%,rgba(255,255,255,.55) 50%,rgba(255,255,255,0) 65%);transform:translateX(-110%);opacity:0}
+.m.sheen::after{animation:sheen 1.6s var(--cine) forwards}
+@keyframes sheen{0%{transform:translateX(-110%);opacity:0}15%{opacity:1}100%{transform:translateX(110%);opacity:0}}
+.m.line{opacity:1;background-color:rgba(255,255,255,.95);transition:width 1.5s var(--cine),opacity .6s var(--ease),height 1.4s var(--cine),margin-top 1.4s var(--cine),box-shadow 1.4s var(--ease);box-shadow:inset 0 1px 0 rgba(255,255,255,0),inset 0 -1px 0 rgba(0,0,0,0),0 0 calc(var(--u)*1.4) rgba(255,255,255,.55),0 0 0 rgba(0,0,0,0)}
+.m.line.drawn{width:var(--barw,calc(var(--u)*50))}
+.m.glass{opacity:1;width:var(--barw,calc(var(--u)*50));height:var(--barh);margin-top:0;background-color:rgba(255,255,255,.74);-webkit-backdrop-filter:blur(2px) saturate(1.7) brightness(1.04);backdrop-filter:url(#lens) blur(2px) saturate(1.7) brightness(1.04);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.95),inset 0 -1px 0 rgba(0,0,0,.06),0 calc(var(--u)*2.6) calc(var(--u)*7) rgba(0,0,0,.42),0 2px 6px rgba(0,0,0,.12)}
+.m.glass::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:linear-gradient(180deg,rgba(255,255,255,.14),rgba(255,255,255,0) 60%)}
+.m.lit{box-shadow:inset 0 1px 0 rgba(255,255,255,.95),inset 0 -1px 0 rgba(0,0,0,.06),0 calc(var(--u)*2.6) calc(var(--u)*7) rgba(0,0,0,.42),0 0 calc(var(--u)*2.4) rgba(127,163,214,.55)}
+.qrow{flex:0 0 var(--barh);height:var(--barh);display:flex;align-items:center;gap:max(8px,var(--u));padding:0 max(6px,calc(var(--u)*.8));opacity:0;filter:blur(3px);transition:opacity .9s var(--ease) .75s,filter .9s var(--ease) .75s}
+.m.glass .qrow{opacity:1;filter:none}
+.tile{flex:0 0 auto;width:max(34px,calc(var(--u)*3.6));height:max(34px,calc(var(--u)*3.6));border-radius:max(9px,calc(var(--u)*1.1));background:var(--blue);display:grid;place-items:center}
+.tile svg{width:42%;height:42%}
+.q{flex:1;min-width:0;position:relative;height:1.4em;margin-right:6px;font-size:max(15px,calc(var(--u)*1.62));line-height:1.4em;letter-spacing:-.012em;white-space:nowrap;overflow:hidden;transition:opacity .5s,font-size 1.4s var(--cine),color 1.4s var(--ease)}
+.q .ph{position:absolute;left:0;top:0;color:#6c6d78;transition:opacity .5s}
+.q .typed,.q.typing .caret{transform:translateX(var(--sx,0px))}
+.q .typed{display:inline-block;transition:opacity .6s var(--ease),filter .6s var(--ease),transform .35s var(--ease)}
+.q.typing .caret{transition:transform .35s var(--ease)}
+.m.card .q .typed{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;vertical-align:top;transform:none}
+.q.clear .typed{opacity:0;filter:blur(3px);transform:translate(var(--sx,0px),-3px)}
+.q .typed i{font-style:normal;animation:letter .28s var(--ease) both}
+@keyframes letter{from{opacity:0;filter:blur(1px)}}
+.q .caret{display:inline-block;width:2px;height:1.05em;background:var(--blue);vertical-align:-.15em;margin-left:1px;animation:blink 1.05s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.q.typing .ph{opacity:0}
+.q:not(.typing) .caret{position:absolute;left:0;top:.18em;margin:0}
+.q:not(.typing) .ph{left:.45em}
+.q.clear .caret{opacity:0;animation:none}
+.em{flex:1;min-width:0;border:0;outline:none;background:transparent;font:inherit;font-size:max(16px,calc(var(--u)*1.6));color:#1a1a1a;display:none;animation:rise 1s var(--settle) both .2s}
+.em::placeholder{color:#6c6d78}
+@keyframes rise{from{opacity:0;filter:blur(3px);transform:translateY(3px)}}
+.go{flex:0 0 auto;height:max(34px,calc(var(--u)*3.6));min-width:max(34px,calc(var(--u)*3.6));border-radius:max(9px,calc(var(--u)*1.1));border:0;background:var(--blue);color:#fff;display:flex;align-items:center;justify-content:center;gap:0;padding:0;cursor:pointer;font:inherit;font-size:max(14px,calc(var(--u)*1.15));font-weight:500;transition:transform .35s var(--settle),padding 1.3s var(--cine),background .3s}
+.go svg{display:block;width:max(16px,calc(var(--u)*1.45));height:max(16px,calc(var(--u)*1.45));flex:0 0 auto;transition:width .6s,opacity .4s}
+.go .jt{max-width:0;overflow:hidden;white-space:nowrap;opacity:0;transition:max-width 1.3s var(--cine),opacity .8s var(--ease) .45s}
+.go.dip{transform:scale(.86)}
+.arow{flex:1 0 auto;min-height:0;padding:0 max(14px,calc(var(--u)*2)) max(14px,calc(var(--u)*1.5)) max(54px,calc(var(--u)*5.4));opacity:0;filter:blur(4px);transform:translateY(6px);transition:opacity .45s var(--ease),filter .45s var(--ease),transform .6s var(--ease),border-color .6s;border-top:1px solid rgba(0,0,0,0)}
+.m.card .arow{opacity:1;filter:none;transform:none;border-top-color:rgba(0,0,0,.08);transition:opacity 1s var(--ease) .55s,filter 1s var(--ease) .55s,transform 1.2s var(--settle) .5s,border-color 1s .5s}
+.albl{font-size:max(10px,calc(var(--u)*.9));letter-spacing:.08em;text-transform:uppercase;font-weight:500;color:#5b5c66;margin:max(10px,calc(var(--u)*1.4)) 0 max(4px,calc(var(--u)*.55))}
+.an{font-size:max(16px,calc(var(--u)*2.05));line-height:1.3;font-weight:500;letter-spacing:-.022em;color:#1a1a1a}
+.k{color:var(--blue);font-weight:600;text-shadow:0 0 0 rgba(74,111,165,0),0 0 0 rgba(127,163,214,0);transition:text-shadow 1.8s var(--ease)}
+.k.hl{text-shadow:0 0 .35em rgba(74,111,165,.42),0 0 1em rgba(127,163,214,.35);animation:breathe 5s ease-in-out 1.8s infinite alternate}
+@keyframes breathe{to{text-shadow:0 0 .3em rgba(74,111,165,.3),0 0 .8em rgba(127,163,214,.22)}}
+.m.card{width:var(--cardw,calc(var(--u)*56));height:var(--cardh,calc(var(--u)*13.6))}
+@container (min-aspect-ratio: 4/5){.m.card{width:min(calc(var(--u)*56),calc(100cqw - 24px))}}
+.m.card .q{color:#5b5c66;font-size:max(13px,calc(var(--u)*1.4))}
+.m.card .caret{display:none}
+.m.invite .q{display:none}.m.invite .em{display:block}
+.m.invite .go{padding:0 max(14px,calc(var(--u)*1.6))}
+.m.invite .go svg{width:0;opacity:0}
+.m.invite .go .jt{max-width:14em;opacity:1}
+.chip{position:absolute;left:50%;top:46.5%;transform:translateX(-50%);width:var(--barw,calc(var(--u)*50));height:max(46px,calc(var(--u)*5.2));border-radius:calc(var(--u)*1.9);display:flex;align-items:center;gap:max(7px,calc(var(--u)*.9));padding:0 max(12px,calc(var(--u)*1.4));opacity:0;filter:blur(4px);color:#1a1a1a;font-size:max(12px,calc(var(--u)*1.22));font-weight:500;letter-spacing:-.01em;white-space:nowrap;overflow:hidden;
+  background-color:rgba(255,255,255,.64);-webkit-backdrop-filter:blur(2px) saturate(1.6) brightness(1.03);backdrop-filter:url(#lens) blur(2px) saturate(1.6) brightness(1.03);box-shadow:inset 0 1px 0 rgba(255,255,255,.9),0 calc(var(--u)*1.2) calc(var(--u)*3.4) rgba(0,0,0,.3);
+  transition:top 1.5s var(--cine),width 1.5s var(--cine),height 1.5s var(--cine),border-radius 1.5s var(--cine),opacity 1.2s var(--ease),filter 1.2s var(--ease)}
+.chip b{font-weight:500;color:#5b5c66;font-size:max(9px,calc(var(--u)*.86));letter-spacing:.08em;text-transform:uppercase}
+.chip .d{flex:0 0 auto;width:max(6px,calc(var(--u)*.62));height:max(6px,calc(var(--u)*.62));border-radius:50%;background:var(--blue);box-shadow:0 0 calc(var(--u)*.7) rgba(74,111,165,.75)}
+.chip span.t{overflow:hidden;text-overflow:ellipsis}
+.lkF{position:absolute;left:50%;width:max(150px,calc(var(--u)*22));height:auto;transform:translateX(calc(-50% - 3.5%));color:#fff;overflow:visible;opacity:0;filter:drop-shadow(0 1px 10px rgba(0,0,0,.35))}
+.lkF.in{opacity:1}
+.lkF .mk{opacity:0}
+.lkF .wd{-webkit-mask-image:linear-gradient(90deg,#000 0,#000 40%,transparent 60%);mask-image:linear-gradient(90deg,#000 0,#000 40%,transparent 60%);-webkit-mask-size:250% 100%;mask-size:250% 100%;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-position:100% 0;mask-position:100% 0;transform:translateX(-18px);transition:-webkit-mask-position 1.9s cubic-bezier(.45,.05,.2,1),mask-position 1.9s cubic-bezier(.45,.05,.2,1),transform 2.1s var(--settle)}
+.lkF.swish .wd{-webkit-mask-position:0 0;mask-position:0 0;transform:none}
+.br{position:absolute;left:0;top:0;width:10px;height:10px;fill:#fff;opacity:0;overflow:visible;pointer-events:none;filter:blur(3px) drop-shadow(0 1px 10px rgba(0,0,0,.35));transition:left 1.8s var(--settle),top 1.8s var(--settle),opacity 1.4s var(--ease),filter 1.6s var(--ease)}
+.br.on{opacity:1;filter:blur(0) drop-shadow(0 1px 10px rgba(0,0,0,.35))}
+.br.still{transition:none!important}
+.hero .scrollcue{position:absolute;left:50%;bottom:22px;transform:translateX(-50%);width:22px;height:34px;border-radius:12px;box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.6);opacity:0;transition:opacity 1s}
+.hero .scrollcue::after{content:"";position:absolute;left:50%;top:7px;width:3px;height:7px;margin-left:-1.5px;border-radius:2px;background:#fff;animation:cue 2s var(--ease) infinite}
+.hero .scrollcue.in{opacity:.8}
+@keyframes cue{0%{transform:translateY(0);opacity:0}30%{opacity:1}100%{transform:translateY(10px);opacity:0}}
+@media (prefers-reduced-motion:reduce){.hero *{transition:none!important;animation:none!important}}
+
+/* ======================= shared section components ======================= */
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--gut)}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity 1.2s var(--ease),transform 1.5s var(--settle)}
+.reveal.seen{opacity:1;transform:none}
+.reveal.d1{transition-delay:.12s}.reveal.d2{transition-delay:.24s}.reveal.d3{transition-delay:.36s}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
+.frame{position:relative;border-radius:var(--r-frame);overflow:hidden;background:#111;aspect-ratio:16/10}
+.frame video,.frame img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.frame.tall{aspect-ratio:4/5}
+
+/* thread: an ask with follow ups, in the same grammar as the hero */
+.thread{width:min(480px,100%);padding:8px;display:grid;gap:0}
+.thread .tq{display:flex;align-items:center;gap:10px;height:48px;padding:0 4px 0 4px}
+.thread .tq .tile{width:34px;height:34px;border-radius:9px}
+.thread .tq .txt{flex:1;min-width:0;font-size:15px;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.thread .tq .txt .cur{display:inline-block;width:2px;height:1.05em;background:var(--blue);vertical-align:-.15em;margin-left:1px;animation:blink 1.05s steps(1) infinite}
+.thread .tq .send{flex:0 0 auto;width:34px;height:34px;border-radius:9px;background:var(--blue);display:grid;place-items:center;transition:transform .3s var(--settle)}
+.thread .tq .send svg{width:16px;height:16px}
+.thread .tq .send.dip{transform:scale(.86)}
+.thread .ta{display:grid;grid-template-rows:0fr;transition:grid-template-rows 1.2s var(--cine)}
+.thread .ta>div{overflow:hidden;min-height:0}
+.thread .ta.open{grid-template-rows:1fr}
+.thread .ta .in{padding:12px 14px 14px 48px;border-top:1px solid var(--hair);opacity:0;filter:blur(4px);transform:translateY(6px);transition:opacity 1s var(--ease) .4s,filter 1s var(--ease) .4s,transform 1.2s var(--settle) .35s}
+.thread .ta.open .in{opacity:1;filter:none;transform:none}
+.thread .lbl{font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;font-weight:500;color:var(--muted);margin-bottom:5px}
+.thread .ans{font-size:17px;line-height:1.35;font-weight:500;letter-spacing:-.015em;color:var(--ink)}
+.thread .past{font-size:13.5px;color:var(--muted)}
+.thread .step{display:grid;grid-template-rows:0fr;transition:grid-template-rows 1.1s var(--cine)}
+.thread .step>div{overflow:hidden;min-height:0}
+.thread .step.open{grid-template-rows:1fr}
+.thread .step .row{border-top:1px solid var(--hair);opacity:0;transition:opacity .8s var(--ease) .3s}
+.thread .step.open .row{opacity:1}
+
+/* circles */
+.circles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.circle{border-radius:var(--r-card);overflow:hidden;background:var(--surface);box-shadow:0 1px 0 rgba(0,0,0,.03),0 10px 30px rgba(0,0,0,.06)}
+.circle .ph{position:relative;aspect-ratio:4/3;overflow:hidden}
+.circle .ph img{width:100%;height:100%;object-fit:cover;transition:transform 1.6s var(--settle)}
+.circle:hover .ph img{transform:scale(1.03)}
+.circle .who{position:absolute;left:10px;bottom:10px;display:flex;align-items:center;gap:6px;height:28px;padding:0 10px;border-radius:9px;font-size:12.5px;font-weight:500}
+.circle .bd{padding:14px 16px 16px}
+.circle .nm{font-size:16px;font-weight:600;color:var(--ink);letter-spacing:-.01em}
+.circle .mem{font-size:14px;color:var(--muted);margin-top:4px;line-height:1.45}
+.circle .mem b{font-weight:500;color:var(--ink)}
+@media (max-width:980px){.circles{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:980px){.circles{gap:14px}}
+/* on phones the circles become calm rows: no sideways scrolling */
+.clist{display:none;list-style:none;margin:0;padding:6px 0;border-radius:var(--r-card);background:var(--surface);box-shadow:0 1px 0 rgba(0,0,0,.03),0 10px 30px rgba(0,0,0,.06)}
+.clist li{display:grid;grid-template-columns:56px minmax(0,1fr);gap:14px;align-items:center;padding:12px 14px}
+.clist li+li{border-top:1px solid var(--hair)}
+.clist img{width:56px;height:56px;border-radius:14px;object-fit:cover}
+.clist .nm{font-size:15.5px;font-weight:600;color:var(--ink);letter-spacing:-.01em;display:flex;justify-content:space-between;gap:10px;margin:0}
+.clist .nm span{font-size:12.5px;font-weight:500;color:var(--faint);white-space:nowrap}
+.clist .mem{font-size:13.5px;color:var(--muted);line-height:1.4;margin-top:2px}
+.clist .mem b{font-weight:500;color:var(--ink)}
+@media (max-width:640px){.circles{display:none}.clist{display:block}}
+
+/* heads */
+.head .h2{margin-top:14px;max-width:15em}
+.head .lede{margin-top:20px}
+.ctr{text-align:center}
+.ctr .h2,.ctr .lede{margin-left:auto;margin-right:auto}
+@media (max-width:760px){.ctr:not(.keep){text-align:left}.ctr:not(.keep) .h2,.ctr:not(.keep) .lede{margin-left:0;margin-right:0}}
+
+/* the immersive frame: film fills it, the glass sits inside it, nothing hangs over the edge */
+.stage{position:relative;border-radius:var(--r-frame);overflow:hidden;background:#111;isolation:isolate;min-height:clamp(540px,46vw,700px);display:flex;align-items:flex-end;justify-content:flex-end;padding:clamp(20px,2.4vw,32px)}
+.stage.left{justify-content:flex-start}
+.stage>video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transform:scale(1.02);transition:transform 6s var(--ease)}
+.stage.seen>video{transform:none}
+.stage::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(to top,rgba(0,0,0,.34),rgba(0,0,0,0) 58%);pointer-events:none}
+.stage .comp{position:relative;width:min(440px,100%);display:flex}
+.stage .comp>*{width:100%}
+@media (max-width:760px){.stage{min-height:0;padding:max(240px,62vw) 10px 10px;border-radius:22px}.stage .comp{width:100%}}
+.srcwrap{margin-top:clamp(48px,6vw,72px)}
+.sharewrap{display:flex;justify-content:center;margin-top:32px}
+.gap{height:clamp(60px,7vw,100px)}
+@media (max-width:760px){.sharewrap{display:block}.share{width:100%}}
+
+/* share control */
+.share{width:min(420px,100%);padding:8px}
+.share .it{display:flex;align-items:center;gap:12px;padding:12px 10px}
+.share .it+.it{border-top:1px solid var(--hair)}
+.share .ic{flex:0 0 auto;width:34px;height:34px;border-radius:9px;background:rgba(74,111,165,.1);display:grid;place-items:center;color:var(--blue)}
+.share .ic svg{width:18px;height:18px}
+.share .tx{flex:1;min-width:0;font-size:15px;color:var(--ink);line-height:1.3}
+.share .tx small{display:block;font-size:12.5px;color:var(--muted)}
+.tog{flex:0 0 auto;width:44px;height:26px;border-radius:13px;background:rgba(0,0,0,.14);position:relative;transition:background .6s var(--ease)}
+.tog::after{content:"";position:absolute;left:3px;top:3px;width:20px;height:20px;border-radius:50%;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.25);transition:transform .7s var(--settle)}
+.tog.on{background:var(--blue)}
+.tog.on::after{transform:translateX(18px)}
+.tog.lock{background:rgba(0,0,0,.08)}
+
+/* sources: where it lives */
+.sources{display:flex;flex-wrap:wrap;gap:10px}
+@media (max-width:560px){.sources{display:grid;grid-template-columns:1fr 1fr;gap:8px}.sources .src{padding:0 10px 0 7px;font-size:14px;gap:9px;height:46px;white-space:nowrap;overflow:hidden}.srcwrap [data-sources]>div:last-child{justify-content:stretch!important}.one{width:100%;justify-content:center}}
+.src{display:flex;align-items:center;gap:10px;height:48px;padding:0 16px 0 8px;border-radius:14px;font-size:15px;font-weight:500;color:var(--ink);opacity:.35;transform:translateY(6px);transition:opacity .8s var(--ease),transform 1s var(--settle)}
+.src.lit{opacity:1;transform:none}
+.src .ic{width:34px;height:34px;border-radius:9px;display:grid;place-items:center;background:rgba(74,111,165,.1);color:var(--blue)}
+.src .ic svg{width:18px;height:18px}
+.flow{position:relative;height:56px;margin:6px 0}
+.flow i{position:absolute;left:50%;top:0;width:1px;height:0;background:linear-gradient(var(--blue),rgba(74,111,165,.2));transition:height 1.2s var(--cine)}
+.flow.run i{height:100%}
+.one{display:inline-flex;align-items:center;gap:10px;height:52px;padding:0 18px 0 9px;font-size:16px;font-weight:500}
+
+/* care: the morning */
+.care{width:min(460px,100%);padding:8px}
+.care .hd{display:flex;justify-content:space-between;align-items:baseline;padding:12px 12px 8px}
+.care .hd b{font-size:15px;font-weight:600;color:var(--ink)}
+.care .hd span{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.care .it{display:flex;gap:12px;align-items:flex-start;padding:12px;border-top:1px solid var(--hair);opacity:0;transform:translateY(8px);filter:blur(3px);transition:opacity .9s var(--ease),transform 1.1s var(--settle),filter .9s var(--ease)}
+.care .it.in{opacity:1;transform:none;filter:none}
+.care .st{flex:0 0 auto;margin-top:1px;height:24px;padding:0 9px;border-radius:7px;font-size:12px;font-weight:600;display:inline-flex;align-items:center;gap:5px;background:rgba(0,0,0,.06);color:var(--muted);transition:background .6s,color .6s}
+.care .st.done{background:rgba(74,111,165,.12);color:var(--blue)}
+.care .st.you{background:#1a1a1a;color:#fff}
+.care .tx{font-size:15px;color:var(--ink);line-height:1.4}
+.care .tx small{display:block;font-size:13px;color:var(--muted);margin-top:2px}
+
+/* yours */
+.points{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.pt .ic{width:40px;height:40px;border-radius:11px;display:grid;place-items:center;background:rgba(74,111,165,.1);color:var(--blue);margin-bottom:16px}
+.pt .ic svg{width:20px;height:20px}
+.pt h3{font-size:19px;letter-spacing:-.015em;margin-bottom:6px}
+.pt p{font-size:15.5px;color:var(--muted)}
+@media (max-width:760px){.points{grid-template-columns:none;gap:26px}}
+
+/* the sign-off: one line between two hairlines */
+.sig{display:flex;align-items:center;justify-content:center;gap:14px;margin:44px 0 0;font-size:15px;font-weight:500;letter-spacing:.01em;color:rgba(255,255,255,.8);white-space:nowrap}
+.sig::before,.sig::after{content:"";flex:0 0 32px;height:1px;background:currentColor;opacity:.4}
+@media (max-width:380px){.sig{font-size:14px;gap:10px}.sig::before,.sig::after{flex-basis:20px}}
+
+/* where it lives: one aligned grid, the memory spans it */
+.srcgrid{max-width:760px;margin:0 auto}
+.srcgrid .sources{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.srcgrid .src{justify-content:flex-start;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.srcgrid .one{display:flex;justify-content:center;width:100%;height:56px;padding:0 18px}
+@media (max-width:560px){.srcgrid .sources{grid-template-columns:1fr 1fr;gap:8px}}
+.src.glass.dark{color:#fff;background-color:rgba(20,21,24,.5)}
+.src.glass.dark .ic{background:rgba(127,163,214,.2);color:#7fa3d6}
+
+/* film modal */
+.modal{position:fixed;inset:0;z-index:80;background:rgba(0,0,0,.86);display:none;align-items:center;justify-content:center;padding:max(16px,4vw)}
+.modal.open{display:flex}
+.modal video{width:min(1200px,100%);max-height:86svh;border-radius:16px;background:#000}
+.modal .x{position:absolute;right:16px;top:16px;width:44px;height:44px;border-radius:12px;border:0;background:rgba(255,255,255,.14);color:#fff;font-size:22px;cursor:pointer}
+
+/* footer: one quiet line on the faded end of the last film */
+body{--page:var(--ground)}
+.final{position:relative}
+.final::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:clamp(200px,30%,330px);z-index:-1;pointer-events:none;background:linear-gradient(to bottom,color-mix(in srgb,var(--page) 0%,transparent) 0%,color-mix(in srgb,var(--page) 55%,transparent) 45%,var(--page) 88%)}
+.fwrap{padding-top:96px;padding-bottom:clamp(220px,24vw,300px)}
+.foot{position:relative;z-index:3;margin-top:-92px;padding:24px var(--gut) calc(30px + env(safe-area-inset-bottom,0px));display:flex;justify-content:center}
+.fline{display:flex;align-items:center;gap:18px;color:var(--muted);font-size:13.5px}
+.fline .cr{margin:0;font-variant-numeric:tabular-nums;white-space:nowrap}
+.fline .bar{width:1px;height:16px;background:currentColor;opacity:.3}
+.soc{display:flex;gap:2px}
+.soc a{width:36px;height:36px;border-radius:10px;display:grid;place-items:center;color:inherit;transition:background .25s var(--ease),color .25s}
+.soc a:hover{background:rgba(0,0,0,.05);color:var(--ink)}
+.soc svg{width:16px;height:16px}
+@media (max-width:640px){.fline{gap:12px;font-size:12.5px}.soc svg{width:15px;height:15px}.soc a{width:34px;height:34px}.foot{margin-top:-88px}}
+
+/* nav: a quiet contact button, desktop only */
+.nav .contact{height:36px;padding:0 15px;font-size:14px;font-weight:500;background:transparent;color:inherit;box-shadow:inset 0 0 0 1px rgba(255,255,255,.42)}
+.nav .contact:hover{background:rgba(255,255,255,.12)}
+.nav.solid.light .contact{box-shadow:inset 0 0 0 1px rgba(0,0,0,.14)}
+.nav.solid.light .contact:hover{background:rgba(0,0,0,.04)}
+
+/* contact dialog */
+.cmodal{position:fixed;inset:0;z-index:90;background:rgba(12,13,15,.46);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);display:grid;place-items:center;padding:16px;animation:fadein .4s var(--ease)}
+.cmodal[hidden]{display:none}
+@keyframes fadein{from{opacity:0}}
+.cbox{position:relative;width:min(460px,100%);padding:30px 28px 26px;border-radius:22px;display:grid;gap:14px;background-color:rgba(250,250,252,.92);animation:rise .6s var(--settle)}
+.cbox h2{font-size:26px;letter-spacing:-.025em}
+.cbox .cl{font-size:15px;color:var(--muted);margin-top:-6px}
+.cbox label{display:grid;gap:6px;font-size:13px;font-weight:500;color:var(--muted)}
+.cbox input,.cbox textarea{font:inherit;font-size:16px;color:var(--ink);border:0;outline:0;border-radius:11px;padding:11px 13px;background:#fff;box-shadow:inset 0 0 0 1px var(--hair);resize:vertical}
+.cbox input:focus,.cbox textarea:focus{box-shadow:inset 0 0 0 1.5px var(--blue)}
+.cbox .btn{justify-self:start;margin-top:4px}
+.cbox .cnote{font-size:14px;color:var(--muted);min-height:1.2em;margin:0}
+.cx{position:absolute;right:14px;top:14px;width:36px;height:36px;border-radius:10px;border:0;background:rgba(0,0,0,.05);color:var(--ink);font-size:20px;cursor:pointer}
+
+/* desktop menu: three thin lines, a glass panel */
+.menu{width:40px;height:36px;border:0;background:transparent;color:inherit;display:grid;place-content:center;gap:5px;cursor:pointer;border-radius:10px;transition:background .25s}
+.menu:hover{background:rgba(255,255,255,.12)}
+.nav.solid.light .menu:hover{background:rgba(0,0,0,.05)}
+.menu i{display:block;width:18px;height:1.5px;background:currentColor;border-radius:1px;transition:transform .45s var(--settle),opacity .3s}
+.menu[aria-expanded="true"] i:nth-child(1){transform:translateY(6.5px) rotate(45deg)}
+.menu[aria-expanded="true"] i:nth-child(2){opacity:0}
+.menu[aria-expanded="true"] i:nth-child(3){transform:translateY(-6.5px) rotate(-45deg)}
+.nav .links{gap:10px}
+.menup{position:fixed;top:74px;right:var(--gut);z-index:60;width:280px;padding:8px;border-radius:18px;display:grid;background-color:rgba(250,250,252,.9);animation:rise .5s var(--settle)}
+.menup[hidden]{display:none}
+.menup a,.menup button{display:block;text-align:left;padding:11px 14px;border-radius:10px;font:inherit;font-size:16px;font-weight:500;color:var(--ink);text-decoration:none;background:transparent;border:0;cursor:pointer;transition:background .2s}
+.menup a:hover,.menup button:hover{background:rgba(0,0,0,.045)}
+.menup .msep{height:1px;background:var(--hair);margin:6px 10px}
+.menup .mj{color:var(--blue)}
+@media (max-width:760px){.menup{display:none!important}}
+
+/* menu and contact: real glass, still easy to read */
+.menup,.cbox{background-color:rgba(248,248,250,.62);-webkit-backdrop-filter:blur(30px) saturate(1.9) brightness(1.06);backdrop-filter:blur(30px) saturate(1.9) brightness(1.06);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.85),inset 0 0 0 1px rgba(255,255,255,.35),0 30px 80px rgba(0,0,0,.28),0 2px 8px rgba(0,0,0,.08)}
+.menup::before,.cbox::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:linear-gradient(180deg,rgba(255,255,255,.28),rgba(255,255,255,0) 45%)}
+.menup>*,.cbox>*{position:relative}
+.cmodal{background:rgba(12,13,15,.28)}
+.cbox input,.cbox textarea{background:rgba(255,255,255,.72);box-shadow:inset 0 0 0 1px rgba(0,0,0,.07)}
+.cx{background:rgba(255,255,255,.55);box-shadow:inset 0 0 0 1px rgba(0,0,0,.06)}
+/* dark edition: dark glass, off-white type */
+body[data-option="a"] .menup,body[data-option="a"] .cbox{background-color:rgba(24,25,29,.58);color:#f3f3f5;box-shadow:inset 0 1px 0 rgba(255,255,255,.14),inset 0 0 0 1px rgba(255,255,255,.08),0 30px 80px rgba(0,0,0,.5)}
+body[data-option="a"] .menup::before,body[data-option="a"] .cbox::before{background:linear-gradient(180deg,rgba(255,255,255,.07),rgba(255,255,255,0) 45%)}
+body[data-option="a"] .menup a,body[data-option="a"] .menup button,body[data-option="a"] .cbox h2{color:#f3f3f5}
+body[data-option="a"] .menup a:hover,body[data-option="a"] .menup button:hover{background:rgba(255,255,255,.07)}
+body[data-option="a"] .menup .mj{color:#7fa3d6}
+body[data-option="a"] .menup .msep{background:rgba(255,255,255,.1)}
+body[data-option="a"] .cbox .cl,body[data-option="a"] .cbox label,body[data-option="a"] .cbox .cnote{color:rgba(243,243,245,.66)}
+body[data-option="a"] .cbox input,body[data-option="a"] .cbox textarea{background:rgba(255,255,255,.07);color:#f3f3f5;box-shadow:inset 0 0 0 1px rgba(255,255,255,.1)}
+body[data-option="a"] .cbox input:focus,body[data-option="a"] .cbox textarea:focus{box-shadow:inset 0 0 0 1.5px #7fa3d6}
+body[data-option="a"] .cx{background:rgba(255,255,255,.08);color:#f3f3f5;box-shadow:none}
+body[data-option="a"] .nav.solid.dark{background:rgba(14,15,17,.55);-webkit-backdrop-filter:blur(24px) saturate(1.7);backdrop-filter:blur(24px) saturate(1.7)}
+.cbox>.cx{position:absolute}
+.never{flex:0 0 auto;font-size:12px;font-weight:500;color:var(--muted);height:26px;padding:0 9px;border-radius:7px;background:rgba(0,0,0,.05);display:inline-flex;align-items:center;gap:5px}
+.never svg{width:12px;height:12px}
+
+body{margin:0;background:#f5f5f7}
+.ed{padding:32px 36px 40px}
+.dk{background:#0e0f11;color:rgba(243,243,245,.74)}
+.dk .nm2,.dk .cap{color:rgba(243,243,245,.55)}
+.dk .pt h3{color:#f3f3f5}.dk .pt p{color:rgba(243,243,245,.6)}.dk .pt .ic{background:rgba(255,255,255,.07);color:#fff}
+.dk .clist{background:rgba(255,255,255,.045);box-shadow:inset 0 0 0 1px rgba(255,255,255,.07)}.dk .clist li+li{border-top-color:rgba(255,255,255,.07)}.dk .clist .nm{color:#fff}.dk .clist .mem{color:rgba(243,243,245,.6)}.dk .clist .mem b{color:#fff}.dk .clist .nm span{color:rgba(243,243,245,.45)}
+.cap{font-size:12px;letter-spacing:.08em;text-transform:uppercase;font-weight:500;color:#80818d;margin:0 0 18px}
+.nm2{font-size:13px;font-weight:500;color:#5b5c66;margin:0 0 10px}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-bottom:28px;align-items:start}
+.thread,.care,.share{width:100%}
+.srcw{padding:4px 0}
+.clist{display:block!important}
+
+.sig{margin-top:36px}.sig.sl{color:#5b5c66}
+</style>
+<section class="ed dk"><p class="cap">Dark edition, graphite pages</p>
+<div class="g2"><div><p class="nm2">Memory · an ask with a follow up</p><div class="thread glass on-film" role="group" aria-label="Example conversation"><p class="sr">Question: Why did we pick Porto? Answer: Sintra was full that weekend and Maya wanted the coast. You all agreed on Porto. Question: Remind everyone to book the train? Answer: Done. I will nudge anyone who has not booked by Friday.</p><div aria-hidden="true"><div class="step open"><div><div class="tq"><span class="tile"><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="#fff" d="M32 0H47V47H0V32H32ZM53 53H100V68H68V100H53Z"/></svg></span><span class="txt" data-q="Why did we pick Porto?">Why did we pick Porto?</span><span class="send"><svg viewBox="0 0 20 20" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 16V4M4.5 9.5 10 4l5.5 5.5"/></svg></span></div><div class="ta open"><div><div class="in"><div class="lbl">Lisbon trip · from the four of you · 12 Aug</div><div class="ans">Sintra was full that weekend and Maya wanted the coast. You all agreed on <span class="k hl">Porto.</span></div></div></div></div></div></div><div class="step open"><div><div class="tq"><span class="tile"><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="#fff" d="M32 0H47V47H0V32H32ZM53 53H100V68H68V100H53Z"/></svg></span><span class="txt" data-q="Remind everyone to book the train?">Remind everyone to book the train?</span><span class="send"><svg viewBox="0 0 20 20" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 16V4M4.5 9.5 10 4l5.5 5.5"/></svg></span></div><div class="ta open"><div><div class="in"><div class="lbl">Follow up · the Lisbon four</div><div class="ans">Done. I will nudge anyone who has not booked by <span class="k hl">Friday.</span></div></div></div></div></div></div></div></div></div><div><p class="nm2">It takes care · this morning</p><div class="care glass on-film" role="group" aria-label="This morning">
+<div class="hd"><b>This morning</b><span>07:30</span></div>
+<div class="it in"><span class="st done">Handled</span><span class="tx">Train to Porto booked for all four<small>Everyone has the tickets in their chat.</small></span></div>
+<div class="it in"><span class="st done">Handled</span><span class="tx">Thursday team sheet sent<small>Leo in, Sam out. Nobody had to ask.</small></span></div>
+<div class="it in"><span class="st you">Needs you</span><span class="tx">Nan's birthday is on Sunday<small>A card from all of you? I can collect the messages.</small></span></div></div></div></div>
+<div class="g2"><div><p class="nm2">Circles · rows on phones</p><ul class="clist tone" role="list"><li><img src="data:image/webp;base64,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" alt="" width="120" height="120" loading="lazy"><div><p class="nm">The Lisbon four<span>4 people</span></p><p class="mem"><b>Porto, not Sintra.</b> Train booked for all four.</p></div></li><li><img src="data:image/webp;base64,UklGRiYIAABXRUJQVlA4IBoIAAAwKACdASpwAHAAPp1Am0klo6KhLbSckLATiUmACziUBehuUmrjeRENw83e+F2yU2NcEosfbDM9Yb6dr956Izwt/uR1kVjnSBFIZcCXg7X3ZKgCRfpulEvwgjRp+JulAwGfJVYf2qEYXpW8sR8bbjD1Ov/ufBgB81vRiyeZmPS3uw5xWQHeLS8B3B3Vr/OngtrGWkDzL6BAPbNygDZmeP0lN9Apf5Gsr5POqGywC85G8hmyFQBIwrGpwXggIcJJxEfr2hD+eecE0xK1WMEIzFe8B6XvNxOF3y6t5i6woRGh0ngP4s1T4Z4/auQKT5fVL/p7H2DqwB2RTnpoK1aaV/mPTyWNuyxIN/Wi4wHjyVJEJlOdYvlAtClQHpxS0KaM9YJmZsH+l2VawRuldx46dS0QGEQzrg7UzoypLofJRtbxKB2ZjED7414r30AA/BxVL5R5fRehNNvI7Kvmv+t6of+A0+yD0W2pfMbjNmOS1O8UjGSkRbQfVBJwuI2cvavUJDDavW7o9qBnf/xMK7oVfHXt4mGDyFhkQfRtePlpX0/yavUt4VmokkcUP9Hx2vN0PeEE4MO6camoWz0w5vbCj8Gfc/0mRlgdd35rIYbyq+UxjaB0YQmhoOyf9KKkhhJ0BM/zAKt0MUbYFJMLS/YTg9WDpjy87kTrHZqVNdoJQCax8yPfV2nzDUL9hbMmhkIgFezDyVwubLUqviQ9GaG1cTJjf+1pU+T+6ENcMvO6BiSuF3PYQLgVhETqoPBanyBhOu83mhhFLGqeJXCc5wB09bmWvrgYZqchljCX1MNcV5a9ns1+z51RxKozlXO/2Itedk8UCPqsfk7YVAbM32uISC+NUxXhsCHVeEq4SgWEy8Tj/B95PsMEWKRasBsJ/TBP2XHsucPJUkIv0+AKNVw3rfeB2iYFJz8Nmw8D6PaLZRJvelwsiS/E/7TxrLPLOlxhQetYvOpy2+yaDLaCidTgjUiAmXv6sX4LaD80iwtP6in4yJxpelUU6aid3+azrnVjL52akc0FZhtOtLRKEYvI4/h7W5dDH3dtMW81YniecW4uZXiiPkpU3Sr+R5OihzFT81lWWGPIWOQgKyY9EmbKcRYu65B7FRb3fDbmE9RnJsHNvRfGd/7DTADkUD+ngy4CN4B/zPd8XrcsNvo4sO2XnLcYDX2QAfzEpLg9WgfVdPcOvsravhrhx+3o2si8fhptZyjQDcKpA1iUWaTgICdClgqBLNeWLxJ7edXhTEuWfbnldqpgJrB9vuzzwSmHGRanAykOeJLg/7wXc2PvTHfVc6WsPwKj2fv7/BCrWC8bmPV6n1VSa/i4aJqU+Iqv032Ya7QB5tBTPmX/GrgrJ2vlkn/uaIO/l1XOZzuZHJGpcRi3VfsYgGsz8fdO1GO4dK9PgHjCyUbiJUNvIhAoHwpxpNBcoi191ZElTMGwP7b17SkxONyzvebxHLDBhOsAqslZTlJ/XE70e7gKFSGKlFVubTCSZgqv33+uACnOMOUQqOODy/h36smhTqZp2qNsI//PqHPTZyRwZFeu3Y3hVsrDBZ/wTYIxftOZzfjhRiPUzjPdZBuzUZQ+DwqlxY2Og583isyRGMJ6my0P9WDmFrR0KVgAfZMrPCNwJhG4dfxdqqJl1tQr8qz8eXwAlKs8UVy8yT0Z0QgkiwkUuaSh9QyZ10WQZ5A8tWtrYZ4PNHU7jM7Tw0d3e966KmN0gKvLZMeIg13f1WcetWprAilkdDIIKGUGu+aQS3mXVQxBuiuU9cLL0tfkIY1jEpM/MyF7Rb5UV6wDROH8cprIhlTlhAm1Po4qEJ8bDsio/evppAh2SdVw5fAuXABqyd2mmJ51LDUb7/9fMXBtROVqwx4wH1YkiEYDS69FnRwTuYm28AzG47BkITWyIUJlBB70H6PFEVU4Mam+3x1BF6aJs/VsXCziCXzXgrirDAxogNOwzMAMYRA1o8WcfdGq3b+9bmjMPUf+unkXmDJu8kyNg8jTUTgdje7JwyioBrr/e17iNFc5lXEAt/ScoiM3L1W06w9CoGlMTxbxXegY+tt5ARPYW5TOK+HFbtdaOIce5IuEIAPKD4ilQwf9tyKJSOTGlFW23uaD9VFIuZxC1SiS/R2baFF0MMQ1VyWUwioxwvyH4FVxjcfd0wsOGp7zNPaXuEUuetZ5iiT9H5fY+n1guvtxCfRqqrwcb9nm/uDsCChAb9NgLxey92COlOMJnchQhsOtutS5DypHvp02bP2OfWOYVn5N4CK+cULf4Y7nHfi1SLUgaFLc1HvuU/8QCRjP/Rx9lZKOI7h09cb4hyv1lSnZ5fjzZnZA/MsEGq8eVc/GTOdshsNyDkwr5L4fwZTdFa1lvE3orpMwmhecPdkkrcxVRzfvA//9gJi2KB0VnErKY2ZDcf1iNDvRhAzvc5dNIDWh5SD8zKFpkIlj1DlI4AVqHLcn9pYo2VMDHq0pDGfmMywKSev7kBu+2ftoApPtEMasxiKPh85v+xbSKkjsb28PC70C+tyEMYb+OvSjXBx94HcvHGZZh1SR6oiRnKAkNA4+s5Kk8nW3iYYm8gHhKNnhAPElDeW8bkjraxFWtkWp6+/ekrWJlIOkAcmc7XLZoRQdSDSZjuED+9eJyFzboddXJ+52p+51WzKXlHLj2PSf917aDmj/KDaA2OVk8mCB7iBykwoQrM7L8SC992Q+4ybcWNvSEbpzM9HcVf5ai+ccpvYu2Q0RVlWCGmD1prxwGN/B/35HIuy06lsyTwKDdAAA" alt="" width="120" height="120" loading="lazy"><div><p class="nm">Thursday five-a-side<span>11 people</span></p><p class="mem"><b>Leo is in.</b> Sam is out until the 14th.</p></div></li><li><img src="data:image/webp;base64,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" alt="" width="120" height="120" loading="lazy"><div><p class="nm">The Sunday call<span>6 people</span></p><p class="mem"><b>Sunday at 11.</b> Nan's new number, the recipe, the stories.</p></div></li><li><img src="data:image/webp;base64,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" alt="" width="120" height="120" loading="lazy"><div><p class="nm">Flat 3B<span>3 people</span></p><p class="mem"><b>Bins on Tuesday.</b> Rent split, who has the spare key.</p></div></li></ul></div><div><p class="nm2">What each circle sees</p><div class="share glass" role="group" aria-label="What each circle can see">
+<div class="it"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h9l4 4v14H6z"/><path d="M15 3v4h4M9 12h7M9 16h5"/></svg></span><span class="tx">Lisbon trip plans<small>Shared with the Lisbon four</small></span><span class="tog on" data-on aria-hidden="true"></span></div>
+<div class="it"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg></span><span class="tx">Thursday team sheet<small>Shared with Thursday five-a-side</small></span><span class="tog on" data-on aria-hidden="true"></span></div>
+<div class="it"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h9l4 4v14H6z"/><path d="M15 3v4h4M9 12h7M9 16h5"/></svg></span><span class="tx">Your own notes<small>Only you</small></span><span class="tog" aria-hidden="true"></span></div>
+<div class="it"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6 8.5-6"/></svg></span><span class="tx">Your mail<small>Only you, always</small></span><span class="never"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Never shared</span></div></div></div></div>
+<p class="nm2">Where it lives · one grid, the memory spans it</p><div class="srcw"><div data-sources class="srcgrid"><div class="sources"><span class="src glass dark lit"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg></span>Your messages</span><span class="src glass dark lit"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6 8.5-6"/></svg></span>Mail</span><span class="src glass dark lit"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg></span>Calendar</span><span class="src glass dark lit"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></span>Voice notes</span><span class="src glass dark lit"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.8"/><path d="m21 16-5-5-8 8"/></svg></span>Photos</span><span class="src glass dark lit"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8.5 13.5c1 1.2 2.1 1.8 3.5 1.8s2.5-.6 3.5-1.8M9 9.5h.01M15 9.5h.01"/></svg></span>Your own assistant</span></div><div class="flow run" aria-hidden="true"><i></i></div>
+<div class="one glass on-film"><span class="tile" style="width:34px;height:34px;border-radius:9px"><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="#fff" d="M32 0H47V47H0V32H32ZM53 53H100V68H68V100H53Z"/></svg></span>One memory, shared by the circle</div></div></div>
+<p class="nm2" style="margin-top:28px">Yours · three promises</p><div class="points"><div class="pt  d0"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m11 12 9-9M17 6l3 3M14 9l2 2"/></svg></span><h3>On your own keys</h3><p>Your memory belongs to you. It leaves with you, never with the app.</p></div><div class="pt  d1"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M4 19h16"/></svg></span><h3>Take all of it with you</h3><p>Export everything, any time, in one go.</p></div><div class="pt  d2"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 8a4 4 0 1 1 8 0 4 4 0 0 1-8 0zM3 20c.8-3.4 3.8-5.5 8-5.5M15.5 16.5h6M18.5 13.5l3 3-3 3"/></svg></span><h3>It passes on</h3><p>Name a legacy contact, so what matters reaches the people you choose.</p></div></div>
+<p class="sig ">Remembers. Takes care. Passes on.</p></section><section class="ed lt"><p class="cap">Light edition, grey ground</p>
+<div class="g2"><div><p class="nm2">Memory · an ask with a follow up</p><div class="thread glass on-film" role="group" aria-label="Example conversation"><p class="sr">Question: Why did we pick Porto? Answer: Sintra was full that weekend and Maya wanted the coast. You all agreed on Porto. Question: Remind everyone to book the train? Answer: Done. I will nudge anyone who has not booked by Friday.</p><div aria-hidden="true"><div class="step open"><div><div class="tq"><span class="tile"><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="#fff" d="M32 0H47V47H0V32H32ZM53 53H100V68H68V100H53Z"/></svg></span><span class="txt" data-q="Why did we pick Porto?">Why did we pick Porto?</span><span class="send"><svg viewBox="0 0 20 20" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 16V4M4.5 9.5 10 4l5.5 5.5"/></svg></span></div><div class="ta open"><div><div class="in"><div class="lbl">Lisbon trip · from the four of you · 12 Aug</div><div class="ans">Sintra was full that weekend and Maya wanted the coast. You all agreed on <span class="k hl">Porto.</span></div></div></div></div></div></div><div class="step open"><div><div class="tq"><span class="tile"><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="#fff" d="M32 0H47V47H0V32H32ZM53 53H100V68H68V100H53Z"/></svg></span><span class="txt" data-q="Remind everyone to book the train?">Remind everyone to book the train?</span><span class="send"><svg viewBox="0 0 20 20" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 16V4M4.5 9.5 10 4l5.5 5.5"/></svg></span></div><div class="ta open"><div><div class="in"><div class="lbl">Follow up · the Lisbon four</div><div class="ans">Done. I will nudge anyone who has not booked by <span class="k hl">Friday.</span></div></div></div></div></div></div></div></div></div><div><p class="nm2">It takes care · this morning</p><div class="care glass on-film" role="group" aria-label="This morning">
+<div class="hd"><b>This morning</b><span>07:30</span></div>
+<div class="it in"><span class="st done">Handled</span><span class="tx">Train to Porto booked for all four<small>Everyone has the tickets in their chat.</small></span></div>
+<div class="it in"><span class="st done">Handled</span><span class="tx">Thursday team sheet sent<small>Leo in, Sam out. Nobody had to ask.</small></span></div>
+<div class="it in"><span class="st you">Needs you</span><span class="tx">Nan's birthday is on Sunday<small>A card from all of you? I can collect the messages.</small></span></div></div></div></div>
+<div class="g2"><div><p class="nm2">Circles · rows on phones</p><ul class="clist tone" role="list"><li><img src="data:image/webp;base64,UklGRsQJAABXRUJQVlA4ILgJAAAwLACdASpwAHAAPp1Gm0mlpCIhK9ObmLATiWUAxfxsjoRWfd3+t8JfOSD3aZ9rk+X9l4Q8AJ32XPx8+J5ivd/Vqhb14wW3X3QgbUIVIjXU7ejuLjy9MavnTBkLRgzLc7GGs99RHHTQ2HWhBW9p4nWX7pF4PTHjD/BW3O3kSsu0t/nKpujBb4UBhxPAa8yUZqhkwbhmSTy2+LZn5smMy2jO1hw3DNLJtOMW6vABgD2YFKJctHCn2VdnCuZkcfK3056of4ZTLRG0axwM9BDSFl8GHHov4BvbkJcoxRdUEEPovTrSD8j11SFQ33Y51JlLe0X9j8K9+Ekz9r3fKRFt23iVQQ5V0y9ErK7KMqR9C54kpbzIavaYrVQ6Uqy+BsFWdaaOZEK1bDQx8KPKZQfvAN7dEcGEjU2gZSvBuwpG+H6NeJ0ULhrHdDrfOFtTCNNPdinCnk9AvsVGyVHmhUvWs+NlvfFJ++dgGWVYAAD++xeZZAwiu2B8Ca0ya+VJjMngQxNo8WGOiOTItOmG4cZi66LwJBP7TPg3ut93L6PgDT3PT61cMmVJF+d1lon7slJbQI1GjOBtIxHdvHdkMwW1VYjA9+LK3P/OqlxxuiGHq9PxEvr9I1qPShwBZdzpJEUGAz2PN2L97A6TTp3c1KPkyl24K2uSeN8zxPGTKw2oVkisEvY0i2c7XVtO0QAPxQW/JfSOkEf2vrhJJR1PaB8SFvMQUfiwZccA7uWn4TFt5UjX6ZfaXR1zNnWJDu8HerH+Kcj2OCqwDZzCIDbBEBl+c14c/71nBma1i4bHIwst5PQz0y7ov/daY/o9jxYsZfT0+nArtUhITvJpvHiBnwn+mQr1KKWQ5ADGf/gxGmIx7XjlJaR79B2s8QrTMAVQIc8t1+vJUKdcnI91d/eoF78+KpkqbIvVhmVu3fCSmIn11mnFynETUNrdzdDBbvr1XxXxVNgcXiSHShWFXs4NChs6sGGnXDBrqCtkN18jVZiN2HB9+yAYd3OTkJumZY0R5kkSrGl0NaHjcCDbGivwhdDncXnuh2ghFlxRZcqmVwuvrJzxowdEhSU7to0kyUeFngvyIf8LQDydan4cQ5CcurwjQvb/2cD3LVZysXFdwLx1QfrtG/ZbP6d3ybraVaByPPpM6vKOrMkEXhnhzhD8J6rhfiPTDL4g32OgxNoaj48yvJSv9eBrLCGLgHpIBYhBED8JOwZPhItAEaXhmlVQZc/p3fn0u7heUDzOP2FvgszJiWt/6oc/iWhr7j0s4p+oxlhNr/3kMhnDN9TTQC/zt8Q9IATMFuWj4+1nK9SBked9iWHTGnuZ1k4Rg6RDGWOGNOW/hNOVE8uxlgqTiVD//4XcEmT6Edg5bYspbQLe4X4X+QBeHs8ErBb0iETq7lyTkezPyuoCw+5jchB5kVYC9hqAjVlD1wvD/RUfGXqyrbfHae7Ym9vCs33oINsdRygvdD7+LlWCyfGppfnGrHoq1P36BEx/0ATOSy7z7kvPIliO/WPGDBIb4aW7NENUIdOj4/MYSPbn975StnY6/26C3hDc0BKEop1kT1uLOjQ8F5xxbhtNwXtSYZwTRuDkw6vCa4wz+7jyBEbXgTG/rJaDReNeaZgwfR7m5zT3p6NBnj/HcANlp86YwDNuXMfdNZIkEOF3EBP5ntPJa497JMtyPo93sK3LgHT2TOqRFqSz1AtuNq/3ZdR+d5sLZLWyFUrTBsEUgRGHJXyyC11gMxLkOAXGuUMcexsICrKVPiQ2VGKNxRB646a0tx2EbvzDYcfhjL+q+d6q+whkQ3u2ijOPhSus/glDRXG5kroa/bIui58yU9Jp5r4daeuacTDyCzoGOGZo/44CnHnWKRCjnyKB5Ab//G4TC5rN+4mbjDpM0U4e0xLMS+q3L+Kn4cLS9pI4fjqCvJwtGwBBDuQfr/QSVfa0YZmJl8BRiym/jXL/AXOKxWofoZCA7Bj60nSi2hB2ksAmEkqRYeZP5haTca1Kl+2qOLCTg9JLAnp3qLYKqfGczfNPlA2n4Yjc1CYggSjKgZjbSPjf32V5AsX/+TPXWPuqouJ0ACgTqhWVjSxlPeJ+l85psoYId4fdQ+VuCA3d7dYI98pPAz3/T1bB3YJwJp4OLqiinqF14glzf+xhcsdRXIc9WGWsIk0XfAdzLcKEAhSiSnk1fys0J9a+zxWhMsQ6B0AAnql6VKAnmJmMVMkDyXHL2xoP17qG27yR3fN3qgbr693lVx3UXMgh9ytBbP1r1hXkf0v07emUU3UvvQGDJ+d1f3QQHOsnpziFGp5eyY680N45uCp7jJsh/ulGAH1YLRnFys1Obs6ZcMecGWkYRT3szGM5lj5QP2/Mjhh6OaCC2V8mHILNdZGrXwiZrongFUvffGpdTuEfctTlmAH8j59vJtMSy11EeJXEpeLEvi2Uy6BOF/yXodXLB9RuWMn87lAyseTW+RTmJVXyt+S6W86WCNmhl6aXgizttMywDyzBXWDBhY6Rs75xZEJmnxo1I6tKMXQX7ADNib8T306pUcE/o4bBeirV2UcUgw0ksez6WV3pxoAaftFtXwawpJImgAQ3+vCljud6NFoaOvyYLEcKPsu3fbESOzX51XRGgCFfI9TGdH4ByP6b/Zpnw9waRO1ius9EM+GGFeqSWX7IA9Nk6yU1wH8mzSYzvV1Jy6P988lbt8QRwZqx8XhFw2hdGp9uyn7L4X1OaKz7GvU67ZCjWEPR7z2ES/LzFv7zUF7XzOecWp7bOqKATq2fd5SHcIqvNJYlmsd3pUyTDjmt6o4eIWjrudn2TqZ99aPaKzU2d8c5l375Km2I0+BZp0H9b73o7P6DZQ4r24Mpu9aKeuwHkyoC5i4SVLmXBI/ETd5Nhzav+BZgQK5jn2S2Od+8vZS2aXTzRoAd4N38GPv7CO2dyIawrS+2j6hjjR1ES2EEmxf+sawkucHnC48/yB6T3MUcn7eor0xtdq0NfIjD6AGK+BOiJ/Pz7MEE90GbCm6n5nB3ZXHOWaBNUm9nnNmZvaoLp8WHeXVlmS7/E2nPauEfqXSBVT11bmxpkDCR753Sw3U89xX++xNAYu8xUrTDraPrwjjlWGG2XJMuIKz5lp4Xwe9SroF5yMssbR0FJgPFWYqHEXoETQiHUWcvU8efO0O2Z4tpETC3BbqWK02AJrcLkSziSrGAC885pPKLRvQms8axSo4Fygnuz6cDPuTN0HM1Q5BERxhd66x8yCXtYU12GZ0xzq1jYqNTXudA+9a0zOxh3TG//DdkDBmzfmiAYtnQWA98jW0lmk6Cws6wuInAkfgJOopcAAAA" alt="" width="120" height="120" loading="lazy"><div><p class="nm">The Lisbon four<span>4 people</span></p><p class="mem"><b>Porto, not Sintra.</b> Train booked for all four.</p></div></li><li><img src="data:image/webp;base64,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" alt="" width="120" height="120" loading="lazy"><div><p class="nm">Thursday five-a-side<span>11 people</span></p><p class="mem"><b>Leo is in.</b> Sam is out until the 14th.</p></div></li><li><img src="data:image/webp;base64,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" alt="" width="120" height="120" loading="lazy"><div><p class="nm">The Sunday call<span>6 people</span></p><p class="mem"><b>Sunday at 11.</b> Nan's new number, the recipe, the stories.</p></div></li><li><img src="data:image/webp;base64,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" alt="" width="120" height="120" loading="lazy"><div><p class="nm">Flat 3B<span>3 people</span></p><p class="mem"><b>Bins on Tuesday.</b> Rent split, who has the spare key.</p></div></li></ul></div><div><p class="nm2">What each circle sees</p><div class="share glass" role="group" aria-label="What each circle can see">
+<div class="it"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h9l4 4v14H6z"/><path d="M15 3v4h4M9 12h7M9 16h5"/></svg></span><span class="tx">Lisbon trip plans<small>Shared with the Lisbon four</small></span><span class="tog on" data-on aria-hidden="true"></span></div>
+<div class="it"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg></span><span class="tx">Thursday team sheet<small>Shared with Thursday five-a-side</small></span><span class="tog on" data-on aria-hidden="true"></span></div>
+<div class="it"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h9l4 4v14H6z"/><path d="M15 3v4h4M9 12h7M9 16h5"/></svg></span><span class="tx">Your own notes<small>Only you</small></span><span class="tog" aria-hidden="true"></span></div>
+<div class="it"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6 8.5-6"/></svg></span><span class="tx">Your mail<small>Only you, always</small></span><span class="never"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Never shared</span></div></div></div></div>
+<p class="nm2">Where it lives · one grid, the memory spans it</p><div class="srcw"><div data-sources class="srcgrid"><div class="sources"><span class="src glass lit"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg></span>Your messages</span><span class="src glass lit"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6 8.5-6"/></svg></span>Mail</span><span class="src glass lit"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg></span>Calendar</span><span class="src glass lit"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></span>Voice notes</span><span class="src glass lit"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.8"/><path d="m21 16-5-5-8 8"/></svg></span>Photos</span><span class="src glass lit"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8.5 13.5c1 1.2 2.1 1.8 3.5 1.8s2.5-.6 3.5-1.8M9 9.5h.01M15 9.5h.01"/></svg></span>Your own assistant</span></div><div class="flow run" aria-hidden="true"><i></i></div>
+<div class="one glass on-film"><span class="tile" style="width:34px;height:34px;border-radius:9px"><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="#fff" d="M32 0H47V47H0V32H32ZM53 53H100V68H68V100H53Z"/></svg></span>One memory, shared by the circle</div></div></div>
+<p class="nm2" style="margin-top:28px">Yours · three promises</p><div class="points"><div class="pt  d0"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m11 12 9-9M17 6l3 3M14 9l2 2"/></svg></span><h3>On your own keys</h3><p>Your memory belongs to you. It leaves with you, never with the app.</p></div><div class="pt  d1"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M4 19h16"/></svg></span><h3>Take all of it with you</h3><p>Export everything, any time, in one go.</p></div><div class="pt  d2"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 8a4 4 0 1 1 8 0 4 4 0 0 1-8 0zM3 20c.8-3.4 3.8-5.5 8-5.5M15.5 16.5h6M18.5 13.5l3 3-3 3"/></svg></span><h3>It passes on</h3><p>Name a legacy contact, so what matters reaches the people you choose.</p></div></div>
+<p class="sig sl">Remembers. Takes care. Passes on.</p></section>

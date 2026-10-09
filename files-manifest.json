@@ -1,0 +1,2169 @@
+{
+ "note": "Published files of the source artifact (version 1790233602-2fdc), project/ only. sha256 is pre-remap.",
+ "count": 309,
+ "files": [
+  {
+   "path": "project/README.md",
+   "size": 12622,
+   "sha256": "ad2b1b3b7710e095134905e0d20e6842b6fce6be2922e1a5d36faecae7f5dcea",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/api/assets/Other.md",
+   "size": 1030,
+   "sha256": "ca896e3152154e6fa01e956d477b6c37eaa08a4651fe74354408e81aa4166eb2",
+   "generated_by_page": true,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/api/assets/Uploads.md",
+   "size": 901,
+   "sha256": "4e62035cfa383b32d79255912c2f4cfde13444639f6b4e82697cb5d2d5e4b7a5",
+   "generated_by_page": true,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/assets/Circles/README.md",
+   "size": 417,
+   "sha256": "5aaf6918212d292462084f48f2be440b918222e936aa39e247f29f12ec6f3b84",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/assets/Film/README.md",
+   "size": 1115,
+   "sha256": "969aef269c7ecbd95e858ad5cc526b44cc54908a1970f56bdafc07f2f3fa482f",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/assets/Glass/README.md",
+   "size": 1162,
+   "sha256": "1246c4329e42025f07838044107471e62248cca847e9ba10efad18b5a22fa686",
+   "generated_by_page": false,
+   "has_blob_refs": true
+  },
+  {
+   "path": "project/assets/Icons/README.md",
+   "size": 273,
+   "sha256": "47147607a0f0d36925846f2004711516eabf1ec32422be3089195824af006678",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/assets/Imagery/README.md",
+   "size": 563,
+   "sha256": "fc292263456726113e61e4c39a0c7414749b4c9a3cadcbeef3b824a07babc01b",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/assets/Logo/README.md",
+   "size": 1237,
+   "sha256": "b5c8b66e94e3ae7ad9de96058305688e21381bc8f9894bbbf15eb8afb2e34334",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/assets/Slides/README.md",
+   "size": 342,
+   "sha256": "861beaf88596b2c406a0a6625a02ef8ee274a6a2d4342f3bd1d36e11411df2bb",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/assets/Social/README.md",
+   "size": 1004,
+   "sha256": "b232e8276775c45b286dbfd60146e190363cb7dde94b190e966cceb3981f5444",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/assets/notes/MIGRATION-REPORT.md",
+   "size": 3058,
+   "sha256": "e3560388e3776550dc33827a7f01b816f393762416e19f5a56c386c4a5de1520",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/assets/notes/SKILL.from-standalone.md",
+   "size": 1899,
+   "sha256": "3dde05096e394ac75c8548142ecdfdc66b79b109a7225d86a3dc191af4242d6b",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/ApplicationTile/README.md",
+   "size": 815,
+   "sha256": "7e7bbd2f5fe9047b320e04fd41f820c6742ab8f9cd8c205b2a4023397ea0832c",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/ApplicationTile/preview.html",
+   "size": 5762,
+   "sha256": "06b76271271307e6c8b6ff344d67218f0e2ec4d8c48f32f6f254c82d872d57c6",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/AskBar/README.md",
+   "size": 2266,
+   "sha256": "4d574d8c634ef8a8bffe91df2601c15bbfa865dbd00f863a1073cebe1621debd",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/AskBar/preview.html",
+   "size": 190777,
+   "sha256": "0b43e0d143ea59ecabb4c30640c4493c1594d0c4a31925291f192f10e37bee87",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/AskHero/README.md",
+   "size": 1225,
+   "sha256": "3eeb8e020e36255ac55ea39d9979125b22183afbdee4afab66ec9b750145b1dd",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/AskHero/preview.html",
+   "size": 236369,
+   "sha256": "7f0a5b28d0e3b9ce2ffd461401a91d767cf1fbd5bb9861cfa116c6f77d579350",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Avatar/README.md",
+   "size": 754,
+   "sha256": "566fc7ab7b38ea5fe3d9b5135c52f95c2a85e08bea910304f7c20990cf0bcdc4",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Avatar/preview.html",
+   "size": 4151,
+   "sha256": "337ff63d2cbaf52b196e001a44fad19137d1ee804b0e8a73246c6aa1b3dfdcec",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Blooms/README.md",
+   "size": 767,
+   "sha256": "0610356cdb584e2a3d96d59b5e67df89b84d039fd217870e7eefea64efba8d39",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Blooms/preview.html",
+   "size": 25926,
+   "sha256": "4801be51aa6968bc5a688650a0772739e0a27c8d1f550489ed1a99e422ddce22",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Board/README.md",
+   "size": 1071,
+   "sha256": "edc44ebfc66acc82ae691b135b1ab9f90c1cb178d466b9b400ac4ffd2b53a76f",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Board/preview.html",
+   "size": 170415,
+   "sha256": "b5f38d6eb83095a7396fbe02f1f52db761d34c99f153c5103c20e1baf17546de",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Chart/README.md",
+   "size": 1139,
+   "sha256": "877f380519c3fe141afa73ea3a6b6672d7631ffa0b6f78454b6019d9534bc74c",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Chart/preview.html",
+   "size": 5680,
+   "sha256": "932bd678039a48b0492e2ae08625bcfc48c7d712508a57b0964bcd5247931a72",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Chip/README.md",
+   "size": 530,
+   "sha256": "b8a3ebd7ebad2f3b513f98956b7823ae6bb3897ca017c97e4f420fdaf774d43d",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Chip/preview.html",
+   "size": 189664,
+   "sha256": "d44debae5ff40348a1bba16e09cfc6e459e2ed02b24406386ec4bbef232b0a1d",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/CircleCard/README.md",
+   "size": 833,
+   "sha256": "f1c9192d3682f9ef2f78ab0e4e07efd31cf107af6d90f2d4b9bb85c8bd2fe845",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/CircleCard/preview.html",
+   "size": 152879,
+   "sha256": "5d63ce4685bb77f989434469f1d4d681e56038ee0a81a274d11b507581ff14b9",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/ConnectorPill/README.md",
+   "size": 835,
+   "sha256": "95f38b449686952f44a7f334c0f19e459c7a56129bab05013fb1bd2a6dc34ec0",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/ConnectorPill/preview.html",
+   "size": 4598,
+   "sha256": "53648afa0bd5af0078a1d998fc455387a33e24559b10c4499d51a70c30e56548",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Cover/preview.html",
+   "size": 10861,
+   "sha256": "1be7ddb3e6e3bf4f982e6d2e9e2e27c6c00e5149c5c1231aba84e12196aa38c3",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Dashboard/README.md",
+   "size": 1216,
+   "sha256": "8f2442162a03365169c04016fae752325a8ec7b428073b33f44cfeec3801a459",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Dashboard/preview.html",
+   "size": 152327,
+   "sha256": "6b832dccdc22c8531933a53d8f05ee72b14ed1ecc4b7dd7ddfe9b42d7d698852",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Deck/README.md",
+   "size": 1128,
+   "sha256": "954e05a11e2d3fe05df63dfce6eb49a55dbf2d94da15a824c344c90e17d0b3df",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Deck/preview.html",
+   "size": 113704,
+   "sha256": "a0097b6be82d874d9560fea0968adcb8c13f00f48940ec2d1be91ba8c2d5733a",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/DocPreview/README.md",
+   "size": 545,
+   "sha256": "b2682122a8e728b5de81d44b64107802e8cec12f00201c8a51d95137c37a1995",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/DocPreview/preview.html",
+   "size": 3724,
+   "sha256": "0030bd1922e05beeb4baa1cae21fe5f65ad84800b6e16a76cf266174c956844e",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/EmailSignature/README.md",
+   "size": 704,
+   "sha256": "0823cb3265a12a6477d048599f61b1db129f24f4a5b3da1982dc7bf5e3ba7776",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/EmailSignature/preview.html",
+   "size": 11986,
+   "sha256": "1346b29fc99698d2ca6c5228e70d067627b379ade74d8b7226a912e335dab1bb",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Endcard/README.md",
+   "size": 848,
+   "sha256": "0db96c15794c7a738fc960c567c85152f8b2837e6a72387229d634dbbf367c02",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Endcard/preview.html",
+   "size": 133424,
+   "sha256": "aa7ad3eec3d8e3795975459990b411f3577cb4b14a8a478fffdf5714a83b6c5d",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/FilmClipsCircles/README.md",
+   "size": 605,
+   "sha256": "3f24318da4980bf3452d52e89e8e820a59470a54315fb775a996031ccdbcdfc9",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/FilmClipsCircles/preview.html",
+   "size": 207465,
+   "sha256": "9d3668ef7461bf0b56cfffec3ec43d8a090fcea0341cbc18ecadbfef87b29f82",
+   "generated_by_page": false,
+   "has_blob_refs": true
+  },
+  {
+   "path": "project/components/FilmClipsCity/README.md",
+   "size": 622,
+   "sha256": "7db28f5ca9ed75de7aafcdb24af76b3bbe0ca31cad603b12c80194bfaa987aa0",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/FilmClipsCity/preview.html",
+   "size": 237960,
+   "sha256": "f10a3fa546908133aa3fb6a9d3244f7d0ee174575a27a7b415fcd267b3d7d681",
+   "generated_by_page": false,
+   "has_blob_refs": true
+  },
+  {
+   "path": "project/components/FilmClipsPeople/README.md",
+   "size": 622,
+   "sha256": "4407fc24c19736d55eaca59187bd25adaa009690f27adaba661caa674763da48",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/FilmClipsPeople/preview.html",
+   "size": 190468,
+   "sha256": "9ba3077ffc6d515e7134a5a81d4148e04d0cf97098f8f7e0512b74935e82e8c4",
+   "generated_by_page": false,
+   "has_blob_refs": true
+  },
+  {
+   "path": "project/components/FilmLibrary/README.md",
+   "size": 927,
+   "sha256": "c612295af3c711e9512ede93d9b1a6f8d9dfda26ea491cd48c6aa96796aed7ef",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/FilmLibrary/preview.html",
+   "size": 65429,
+   "sha256": "e5a2725187f88eb35aca4237cb17e1a7177cb0a244e36cff55e377c9df903d2f",
+   "generated_by_page": false,
+   "has_blob_refs": true
+  },
+  {
+   "path": "project/components/Footer/README.md",
+   "size": 431,
+   "sha256": "eb64c2f131ebc67a658c7a98208087f37610406c6580a36c15482a4e315de160",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Footer/preview.html",
+   "size": 3662,
+   "sha256": "f4eff2f6365d25c8c82176f97ab02f5a29d50c16cb8dc8cd1266e6ab692e286b",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/GlassContrast/README.md",
+   "size": 702,
+   "sha256": "ca362545e14077f07aba5e8813f69e4330d130c0ee2d7c3f07eb1157c342424d",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/GlassContrast/preview.html",
+   "size": 33390,
+   "sha256": "1e04194e3a7831533576bbb2122cafc6eb0bd0717dc1b1e4b7d0a9532b21c0ea",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/GlassPanel/README.md",
+   "size": 1461,
+   "sha256": "40644ca5b9809129c48c3333007cdeb57c18b237c1cae85c14f7fe0f020181cd",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/GlassPanel/preview.html",
+   "size": 144717,
+   "sha256": "a59d98b90b46cd86a9ca90944a2c28f00fef21aa3f82e59fcac18228e2116468",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/HostChat/README.md",
+   "size": 885,
+   "sha256": "dd027e786458c056d4fd86fe63ca8cb126e526b50fb0e25f7454a173fae876d8",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/HostChat/preview.html",
+   "size": 78772,
+   "sha256": "ec3fe00baf48f0a9f6ed5575f38de7d0188b659719585781b79d8f4603a9320a",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/ImageryLibrary/README.md",
+   "size": 471,
+   "sha256": "767452f38f108e4cf0df76300e662ccb91b1d3f64e56f8486de206140f18d10c",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/ImageryLibrary/preview.html",
+   "size": 190004,
+   "sha256": "2e0739be49a5a51bc15da6e8d1a7b192ffcd103bc39b68ab700eb715f148e911",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Input/README.md",
+   "size": 613,
+   "sha256": "b74d5e4f5ecd29c89415f4b958d8eb034dfb054733ceeb31c23c3f4ef95285d9",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Input/preview.html",
+   "size": 3855,
+   "sha256": "77b4e25c4b8ef7f6ba721c284111cffa68f532aa8f8594079574aa6060e772bf",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/InstagramPost/README.md",
+   "size": 509,
+   "sha256": "25664d0d644e4f647e368bd0d038a6b6ed0ee63b70d240c8deab47bf292074fc",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/InstagramPost/preview.html",
+   "size": 76310,
+   "sha256": "51413df017a5467dc303f158ffd8437b63231077f7059b54794725f896897a64",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/InstagramStory/README.md",
+   "size": 453,
+   "sha256": "6928d1374e7013afeff892bfcc6c309248ebefd4e7edaae403a636edfbdcac05",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/InstagramStory/preview.html",
+   "size": 89369,
+   "sha256": "8be96088f9f2323492da004a89f91188526eb2a9ec614c2fb865ce1b122e75ee",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/LinkedInPost/README.md",
+   "size": 490,
+   "sha256": "7c642b22e77c1dabf3f96fe4187b9cbca32dc6d11ba087e5f322a4a371f94399",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/LinkedInPost/preview.html",
+   "size": 95976,
+   "sha256": "2c8f228a5f57b7482480f1094afd91685f2fe3eac8a3941425b35d4b214590e4",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/ListRow/README.md",
+   "size": 735,
+   "sha256": "695476a8cf9b0741bdd2f1e7231f0d221dbaaeb880f7598343eaaa3e9e902960",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/ListRow/preview.html",
+   "size": 4114,
+   "sha256": "0d44377e2616e37e81fa9f280b9d51d1036b9dfb5d1f6a278572e95f944e8943",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Logo/README.md",
+   "size": 1188,
+   "sha256": "11c4e71e8ee0809cfd7522e5b48f0889034e069f1118f8f8d759ccb7c9800def",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Logo/preview.html",
+   "size": 27507,
+   "sha256": "ca4e713867c8ee3ea0f1c8727818117e9a4c1acd8120c23d880258ef7482e129",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/MemoryCard/README.md",
+   "size": 822,
+   "sha256": "242b2d3c812a237e92f316edf86648305f0ed823eeeb3f308f608536a025c79c",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/MemoryCard/preview.html",
+   "size": 32735,
+   "sha256": "7b5a72dabfb4577958594c3e8b92e19319dcba2856e0ab8124b4580ea74d9caa",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/MorningWidget/README.md",
+   "size": 1044,
+   "sha256": "09221dea4c2e0d91533db578664df0e009d96ea434f3bd05caf0a1865d732fa2",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/MorningWidget/preview.html",
+   "size": 76114,
+   "sha256": "a771134153720f163cbe3ae29e38d22ea459b91c7402a2e254853172bcb75b2c",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Motion/README.md",
+   "size": 1123,
+   "sha256": "bca398a284dfd7710f7c051f8ea76ed570c76041fa473a9a064516ab07dd387e",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Motion/preview.html",
+   "size": 67867,
+   "sha256": "673e0b1986bff854237a46a620b04b614f781a0acb7147e20b8f2a2ef85cf02f",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Nav/README.md",
+   "size": 562,
+   "sha256": "8e6e1ead8700840f242e9eb57fc0948c8a20643ac607572b9c20e3a3b423e9a3",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Nav/preview.html",
+   "size": 114433,
+   "sha256": "b966a48a1111c8f01b7cf7b2b21a2cdfc99b2350fc7ab2e83866e2d3a1243093",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/NotificationGlass/README.md",
+   "size": 855,
+   "sha256": "bd2d0242626480c4df674ee09eab7b837f1eaab65c606ae575b5594892c9aaba",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/NotificationGlass/preview.html",
+   "size": 110053,
+   "sha256": "22775a10928202b959084fab145edec4b7d04c1156fcc94531c7933328ca07ce",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/OnePager/README.md",
+   "size": 643,
+   "sha256": "7dd62ebcfd894f47c6bf7dc4c700ab36fc9de01cda77582ad455778b88a7d990",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/OnePager/preview.html",
+   "size": 213854,
+   "sha256": "3643ed7661e8f222b9bdb5b2eeb716f88030b1f05366fbad864190be76b9eccc",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/PhoneChat/README.md",
+   "size": 855,
+   "sha256": "00b296f55058ca4eb9f3105a603585395365ca973998ebed230768520ed531d5",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/PhoneChat/preview.html",
+   "size": 178698,
+   "sha256": "5978506c22f09911762ef0c6c1257cd84a7ec9e4bc0c5198e5b3937e49127eee",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/PhoneScreens/README.md",
+   "size": 704,
+   "sha256": "a465630873e186cde7752f5d6f1e137cc063fcb614f6662bec9636525485211b",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/PhoneScreens/preview.html",
+   "size": 101847,
+   "sha256": "20c18118a3351095dc4145ae7666848df2d0e8048836299a1780e4c0f466a529",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/PhotoLine/README.md",
+   "size": 1468,
+   "sha256": "615c6aa49564caf69cce1b66f0d1e58a91c1bab8e3caf52118ccc6870b9278a8",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/PhotoLine/preview.html",
+   "size": 221488,
+   "sha256": "8e36b1c50b553a2454e391c3c8fdfb23cc6e129f316d7a926fdc68e8ba401b7c",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Pill/README.md",
+   "size": 822,
+   "sha256": "4f7f5ba60905b207c946b5bf606fc6100860c3a9312cad8a0a910358b7dc2b55",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Pill/preview.html",
+   "size": 4196,
+   "sha256": "3743f51f1bfcc138aa679b878ef582d9ca65a59172de1c97faeb155189be6ede",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/ProofNumber/README.md",
+   "size": 576,
+   "sha256": "06f5189a9c8a8525faa586576ee619bb03da1838c91fa0e2274e9a3a15815f6c",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/ProofNumber/preview.html",
+   "size": 3543,
+   "sha256": "49e1c075e086489acfd7995070c9ae56d4d5241f8264eb960e6878b49decb04c",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/ReplyPanel/README.md",
+   "size": 782,
+   "sha256": "7b4ec1c688fac94e5dec5842e48392a5c348c96b4a34cfe89f0b56433f3752f0",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/ReplyPanel/preview.html",
+   "size": 109051,
+   "sha256": "f407c57ecd02268ab39ec9badc30924d8c6ff7ec90f85ad1f0e1b988dc2ed8a7",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/SectionHead/README.md",
+   "size": 502,
+   "sha256": "72e283113d2b5cdb3a845d4f29bbe78b1035e5f8f011c35cbe1cdcc0cf70f598",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/SectionHead/preview.html",
+   "size": 3570,
+   "sha256": "fe88f86439e7cf1e8bdf93f0e7e6ec010f9d084faf2c6b3f51d6d71da679ffcc",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/ShareToCircle/README.md",
+   "size": 898,
+   "sha256": "f0acc5e72ae8f26a85c770a80c2fbfb18c2ce130f692ae336af6264d7a35b57a",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/ShareToCircle/preview.html",
+   "size": 32899,
+   "sha256": "e31285365500e0abe3fe0d887a2ba05eb1dfff56e6455f2f8a9e6dbe0c4bd71b",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/SiteBelonging/README.md",
+   "size": 609,
+   "sha256": "e093f7b6fcef46fdb96ca76792863e30c5104ad426e5e3c728aefb1509c7d839",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/SiteBelonging/preview.html",
+   "size": 120888,
+   "sha256": "0d6ecf72ce318ccb5dbd6fb22d37d3310a4508757d4a93d8baef7819d11714fa",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/SiteFilmWaitlist/README.md",
+   "size": 722,
+   "sha256": "5c4d1e3181b412fe5589398d6975e66b9151dccde455811aa1c428b20d4f00db",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/SiteFilmWaitlist/preview.html",
+   "size": 89230,
+   "sha256": "b440827ebdac537f40a975e9095113135ac495d089140aa981009e467001969c",
+   "generated_by_page": false,
+   "has_blob_refs": true
+  },
+  {
+   "path": "project/components/SiteHero/README.md",
+   "size": 2173,
+   "sha256": "8e713647d49ee57abf190c1162d47089770b93b933c298bf9466f8e99c10091c",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/SiteHero/preview.html",
+   "size": 199608,
+   "sha256": "625aa2b6b8b0c6bf47ef0b70df3c24c24147646ccd542d1f1dac46429a7b9f65",
+   "generated_by_page": false,
+   "has_blob_refs": true
+  },
+  {
+   "path": "project/components/SiteKnown/README.md",
+   "size": 608,
+   "sha256": "fd7870217834122ad50abed6660d1d98f04a2971e5640ecb7019c6657d0de58f",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/SiteKnown/preview.html",
+   "size": 33270,
+   "sha256": "44302ab7ed39ef849649252d4e6d10d31e0544c24d1e2b6023619f3e14c02665",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/SiteLasts/README.md",
+   "size": 462,
+   "sha256": "072f497d7a7d5de33aea6419ba1392cbc48bedc1d1d390ca5d655bd59e798414",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/SiteLasts/preview.html",
+   "size": 116434,
+   "sha256": "2e2631543b3d49ea4bc3e921511302678fd521935663b3f937f5659ae763a328",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/SiteRelief/README.md",
+   "size": 637,
+   "sha256": "fc1520f3e4b1ab4083b116359f48f9e0097725fe30e500af4e31a2456952d33d",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/SiteRelief/preview.html",
+   "size": 112827,
+   "sha256": "02f934e6f022bdc511dbd69f0c09de7d00dd336b8725fe558e38c408e08e753e",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Slide/README.md",
+   "size": 1041,
+   "sha256": "c170bac2a6fecbdc0b572ed758f85b55f7309d6d2f4238fa07a2f2944d4229ce",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Slide/preview.html",
+   "size": 181755,
+   "sha256": "25f3a12fd5b571e673cead63247d71efbc36596b0154f5298d5c30e1594ec35f",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/SocialCard/README.md",
+   "size": 987,
+   "sha256": "ea4f525b67c57688f0afc82df8929dea80a804e888e38c57b8841ad543de0f60",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/SocialCard/preview.html",
+   "size": 55789,
+   "sha256": "e3e578161f6e9ea0622cb2e56416b8d08fe437dd1395c96ddc46971e56cc73c7",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/SocialLibrary/README.md",
+   "size": 289,
+   "sha256": "433447216963c6092b1724943d1cef50fd240e1ac2a0e7a3abc13302dad6e1e6",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/SocialLibrary/preview.html",
+   "size": 205067,
+   "sha256": "e519bdaf1df01f81c05e167f7e347356dbf773bd2d8e2f76c41c8780eb8172a7",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/SocialLibraryCircles/README.md",
+   "size": 258,
+   "sha256": "ea12b02fc2755af53fefa98b30b3a37a2a73eec1a624be1d1090eede833cb445",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/SocialLibraryCircles/preview.html",
+   "size": 227195,
+   "sha256": "d5e2a128ff9e8e9daa3d8200f41795df53c53267467be03ae7f16fad90f63e21",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/TextLink/README.md",
+   "size": 415,
+   "sha256": "3139495a8967b775ad9f29a41652e5d648beb317773cefed1f0ea075989c938a",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/TextLink/preview.html",
+   "size": 3567,
+   "sha256": "16437c12a3b928a93abb28f1894e120ad56db81a9bf1b7234eff673ade428057",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Toggle/README.md",
+   "size": 436,
+   "sha256": "b12f4fb58eb20fc756a8b089cc4a9415f0933dd1e84f7cd741fc62f88933cce1",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Toggle/preview.html",
+   "size": 4038,
+   "sha256": "5987a4eb36502cedd7c9b985bb035b506f301ddc4dd91a9e33a38aee33645b3f",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/TwoDoors/README.md",
+   "size": 635,
+   "sha256": "a76473b446045ae73abe0c438b07e25a549dfd24c93c108246bfcf70b5dcafee",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/TwoDoors/preview.html",
+   "size": 3673,
+   "sha256": "ca0356eb2adea4d5c30e317255fb4b27465dd1b2d12c5bfbedcc1fadc8265634",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/WaitlistForm/README.md",
+   "size": 837,
+   "sha256": "aed8649e168dacde5e99868d2d395ffc90c101c0efe210a7bd89b9c524b670f1",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/WaitlistForm/preview.html",
+   "size": 79519,
+   "sha256": "4b93286ca7240cb7064ed6fbd2513cc802eda308e7969e6ee41adddcf3f37351",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/WebChaptersDark/README.md",
+   "size": 2099,
+   "sha256": "e08ff07cb62705fd923a0c8e0d637020e4eb8144ec538ea1cf7cc229219c66a9",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/WebChaptersDark/preview.html",
+   "size": 170288,
+   "sha256": "c3574f534215e02273ef37a440e6742adb94d13c431bc13dac39948c6611ae4d",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/WebChaptersLight/README.md",
+   "size": 895,
+   "sha256": "8d00dc21e4ef307e8fad4cf86fa139cefee755f1fc2eba6e9917a2123c528d23",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/WebChaptersLight/preview.html",
+   "size": 177715,
+   "sha256": "b041c4f4fa492b11a1a127d8b79976679e625d4fdfa2dd6c1def83717ce990bd",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/WebFooter/README.md",
+   "size": 684,
+   "sha256": "f819a32cd1e896fb7c02abf514592e7cf27402eb383932d1e71c258105673e81",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/WebFooter/preview.html",
+   "size": 18275,
+   "sha256": "942428f7d4a8ba4c93f355836c8551bad76abf3e8a706b82f3f11fc058007c5c",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/WebHero/README.md",
+   "size": 3227,
+   "sha256": "a3d49b6d9b1ad77f1016b1dfd2aa28be1dd5dacd8d4f2651cad8dbef3d0ef847",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/WebHero/preview.html",
+   "size": 99077,
+   "sha256": "8f2dacace5bd61e0b5e7bf7aaa897f31bea749b6dcb740872ed6b4546615c491",
+   "generated_by_page": false,
+   "has_blob_refs": true
+  },
+  {
+   "path": "project/components/WebNav/README.md",
+   "size": 837,
+   "sha256": "d1f6fd48431d7b633c208fc762a48ffceb329c1240505151ea43236a52da3e6a",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/WebNav/preview.html",
+   "size": 36888,
+   "sha256": "d7799b0b6fee297e7fe55cc2b8c69be763f0ee6780147bbc4da6ab3428353562",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/WebSections/README.md",
+   "size": 1111,
+   "sha256": "272eead3df2b6ddb0dfb7e8ff2ecd447378f6fa6c8c6004236961f558d901854",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/WebSections/preview.html",
+   "size": 77156,
+   "sha256": "e16cff27e6a40d84718cb358e9a83b6553dcde95a5efb9ed18d0d148e07a363c",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Website/README.md",
+   "size": 1582,
+   "sha256": "c880c2dcf1f1678b55fef98a49f1c99323594196c0800c7b2e4fb883d1571b61",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/components/Website/preview.html",
+   "size": 90487,
+   "sha256": "4b56054c199d0ac5028c920befcc96921c5ea95efac6bbc27968a0c8c3984a8d",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/design-system.json",
+   "size": 31646,
+   "sha256": "3b97e3fec2eb518371ad096c926e4e80a79d1f7c87be1c0cd974152066c6a2f3",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/guidelines/05-how-this-system-works.md",
+   "size": 2206,
+   "sha256": "d4d3ce887efe483242e7dc26117b8cbc951e629e1a95a7bf53281d6dccdb5521",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/guidelines/10-positioning.md",
+   "size": 2590,
+   "sha256": "41c908d312808427db7893752fe9f11ad37593ae36b0c34c2eaedf5711a27f94",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/guidelines/20-colour-and-type.md",
+   "size": 3204,
+   "sha256": "c29615f4a55d291ee710f2a31ff392f06581445ae34ff44dfa03d151c1a1f91b",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/guidelines/30-layout-and-spacing.md",
+   "size": 2140,
+   "sha256": "064b120c4034495523a5a05623f9b93b78094a5c999ac01f8ea9839c3f40060c",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/guidelines/40-glass.md",
+   "size": 4329,
+   "sha256": "cd35b1a15eae2e43d9f7bb28e902a577174d552934e5afadb5c90aa5c0e6d328",
+   "generated_by_page": false,
+   "has_blob_refs": true
+  },
+  {
+   "path": "project/guidelines/50-motion.md",
+   "size": 2436,
+   "sha256": "89265f730eb7221261aa38b87934fd981e71db1c48581a5de1516a46e25b38b5",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/guidelines/60-accessibility.md",
+   "size": 2041,
+   "sha256": "4fc8be42c068e620c043765ddc734f923aff013aba2b636e3e5a7c3839b0ea4c",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/guidelines/70-imagery-and-film.md",
+   "size": 3356,
+   "sha256": "e0df5644dcb565934633d615829ab63ce87fcc8314497f4e59771ff371fa1466",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/guidelines/75-the-product-film.md",
+   "size": 3911,
+   "sha256": "b5f5fb03cf8f528c20453563bb6d2c7c798474bfc33a5c0df651165b0d4e21e6",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/guidelines/80-voice.md",
+   "size": 1763,
+   "sha256": "d62db84be1cd28ce743b6859d4323b2149d1ea72ebc245ad389e3028f0863719",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/guidelines/90-applications.md",
+   "size": 3064,
+   "sha256": "55588c7d0b769ea3dc70e99c578d7e7ba6b4307326219783738d6e695bfcb08c",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/guidelines/92-the-ask.md",
+   "size": 3001,
+   "sha256": "5d5974736da2440c641be44b012c347bef4e96541f7672db99b75e1509ee8d25",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/guidelines/94-the-dashboard.md",
+   "size": 2553,
+   "sha256": "936dd8e3242d913a1d05efd166609d759d81b0b36eb543ba831c50a326d19090",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/guidelines/96-governance.md",
+   "size": 3598,
+   "sha256": "6a8fec94e36fc8e6f206b7459d0d15c249afbc342a971e495d8f4f197b88d8bb",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/manifest.json",
+   "size": 5532,
+   "sha256": "91eb3ecbcc9d7892b7571e41b2f519477aaf993832ec3ef8236651c71ec24ab7",
+   "generated_by_page": true,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/film/01-dawn-city.mp4",
+   "size": 357863,
+   "sha256": "d73d50fa3dee41e0cae634cec2a660be0538943a3eb384b863f9dd421116ab15",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/film/03-kitchen-morning.mp4",
+   "size": 438515,
+   "sha256": "dba0e67a5c7cd5dcce93ccacac42ca46b3dd737f33c8b54b5289c016c58c57fe",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/film/07-train-sunrise.mp4",
+   "size": 434755,
+   "sha256": "0322ff6b073dc294073a2c8c4d896155d3dbefb4deb06f2bccc46cd506f75fe0",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/film/10-colleagues-laughing.mp4",
+   "size": 465041,
+   "sha256": "bb70b333d243ea58d5d1ca25f0cba05029f71be929b6cf4458786dabb2ebc058",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/film/14-meeting-room-window.mp4",
+   "size": 372032,
+   "sha256": "7895eb3bd8808c67b384bf381d7ab451fd6028a958afadfa348f213ffbd8df2d",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/film/20-night-walk.mp4",
+   "size": 397068,
+   "sha256": "a41268f0f1bc857e3971f927d82221bfa1877bfb3299fe6ebf559304b3172b61",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/film/21-grandparents-call.mp4",
+   "size": 321464,
+   "sha256": "8c2806be4699c09472bd7e2ed8dad2c1a381bc6a3290de3b1208332bce3da32f",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/film/22-flat-share.mp4",
+   "size": 386498,
+   "sha256": "92a299692a84ef295eb8670b6c588f78c9d293e1df30874add4e218983dcc869",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/film/23-five-a-side.mp4",
+   "size": 383527,
+   "sha256": "524b3f665bd161598b4c318b5f06ba2df80d34906f53d6305051fc33175d487e",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/film/28-the-toast.mp4",
+   "size": 349388,
+   "sha256": "ca9016e64b49b9c5876adfac81cf630ddef32bef6ee387168cba50de9b947065",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/icons/connectry-app-icon-blue-512.png",
+   "size": 7967,
+   "sha256": "cae8b6b5a602f81d48c13d3ecb63b26034ca18c10331a8893213ac9eec2c2c5c",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/icons/connectry-app-icon-ink-512.png",
+   "size": 7860,
+   "sha256": "9f4f6c7fdf4eb981f8eaca875f0499a7a4b71c9eb500854556069e68140d690b",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/icons/connectry-avatar-blue-512.png",
+   "size": 13673,
+   "sha256": "2d6a192745684866665b631ff3a4cca9fbf5235df220fded5583c0692118dda1",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/icons/connectry-avatar-white-512.png",
+   "size": 10835,
+   "sha256": "e0aa8f508b983205ca6218e45eb6e143648976387cee89ab5bb4065496537709",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/icons/favicon-16.png",
+   "size": 355,
+   "sha256": "2e683fc0b8e7d04202ba6cbcf0d457137016b2e20841918fe1fb078223ae80c6",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/icons/favicon-32.png",
+   "size": 455,
+   "sha256": "8783679b0c88997a4d666eb810225d2fa1c4c3a2b430c2b538ec89ae5bd48a11",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/icons/favicon-48.png",
+   "size": 713,
+   "sha256": "c0d35733a2830cb5a0f4a24c45ad4735a901b5fcf24416821828d722d20166ad",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/01-dawn-city-alt.jpg",
+   "size": 46476,
+   "sha256": "c9bfa17d7abb007047d64ad56c33415acbadfcb83240cded04562fa1072e36b7",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/01-dawn-city.jpg",
+   "size": 192873,
+   "sha256": "c359f4c912f9d5c6fecb6e4c50212b5bb007598a6ac4dbb14676a9f4492dba9a",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/02-curtain-alt.jpg",
+   "size": 37011,
+   "sha256": "773e3e900093616dcc4fefd1ac66947fe71db0e52888ffc79e2ab0b93ef61a11",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/02-curtain.jpg",
+   "size": 109758,
+   "sha256": "16152d289d9c3afe671a4e6dd69ebaffe6491588f360bcc9136753f92748762c",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/03-kitchen-morning-alt.jpg",
+   "size": 47912,
+   "sha256": "428c64a3a4b7450bc02a5a0aaba6d5d11e4bd835637256811bb94fe4b53e0622",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/03-kitchen-morning.jpg",
+   "size": 147782,
+   "sha256": "41c2bea2e977843d7d7267265b299f2e7a5af51dc892508973a522070d50daad",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/04-phone-in-hand-alt.jpg",
+   "size": 33394,
+   "sha256": "17bae27f526dd719f0c36aa3d96d784c8b0f9ef0a7034c67ba2c742b10a7cb80",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/04-phone-in-hand.jpg",
+   "size": 119379,
+   "sha256": "ff924eb98c5c166be28aa39c2c6eeb03f3172d325dc69c18bfd4d5ef74db9254",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/05-morning-crowd-alt.jpg",
+   "size": 55300,
+   "sha256": "56e85da1cfcbb29d769ea17d4ebf4fb0bdb66bd10368535d098d1f6bb2bc01b6",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/05-morning-crowd.jpg",
+   "size": 201476,
+   "sha256": "e6652f035c2d5be6280bfc868316c64bc980645c128c2a614c35cd2a8a632f45",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/06-lift-doors-alt.jpg",
+   "size": 46147,
+   "sha256": "ba2be3c3ddc97cbab81cb1ff604c2243330f87b5aca24eae7334644df20efd22",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/06-lift-doors.jpg",
+   "size": 190042,
+   "sha256": "744da6461d6c4cd5a639059fc7164f56212a98641d7bbdd1a67ad33155f2ca28",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/07-train-sunrise-alt.jpg",
+   "size": 35961,
+   "sha256": "df3b7b0ade29b61d8ce1e5db72657e2fd8abfb60f34355926e3becd215648b31",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/07-train-sunrise.jpg",
+   "size": 165975,
+   "sha256": "dcaff54e5548df0b48e511fc155073d2cd955a80ca3c3b3a8fe3cf6faea647f4",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/08-rain-on-glass-alt.jpg",
+   "size": 62201,
+   "sha256": "b98a5b9ec299e975f0f02074ac865359ce700667264eecbdb5ffc31b30cd6fcb",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/08-rain-on-glass.jpg",
+   "size": 225538,
+   "sha256": "d99a2b321973d6882837c3599ef07a891c575cf775eff76ea6d87355ef19be93",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/09-lobby-walk-alt.jpg",
+   "size": 50917,
+   "sha256": "e0b1395c556c729a0f6d38a8e94ce13f4c2476b41d3353e419fafbbd0ce448f7",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/09-lobby-walk.jpg",
+   "size": 146804,
+   "sha256": "4d7798e98b184415fffedf372ca6d936583b4aceca03d95a2444804199df7ba4",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/10-colleagues-laughing-alt.jpg",
+   "size": 44095,
+   "sha256": "ff61c60ed5eea9f1a2965eb8cf4d6179bbe0766afa3fea8143621151f886d561",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/10-colleagues-laughing.jpg",
+   "size": 136737,
+   "sha256": "924e43144ddc754715c551f173dec8d4651758abe0ef7817d39c791331839336",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/11-hands-typing-alt.jpg",
+   "size": 37587,
+   "sha256": "a31e439ab035a0f8bc0cbf5e1df5f21b7f68ecadc0eb6ba228879a3ca82ad6b3",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/11-hands-typing.jpg",
+   "size": 136286,
+   "sha256": "53ab5328f452a813e30e24820c03a22d8a31a14da7376cf1c13117bb5d07ad85",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/12-glass-corridor-alt.jpg",
+   "size": 48391,
+   "sha256": "fb8aecf6ff9d50d5c96f867c3bfffd84f0e84f429b43943a9c1d9c47ae51feb1",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/12-glass-corridor.jpg",
+   "size": 167000,
+   "sha256": "3295b1a750b1313b8449b74fcf7f0a56704a541d499301e5e966d9b0915e4cbb",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/13-coffee-pouring-alt.jpg",
+   "size": 47305,
+   "sha256": "2798b280ba21af01ead76745be3aacd082cc7d074e0a8b264f184e7d00e2adc8",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/13-coffee-pouring.jpg",
+   "size": 156245,
+   "sha256": "ede99b8a72bf7c99bda3850a5c81c9962af069bfe9bfd9352cf2fbdb0bde33fc",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/14-meeting-room-window-alt.jpg",
+   "size": 33855,
+   "sha256": "90d02fa88010ac026a82c5d78d400204017927ada662ecc3f34999c7af0b5b54",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/14-meeting-room-window.jpg",
+   "size": 110880,
+   "sha256": "e29354c709d0ed47791be0df524994f44e815152cd8edc15abbaf5ff64e41b89",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/15-golden-crossing-alt.jpg",
+   "size": 50988,
+   "sha256": "49f65f698d776e72aca5fb807ea3f3bef5b66178df84464ecd9f986f64e1d19d",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/15-golden-crossing.jpg",
+   "size": 221235,
+   "sha256": "e6a2fb0b5d04c8125435133e6c5b32518e0eab6f3831c63195c4777405a4fd40",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/16-cyclist-alt.jpg",
+   "size": 52837,
+   "sha256": "3c22898a029ca58039c42d3acd676564bc8a9d079473b9ac73cf1835d06b6ba5",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/16-cyclist.jpg",
+   "size": 247770,
+   "sha256": "8e7c44dc599bbcf8dde0fc4f56a75bdc409ce5a0cf9797379f93dac18c124d44",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/17-eyes-screen-alt.jpg",
+   "size": 30458,
+   "sha256": "054f4598cac27d21d647b629effb3cfa555fbda35175f93ed8f8e020b35109c6",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/17-eyes-screen.jpg",
+   "size": 111089,
+   "sha256": "8b91f3616300cf15c79bb7fe4ac9ee0639c149a6d64f3879edfd065925c39ee1",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/18-desk-at-dusk-alt.jpg",
+   "size": 46119,
+   "sha256": "9714feca6bd33446e89ff1d0b7e03c9bade41646c000f88a36d72dc0a051e681",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/18-desk-at-dusk.jpg",
+   "size": 127800,
+   "sha256": "1a261d88175df4558a4c8fa073ee5b22f5888b4e805f264d651d01d2311bfac3",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/19-blue-hour-city-alt.jpg",
+   "size": 59459,
+   "sha256": "2a5c6511d0e9b9c35ef62ebdfbb228c3ae9422c69c15dd557a87be6c95b0ca4d",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/19-blue-hour-city.jpg",
+   "size": 234706,
+   "sha256": "35b9023decc0bd7dbbeaded9d42b6af5e53090ade38522f43174c31cf8b0a50b",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/20-night-walk-alt.jpg",
+   "size": 49202,
+   "sha256": "f73579e0f828b7f42f63a922c2ba35d75626263b5a940af99a1885716423fdd4",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/20-night-walk.jpg",
+   "size": 147105,
+   "sha256": "3da900b5b5c5e3175533eda0c84da0f8ebde331ef9fafabd1a08f85ddb4ada50",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/21-grandparents-call.jpg",
+   "size": 199697,
+   "sha256": "c47a958a69981a91ae37449747e18e217aabed476c71ae300c621321ca6ef773",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/22-flat-share.jpg",
+   "size": 176229,
+   "sha256": "91119ee9828d964585120b78406b7032bb39bb6d43da8b8bd11f936408e5fbad",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/23-five-a-side.jpg",
+   "size": 215393,
+   "sha256": "ebe2a9f7936de7fa42764a39eb6ecc20be403efc58875270a9f7df6067bcbe6f",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/24-school-gate.jpg",
+   "size": 245050,
+   "sha256": "6a489dde61a1a43142d03b40f003efb7fc093de9646d2c12013a3607f93cf59b",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/25-sunday-sofa.jpg",
+   "size": 201625,
+   "sha256": "5c3499d5fde7935ad0710cebe1d6f5931454540a90ae32a999cab835f4ffab0f",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/26-cafe-opening.jpg",
+   "size": 216727,
+   "sha256": "e4d2e7b4bcad64cf7ae33da00816cff5473816db6cdd4d5c00c854a7e64457b9",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/27-friends-platform.jpg",
+   "size": 201079,
+   "sha256": "70f82fad7b25e41ca23a7ba87da07d10c8c7f786153b69c73d89b05db7bf4db7",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/28-the-toast.jpg",
+   "size": 147600,
+   "sha256": "d91932a9c98b64090bf414777b067bbca0c6f9fa5e2de780ec97f1580c5bf4b9",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/29-freelancer.jpg",
+   "size": 157892,
+   "sha256": "3ef6eb87808b682b3c61b7e36c5db6140ed9ab0d7e8d413dcd9abdba1b01e88a",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/30-small-team.jpg",
+   "size": 216645,
+   "sha256": "525c23357a523046363e188271f068e816d3aa9a79120bd33324ea1b88d20b64",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/f1-overture-kitchen.jpg",
+   "size": 103636,
+   "sha256": "89bface2ba67b82cb07472f0627cfdb181e1df909aa88b8c07122743fd903b35",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/f2-door-bloom.jpg",
+   "size": 105140,
+   "sha256": "caaaa9a4f2389963a2019a76e5301443b3f2dada958f07db128283b4dfb241d1",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/f3-endcard.jpg",
+   "size": 20868,
+   "sha256": "5bd53608318e791607a27b1e2c338d2b0939f9c639a9e8b426fabbd647703c5e",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/f4-phone.jpg",
+   "size": 51174,
+   "sha256": "7a9ddc72b6a3e974c8ffddc094a9b510953e07fed3c497a3bbd56a375053bcd0",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/f5-ask-crossing.jpg",
+   "size": 174527,
+   "sha256": "ddcae8e661bf2bf32c8459b22a96f085eafc7a501f0ca1112121f30b1185b3a5",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/f6-ask-flat.jpg",
+   "size": 111770,
+   "sha256": "0566c673c3905c1a0e2d7e83b76c7c333352b05438a3e5db9f5993cb80759cd0",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/img/f7-dashboard.jpg",
+   "size": 199902,
+   "sha256": "81278e151d2baadfc14ebf9177b4a17da16323c7f599ac96cf966134ee832b15",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/lens-map.png",
+   "size": 15405,
+   "sha256": "211fac397b783261457aa67f2b6036be9915b788112731a6b3d219ef841b0723",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/logo/connectry-favicon.svg",
+   "size": 352,
+   "sha256": "2765d9df6e69a39e82b005887a6e8b53045728741635f18967aeefcba2f3aa2e",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/logo/connectry-lockup-horizontal-ink.svg",
+   "size": 8098,
+   "sha256": "66e5c52167fef3e7124e858d7f7d7b50a06cae497eed5af7048da8f0ac7b1ab9",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/logo/connectry-lockup-horizontal-white.svg",
+   "size": 8098,
+   "sha256": "698f5f276a98e61205b052a51a8d0cf9e045e46e1c76cf00ef484b32fd9f7c31",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/logo/connectry-mark-ink.svg",
+   "size": 303,
+   "sha256": "cd89963029405ce9cf7f4dcb067c316c25b82837f7aa1b731d218ed0ce4ff563",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/logo/connectry-mark-white.svg",
+   "size": 303,
+   "sha256": "8a557868636728d31c098d420f95e733218a9892cd5139b6a8e734371d6ffecb",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/pack-social/03-kitchen-morning-1x1.jpg",
+   "size": 83013,
+   "sha256": "2d97df32f1e8f54b6727a54efefce5fc5bce7bcfa0f2dd4ebe60c868087c983f",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/pack-social/07-train-sunrise-4x5.jpg",
+   "size": 129534,
+   "sha256": "8a18130e175fa6834631737daaeaa843ba125e530155986c64638c87dcd78b3b",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/slides/01.jpg",
+   "size": 94359,
+   "sha256": "aa9cafed91e7da787024946c87ddc2ddcf0efcba557bb6137505cf62ea8e3f36",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/slides/02.jpg",
+   "size": 36099,
+   "sha256": "f68c6744af21a1fc1cac1cab1dfeb353cc25110153682a2eaf4d1d833fc6daaf",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/slides/03.jpg",
+   "size": 14777,
+   "sha256": "505f781b13fde8e52eafb8b7df5e3b2b71b1eebeaa0aeff544fe036061a81adb",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/slides/04.jpg",
+   "size": 37658,
+   "sha256": "b8c08f555888a4e7e707a68db729289759851979d9928e7ebe81780215772c45",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/slides/05.jpg",
+   "size": 54270,
+   "sha256": "0b40bbb8fc2431cbe5885600191246845d9f73984519d0dd440ea7012f806896",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/slides/06.jpg",
+   "size": 24782,
+   "sha256": "b3bc2d7e3f2cc734199b881318b6a122f8f9f36f2eb0cf397768be597f45f201",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/slides/07.jpg",
+   "size": 29085,
+   "sha256": "06020e0397ba2c351281fd2691e9a0afe194bc5cc10ef10507506f6e00f2371c",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/slides/08.jpg",
+   "size": 31998,
+   "sha256": "76a04f707f1bfc0e9c958222efec42ca64296eb1b7c333a3b263f4d45e85619d",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/slides/09.jpg",
+   "size": 35867,
+   "sha256": "981d8acd1bf5f34cb5f960f15a5b11ef3348613e2cee06ea17f131ec241a9b96",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/slides/10.jpg",
+   "size": 31119,
+   "sha256": "1b52d6ac7e01247b0778818893a4cb0da2dc5f82ecdd2cb5f18af9f8c5a14d43",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/slides/11.jpg",
+   "size": 35207,
+   "sha256": "401b6ac8223d0137de7de9ad967c246c5c4aa9e14cc380679c154e747fc7a30c",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/slides/12.jpg",
+   "size": 43446,
+   "sha256": "de56a81fd567fbbffd1aecb18d350efa2406453c9ede5b3c903ef448bb2cfa89",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/slides/13.jpg",
+   "size": 63540,
+   "sha256": "4fc62a7f786166ba0165474e1271a9e63537911e253290be2e7b38decca65332",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/slides/14.jpg",
+   "size": 20374,
+   "sha256": "4d6324d0d072fdc16d26b9899583c8dc23bd24f48871cfd06b17e86082f08d6b",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/slides/15.jpg",
+   "size": 63612,
+   "sha256": "38d784ca02164300a44afff23f3259e439e1da15ac176152f1011e37c2aa6431",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/slides/16.jpg",
+   "size": 76077,
+   "sha256": "639164bd1579e8b3757bb84e49c02711abbd20607b2eb91f742d2647155e5a45",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/slides/17.jpg",
+   "size": 26481,
+   "sha256": "0f8f0aff86e39a6cb8f0c41653ac53f3ce933f8a2a401ecb2f9e51e0260263c1",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/slides/18.jpg",
+   "size": 61009,
+   "sha256": "134029cd037ca39579fc9472c42201518381dac8a2d78479781da4a567535171",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/a-02-read-the-thread-4x5.jpg",
+   "size": 168889,
+   "sha256": "56da0660ff82aaa2e8a274c5c8710a392f1f5759f3a0d46f95289cfbf5998806",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/a-03-took-notes-16x9.jpg",
+   "size": 91960,
+   "sha256": "92c963c1f090594d3996b2f2699bd05d400d26a8f7fa9f979b677bc6a8b9742e",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/a-04-not-overslept-1x1.jpg",
+   "size": 169969,
+   "sha256": "2ca31838a96c06819e40b3e0dc1769b5edd46e9558419ec6c0ea2d17957eda11",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/a-05-march-decision-4x5.jpg",
+   "size": 170417,
+   "sha256": "9ba596406067d637dbcc79b3d582e155a27d7bcd75d944fd50968ec1e0c0fb0d",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/a-06-does-not-reply-all-1x1.jpg",
+   "size": 126650,
+   "sha256": "d1a3ceb53359e1fbb6f4766fd87c617e42356c9cff93c1d8df63e009287301c9",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/a-07-nights-16x9.jpg",
+   "size": 112579,
+   "sha256": "c1c28df061ee5e0a6df796d5ba18d380993f0a3c8c32f77d698f74d75766f1f9",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/a-08-already-done-4x5.jpg",
+   "size": 120119,
+   "sha256": "e83f9f95a2c7b2901d36fee0ca8838d3e266d5f8885272076bb08e8c266a4a3f",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/b-01-kept-the-hour-1x1.jpg",
+   "size": 126501,
+   "sha256": "e0407b6bc28a65f5b8346b4cbd45130e10fa43b58b3ff35997fb50b9da26c0de",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/b-02-thursdays-deck-4x5.jpg",
+   "size": 146006,
+   "sha256": "64ba231be0cbe7c855f70394a867097bdd172088ebd402aba2084ce3b8eb2778",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/b-03-easy-half-1x1.jpg",
+   "size": 123493,
+   "sha256": "1f2f630a4a6c72f568f21d7fe327cd861dc8bff8790b1eb797b6ddaa6ec6e0d8",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/b-04-you-said-no-16x9.jpg",
+   "size": 91573,
+   "sha256": "5d30d5d2432bcce7e155c90615a981a63b77d0cf13876ed49eb3b0b07dc06781",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/b-05-conversation-1x1.jpg",
+   "size": 141615,
+   "sha256": "46b5883ec29a37e1878919ab7b4b0cce4b5a888739883510300ccb8ac80001bc",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/b-06-decision-card-4x5.jpg",
+   "size": 162361,
+   "sha256": "0b4ba1ce1899d4c29d2a880756be7823e487e1b01332723c0483a4acc892c89e",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/b-07-calendar-move-1x1.jpg",
+   "size": 165187,
+   "sha256": "0c2a9a7e48342a00932b0028ae71e78f169183bbb646002b5c7cf824faeba039",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/b-08-night-shift-chips-16x9.jpg",
+   "size": 115947,
+   "sha256": "89028d8155b7c524eb6237dcd8cd3ba6927227bfecfb900989746355d39688f6",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/c-01-forgot-1x1.jpg",
+   "size": 64367,
+   "sha256": "652112ad3a7c1e2422103c1161291c05666a02f00038ded7228240d2d7cf917a",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/c-03-ask-it-1x1.jpg",
+   "size": 57046,
+   "sha256": "3a6e13c84dee062dfb5cc06e04785b5bdec03c33455a47a532b63db991a2f0b4",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/c-04-knows-why-16x9.jpg",
+   "size": 27942,
+   "sha256": "2c158b914099ded90eb198acb14e036bd43a0d54503c0c7114d91f16065d5533",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/c-05-who-answers-4x5.jpg",
+   "size": 49119,
+   "sha256": "44061fa9d44a4a26b75ba6c516c5a3d44facbc8e7a932144cc51130abed78d4c",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/c-06-run-ours-1x1.jpg",
+   "size": 47180,
+   "sha256": "54c19ea4118432edfd0d6fbc3bb23d00b3fd6aa6001c826323e65a03aa86fc87",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/d-01-a-morning-4x5.jpg",
+   "size": 138239,
+   "sha256": "f87fed3f15c97b857b1ef5891de30a105bce32a9b088556834e4a0e5c7ce72d5",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/e-01-164-1x1.jpg",
+   "size": 42091,
+   "sha256": "10f0d0defe6e5fd702cc520ec701dc8c0d17ad7d5e0b7f34cb1729cf3bc1544b",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/e-02-1715-4x5.jpg",
+   "size": 45019,
+   "sha256": "305475a553ad14e310e525035f21b43a3c401083717ca7ff0743d0085f45cb86",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/e-03-0-1x1.jpg",
+   "size": 37855,
+   "sha256": "788178c12a0f8a200eacf267357245ac1bc1497ae511db781a0b2df5d22992ed",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/f-01-same-day-4x5.jpg",
+   "size": 79244,
+   "sha256": "7d9ece2c735841ff525400ff7ab92f3df61a89a93203313f1df42c21c64236c8",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/g-carousel-01-4x5.jpg",
+   "size": 215283,
+   "sha256": "c8c49190ec5e3962741d2d4fccec0601132676b4147e981aa63ee56997af8b58",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/g-carousel-02-4x5.jpg",
+   "size": 146983,
+   "sha256": "3d97ec580bf8f9c109a5cd0e71b80a5465abd99b06508d5fce841003bda41af1",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/g-carousel-03-4x5.jpg",
+   "size": 187760,
+   "sha256": "db8990f1176b064ed8a06b1d0e0a2c30bbf1ac520df2409339dc9f347b63138c",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/g-carousel-04-4x5.jpg",
+   "size": 156219,
+   "sha256": "9cf31289675c088e28bb5cd80377cd82752b505d2269dc558af8528be2977a0c",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/g-carousel-05-4x5.jpg",
+   "size": 146382,
+   "sha256": "9f6a640744d2b7b8b1aad46b13ef0c8124a2cb86a3214ecf8734df92fb34f790",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/g-carousel-06-4x5.jpg",
+   "size": 142102,
+   "sha256": "0206349ac8836135c1ac2f672e4fffc021d8c4069b0c4dd529c49eeb21509a80",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/h-02-story-forgot-9x16.jpg",
+   "size": 76458,
+   "sha256": "72c453aa9bedfe6e508040457e8f0e1a364d73f7a3830013144cd7cd7d3fe3d1",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/h-03-story-already-done-9x16.jpg",
+   "size": 177964,
+   "sha256": "0543ea8f799fb1c5151a4dcff9cbc36589f62b51f7acfb9dd353551a38507a35",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/h-04-story-passed-down-9x16.jpg",
+   "size": 240512,
+   "sha256": "d716f1e6270046ee31ed553a8247c08b98ac9e20595c4ec7dcf0bae268f8cb06",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/k-01-milk-1x1.jpg",
+   "size": 142412,
+   "sha256": "ccdf63160aaa02a007a33a27ff65d0a97467b56fbf8b035428f8a450a0c9256a",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/k-02-always-late-4x5.jpg",
+   "size": 193589,
+   "sha256": "1249fa9c5c549864f04393dc02698591444c757bd2821df2125c0cc3c7db642d",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/k-03-lift-home-16x9.jpg",
+   "size": 128971,
+   "sha256": "2f7c80478cda04b962fe33c98a91f53d59e9da333ff4a40886078faad9aacf0e",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/k-04-yours-share-4x5.jpg",
+   "size": 188901,
+   "sha256": "a831d20a3b07ad2675252fe1db69afd495fec21cc07e8c52790c2e0ed0fcf1ae",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/k-05-year-prepared-1x1.jpg",
+   "size": 137170,
+   "sha256": "917b01367ad93c513b7d031bfc1e264ee30b81d4dcc1310e6bbfee89af9e07ec",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/k-06-itinerary-4x5.jpg",
+   "size": 200026,
+   "sha256": "f61a210d1b3c60d2880e47f35238b91ca364be75e3c21dfa5febbb3bdc53acc7",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/k-07-passed-down-1x1.jpg",
+   "size": 154668,
+   "sha256": "6525fcdd3f243c0d8f26a3dfd2f9f3a5e0875a93d816584753861bfa9166e302",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/k-08-nonna-4x5.jpg",
+   "size": 197744,
+   "sha256": "fbeda8bca1f7c91bd6feb9da6298c428bee085a7233c960eba7140cd1bccf869",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/k-10-builds-1x1.jpg",
+   "size": 176200,
+   "sha256": "d951d5efce0645f748e369ef3b401604a85f1da26d2f6ad3b6679122eb70975c",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/k-11-studio-panel-4x5.jpg",
+   "size": 214141,
+   "sha256": "eb1f54bb9f494cc5ee669dc5700e7a99d4558ff68ffee26d0d0e12d8022b1cfb",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/k-12-school-panel-16x9.jpg",
+   "size": 123062,
+   "sha256": "e701f44d2051007c0260f41d0bbb574902ce06c14b7678a62341c105338fd69d",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/k-13-legacy-panel-16x9.jpg",
+   "size": 110573,
+   "sha256": "a1fd2c1bbc9401ec03b423880d062a462197c49773739496b4189da573879fc0",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/media/social/k-14-two-doors-1x1.jpg",
+   "size": 59497,
+   "sha256": "962bf70170a0ef7a6fd87c1a92342e2a539e55f9f47cee75b6aacee67c1f2e2b",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/tokens.css",
+   "size": 61,
+   "sha256": "524c5b8d20f6c4d1b7a8e2162e0f50478b3b0cdb6366b48451d98798e6880bce",
+   "generated_by_page": true,
+   "has_blob_refs": false
+  },
+  {
+   "path": "project/tokens.json",
+   "size": 15977,
+   "sha256": "b8c0591f4616b671d77cf8f328c6d096aafe8850cadba7a8ce36e91d93975181",
+   "generated_by_page": false,
+   "has_blob_refs": false
+  }
+ ]
+}

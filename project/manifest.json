@@ -1,0 +1,173 @@
+{
+  "manifestVersion": 3,
+  "name": "Connectry Design System",
+  "namespace": null,
+  "files": [
+    "assets/notes/MIGRATION-REPORT.md",
+    "assets/notes/SKILL.from-standalone.md",
+    "colors_and_type.css",
+    "preview/brand-loading.html",
+    "preview/brand-logos.html",
+    "preview/brand-voice.html",
+    "preview/colors-brand.html",
+    "preview/colors-neutrals.html",
+    "preview/colors-status.html",
+    "preview/components-badges.html",
+    "preview/components-buttons.html",
+    "preview/components-card.html",
+    "preview/components-form.html",
+    "preview/components-results.html",
+    "preview/radii.html",
+    "preview/shadows.html",
+    "preview/spacing-scale.html",
+    "preview/type-body.html",
+    "preview/type-display.html",
+    "preview/type-mono.html",
+    "tokens.css",
+    "ui_kits/salesforce/README.md",
+    "ui_kits/salesforce/index.html",
+    "ui_kits/salesforce/kit.css"
+  ],
+  "libraries": [],
+  "components": [],
+  "lastChange": {
+    "by": "Migration",
+    "via": "standalone export",
+    "at": "2026-09-17T23:05:01.700Z",
+    "note": "migrated from the standalone version",
+    "source": "claude-design",
+    "authoredIn": "spa"
+  },
+  "assetGroups": [
+    {
+      "name": "Other",
+      "files": [
+        {
+          "path": "assets/ConnectryLogoDark.png",
+          "id": "23671dbe4749230d961faeaba40bebe6"
+        },
+        {
+          "path": "assets/ConnectryLogoWhite.png",
+          "id": "fd42eaf1652673c1e507773f98b98e7f"
+        },
+        {
+          "path": "assets/connectry-logo.svg",
+          "id": "1d5b8969de70aac0c6b0c19b16979c9e"
+        },
+        {
+          "path": "assets/connectry-node-outlined.svg",
+          "id": "5cd0473991961430c085b3eb73af8d61"
+        },
+        {
+          "path": "assets/connectry-node.svg",
+          "id": "b69f70c349aa6d727aaeb27a500c66a7"
+        }
+      ]
+    },
+    {
+      "name": "Uploads",
+      "files": [
+        {
+          "path": "assets/Uploads/ConnectryLogoDark.png",
+          "id": "23671dbe4749230d961faeaba40bebe6"
+        },
+        {
+          "path": "assets/Uploads/ConnectryLogoWhite.png",
+          "id": "fd42eaf1652673c1e507773f98b98e7f"
+        },
+        {
+          "path": "assets/Uploads/connectry-logo.svg",
+          "id": "1d5b8969de70aac0c6b0c19b16979c9e"
+        }
+      ]
+    },
+    {
+      "name": "notes"
+    }
+  ],
+  "storage": {
+    "files": {
+      "assets/ConnectryLogoDark.png": {
+        "store": "blob",
+        "id": "23671dbe4749230d961faeaba40bebe6",
+        "sha256": "7eebbcf8b5dd79b7b683b26441e3353e69e0ab4a9d1b1bcb1994d38d78e7ab38",
+        "bytes": 5378,
+        "type": "image/png",
+        "name": "ConnectryLogoDark.png",
+        "addedAt": "2026-09-17T23:05:01.700Z",
+        "via": "standalone export"
+      },
+      "assets/ConnectryLogoWhite.png": {
+        "store": "blob",
+        "id": "fd42eaf1652673c1e507773f98b98e7f",
+        "sha256": "9a7b4205125c0120a88efadeb06590ba2ea002f22ace0997ff11698312dedd83",
+        "bytes": 9588,
+        "type": "image/png",
+        "name": "ConnectryLogoWhite.png",
+        "addedAt": "2026-09-17T23:05:01.700Z",
+        "via": "standalone export"
+      },
+      "assets/Uploads/ConnectryLogoDark.png": {
+        "store": "blob",
+        "id": "23671dbe4749230d961faeaba40bebe6",
+        "sha256": "7eebbcf8b5dd79b7b683b26441e3353e69e0ab4a9d1b1bcb1994d38d78e7ab38",
+        "bytes": 5378,
+        "type": "image/png",
+        "name": "ConnectryLogoDark.png",
+        "addedAt": "2026-09-17T23:05:01.700Z",
+        "via": "standalone export"
+      },
+      "assets/Uploads/ConnectryLogoWhite.png": {
+        "store": "blob",
+        "id": "fd42eaf1652673c1e507773f98b98e7f",
+        "sha256": "9a7b4205125c0120a88efadeb06590ba2ea002f22ace0997ff11698312dedd83",
+        "bytes": 9588,
+        "type": "image/png",
+        "name": "ConnectryLogoWhite.png",
+        "addedAt": "2026-09-17T23:05:01.700Z",
+        "via": "standalone export"
+      },
+      "assets/Uploads/connectry-logo.svg": {
+        "store": "blob",
+        "id": "1d5b8969de70aac0c6b0c19b16979c9e",
+        "sha256": "2762245cad8a3c6628ca4a8a7188d490e2a4b8c890e183f17da96d554613b46d",
+        "bytes": 680,
+        "type": "image/svg+xml",
+        "name": "connectry-logo.svg",
+        "addedAt": "2026-09-17T23:05:01.700Z",
+        "via": "standalone export"
+      },
+      "assets/connectry-logo.svg": {
+        "store": "blob",
+        "id": "1d5b8969de70aac0c6b0c19b16979c9e",
+        "sha256": "2762245cad8a3c6628ca4a8a7188d490e2a4b8c890e183f17da96d554613b46d",
+        "bytes": 680,
+        "type": "image/svg+xml",
+        "name": "connectry-logo.svg",
+        "addedAt": "2026-09-17T23:05:01.700Z",
+        "via": "standalone export"
+      },
+      "assets/connectry-node-outlined.svg": {
+        "store": "blob",
+        "id": "5cd0473991961430c085b3eb73af8d61",
+        "sha256": "0fbb217c7f3cd5dba66fdd98c60be1258595d0230416182d6395073fce6d557b",
+        "bytes": 501,
+        "type": "image/svg+xml",
+        "name": "connectry-node-outlined.svg",
+        "addedAt": "2026-09-17T23:05:01.700Z",
+        "via": "standalone export"
+      },
+      "assets/connectry-node.svg": {
+        "store": "blob",
+        "id": "b69f70c349aa6d727aaeb27a500c66a7",
+        "sha256": "fc7f4590249703b0936e29a6201a8bf1af37ef04ed95d913aecebcc6fa57fc30",
+        "bytes": 338,
+        "type": "image/svg+xml",
+        "name": "connectry-node.svg",
+        "addedAt": "2026-09-17T23:05:01.700Z",
+        "via": "standalone export"
+      }
+    },
+    "blobBytesUsed": 16485
+  }
+}

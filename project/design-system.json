@@ -1,0 +1,1169 @@
+{
+ "v": 3,
+ "layout": "files",
+ "createdOnFiles": {
+  "at": "2026-09-17T23:05:01.700Z",
+  "v": 1
+ },
+ "title": "Connectry Design System",
+ "namespace": null,
+ "libraries": [],
+ "sections": {},
+ "groups": [
+  "Logo",
+  "Imagery",
+  "Circles",
+  "Film",
+  "Social",
+  "Slides",
+  "Icons",
+  "Glass",
+  "notes"
+ ],
+ "assetGroups": {
+  "Logo": {
+   "name": "Logo",
+   "tile": "l",
+   "order": [
+    "connectry-lockup-horizontal-ink.svg",
+    "connectry-lockup-horizontal-white.svg",
+    "connectry-mark-ink.svg",
+    "connectry-mark-white.svg",
+    "connectry-favicon.svg"
+   ],
+   "files": {
+    "connectry-lockup-horizontal-ink.svg": {
+     "name": "connectry-lockup-horizontal-ink.svg",
+     "blob": "d7a24433400691b441e0af1e0e5bbcfe",
+     "size": 8110,
+     "type": "image/svg+xml"
+    },
+    "connectry-lockup-horizontal-white.svg": {
+     "name": "connectry-lockup-horizontal-white.svg",
+     "blob": "eba236f6401699f1ecacad0e2bb97671",
+     "size": 8110,
+     "type": "image/svg+xml"
+    },
+    "connectry-mark-ink.svg": {
+     "name": "connectry-mark-ink.svg",
+     "blob": "87eec6aaf79c57e0d92d07370aa0a90e",
+     "size": 309,
+     "type": "image/svg+xml"
+    },
+    "connectry-mark-white.svg": {
+     "name": "connectry-mark-white.svg",
+     "blob": "423eab6d48424fd5e2b416ae84e6abde",
+     "size": 309,
+     "type": "image/svg+xml"
+    },
+    "connectry-favicon.svg": {
+     "name": "connectry-favicon.svg",
+     "blob": "3e9660819e102992aedadf62e55b2fd1",
+     "size": 364,
+     "type": "image/svg+xml"
+    }
+   }
+  },
+  "Glass": {
+   "name": "Glass",
+   "tile": "m",
+   "order": [
+    "lens-map.png"
+   ],
+   "files": {
+    "lens-map.png": {
+     "name": "lens-map.png",
+     "blob": "8307ef4bba30e82def04ad8320eaf6fb",
+     "size": 15405,
+     "type": "image/png"
+    }
+   }
+  },
+  "notes": {
+   "name": "notes",
+   "tile": "s",
+   "order": [],
+   "files": {}
+  },
+  "Imagery": {
+   "name": "Imagery",
+   "order": [
+    "01-dawn-city-alt.jpg",
+    "01-dawn-city.jpg",
+    "02-curtain-alt.jpg",
+    "02-curtain.jpg",
+    "03-kitchen-morning-alt.jpg",
+    "03-kitchen-morning.jpg",
+    "04-phone-in-hand-alt.jpg",
+    "04-phone-in-hand.jpg",
+    "05-morning-crowd-alt.jpg",
+    "05-morning-crowd.jpg",
+    "06-lift-doors-alt.jpg",
+    "06-lift-doors.jpg",
+    "07-train-sunrise-alt.jpg",
+    "07-train-sunrise.jpg",
+    "08-rain-on-glass-alt.jpg",
+    "08-rain-on-glass.jpg",
+    "09-lobby-walk-alt.jpg",
+    "09-lobby-walk.jpg",
+    "10-colleagues-laughing-alt.jpg",
+    "10-colleagues-laughing.jpg",
+    "11-hands-typing-alt.jpg",
+    "11-hands-typing.jpg",
+    "12-glass-corridor-alt.jpg",
+    "12-glass-corridor.jpg",
+    "13-coffee-pouring-alt.jpg",
+    "13-coffee-pouring.jpg",
+    "14-meeting-room-window-alt.jpg",
+    "14-meeting-room-window.jpg",
+    "15-golden-crossing-alt.jpg",
+    "15-golden-crossing.jpg",
+    "16-cyclist-alt.jpg",
+    "16-cyclist.jpg",
+    "17-eyes-screen-alt.jpg",
+    "17-eyes-screen.jpg",
+    "18-desk-at-dusk-alt.jpg",
+    "18-desk-at-dusk.jpg",
+    "19-blue-hour-city-alt.jpg",
+    "19-blue-hour-city.jpg",
+    "20-night-walk-alt.jpg",
+    "20-night-walk.jpg"
+   ],
+   "files": {
+    "01-dawn-city-alt.jpg": {
+     "name": "01-dawn-city-alt.jpg",
+     "blob": "f5ee30bad6189d2d9f2a89a4fdf20687",
+     "size": 46476,
+     "type": "image/jpeg"
+    },
+    "01-dawn-city.jpg": {
+     "name": "01-dawn-city.jpg",
+     "blob": "31767c9a15ab3cad6833ae0456a4dee2",
+     "size": 192873,
+     "type": "image/jpeg"
+    },
+    "02-curtain-alt.jpg": {
+     "name": "02-curtain-alt.jpg",
+     "blob": "97ba0eec9051ad2aec4fc675e4fd6b92",
+     "size": 37011,
+     "type": "image/jpeg"
+    },
+    "02-curtain.jpg": {
+     "name": "02-curtain.jpg",
+     "blob": "6cc04a49b11f09354cf027c4011e6cfc",
+     "size": 109758,
+     "type": "image/jpeg"
+    },
+    "03-kitchen-morning-alt.jpg": {
+     "name": "03-kitchen-morning-alt.jpg",
+     "blob": "7473bc8fc90087581c8cce66ec77772f",
+     "size": 47912,
+     "type": "image/jpeg"
+    },
+    "03-kitchen-morning.jpg": {
+     "name": "03-kitchen-morning.jpg",
+     "blob": "9393403694e4079382dfa5d228f10cd9",
+     "size": 147782,
+     "type": "image/jpeg"
+    },
+    "04-phone-in-hand-alt.jpg": {
+     "name": "04-phone-in-hand-alt.jpg",
+     "blob": "5db4484ae441cee3a00ff6419aa5cc8e",
+     "size": 33394,
+     "type": "image/jpeg"
+    },
+    "04-phone-in-hand.jpg": {
+     "name": "04-phone-in-hand.jpg",
+     "blob": "391cd399a9c25fbb2fe6e4c6d9070fc0",
+     "size": 119379,
+     "type": "image/jpeg"
+    },
+    "05-morning-crowd-alt.jpg": {
+     "name": "05-morning-crowd-alt.jpg",
+     "blob": "0faa9ebe634a4c551722d5a504fac2a4",
+     "size": 55300,
+     "type": "image/jpeg"
+    },
+    "05-morning-crowd.jpg": {
+     "name": "05-morning-crowd.jpg",
+     "blob": "8da6c13b067620bff722f0f329a6f30e",
+     "size": 201476,
+     "type": "image/jpeg"
+    },
+    "06-lift-doors-alt.jpg": {
+     "name": "06-lift-doors-alt.jpg",
+     "blob": "24de00d0945622a9f60729b38fcac99d",
+     "size": 46147,
+     "type": "image/jpeg"
+    },
+    "06-lift-doors.jpg": {
+     "name": "06-lift-doors.jpg",
+     "blob": "27740f662af96b076808156149e93bfe",
+     "size": 190042,
+     "type": "image/jpeg"
+    },
+    "07-train-sunrise-alt.jpg": {
+     "name": "07-train-sunrise-alt.jpg",
+     "blob": "81b3eec6c72dec0c5627d78d87049194",
+     "size": 35961,
+     "type": "image/jpeg"
+    },
+    "07-train-sunrise.jpg": {
+     "name": "07-train-sunrise.jpg",
+     "blob": "23e95d732c440922fa6ac585020ca7c3",
+     "size": 165975,
+     "type": "image/jpeg"
+    },
+    "08-rain-on-glass-alt.jpg": {
+     "name": "08-rain-on-glass-alt.jpg",
+     "blob": "1d8809f1b43e13afee46a84eb99fa964",
+     "size": 62201,
+     "type": "image/jpeg"
+    },
+    "08-rain-on-glass.jpg": {
+     "name": "08-rain-on-glass.jpg",
+     "blob": "7d584da7944e93cea992e4fae4d9c09e",
+     "size": 225538,
+     "type": "image/jpeg"
+    },
+    "09-lobby-walk-alt.jpg": {
+     "name": "09-lobby-walk-alt.jpg",
+     "blob": "bd82489ba72609d4487c308a518041e5",
+     "size": 50917,
+     "type": "image/jpeg"
+    },
+    "09-lobby-walk.jpg": {
+     "name": "09-lobby-walk.jpg",
+     "blob": "1cfce90895f2207bee2336c21d827bd4",
+     "size": 146804,
+     "type": "image/jpeg"
+    },
+    "10-colleagues-laughing-alt.jpg": {
+     "name": "10-colleagues-laughing-alt.jpg",
+     "blob": "76ba1821aa4b916f8c4d7e7f44fee7db",
+     "size": 44095,
+     "type": "image/jpeg"
+    },
+    "10-colleagues-laughing.jpg": {
+     "name": "10-colleagues-laughing.jpg",
+     "blob": "d942f6836a767f65d5c2e6b255064c35",
+     "size": 136737,
+     "type": "image/jpeg"
+    },
+    "11-hands-typing-alt.jpg": {
+     "name": "11-hands-typing-alt.jpg",
+     "blob": "30321fd98da5a645fc4b8de8ad3bebc9",
+     "size": 37587,
+     "type": "image/jpeg"
+    },
+    "11-hands-typing.jpg": {
+     "name": "11-hands-typing.jpg",
+     "blob": "d34bfd0836ad4484bbbbbadb95c69b67",
+     "size": 136286,
+     "type": "image/jpeg"
+    },
+    "12-glass-corridor-alt.jpg": {
+     "name": "12-glass-corridor-alt.jpg",
+     "blob": "1aa0558ee49c2ade255e9fee70ab921a",
+     "size": 48391,
+     "type": "image/jpeg"
+    },
+    "12-glass-corridor.jpg": {
+     "name": "12-glass-corridor.jpg",
+     "blob": "7d5f9f1b7cfeb3d5731411551e8bc0d9",
+     "size": 167000,
+     "type": "image/jpeg"
+    },
+    "13-coffee-pouring-alt.jpg": {
+     "name": "13-coffee-pouring-alt.jpg",
+     "blob": "67671c28c1d5b2125a22a84a198e6b1a",
+     "size": 47305,
+     "type": "image/jpeg"
+    },
+    "13-coffee-pouring.jpg": {
+     "name": "13-coffee-pouring.jpg",
+     "blob": "0a2fd79ce7262b6107bff4b9a9afb841",
+     "size": 156245,
+     "type": "image/jpeg"
+    },
+    "14-meeting-room-window-alt.jpg": {
+     "name": "14-meeting-room-window-alt.jpg",
+     "blob": "c550413a5439bb7a189a4e77ce5da3be",
+     "size": 33855,
+     "type": "image/jpeg"
+    },
+    "14-meeting-room-window.jpg": {
+     "name": "14-meeting-room-window.jpg",
+     "blob": "16fd4005770d71d0d9a0b586610745a2",
+     "size": 110880,
+     "type": "image/jpeg"
+    },
+    "15-golden-crossing-alt.jpg": {
+     "name": "15-golden-crossing-alt.jpg",
+     "blob": "660051b4686b3e605d9a694e87249c4c",
+     "size": 50988,
+     "type": "image/jpeg"
+    },
+    "15-golden-crossing.jpg": {
+     "name": "15-golden-crossing.jpg",
+     "blob": "299f1226131240dd9618ac642d3f17b1",
+     "size": 221235,
+     "type": "image/jpeg"
+    },
+    "16-cyclist-alt.jpg": {
+     "name": "16-cyclist-alt.jpg",
+     "blob": "05cf8b9450c7d143b8929f9eadd60fa1",
+     "size": 52837,
+     "type": "image/jpeg"
+    },
+    "16-cyclist.jpg": {
+     "name": "16-cyclist.jpg",
+     "blob": "60cb932487a7bfc1853d4f9e26dcd007",
+     "size": 247770,
+     "type": "image/jpeg"
+    },
+    "17-eyes-screen-alt.jpg": {
+     "name": "17-eyes-screen-alt.jpg",
+     "blob": "14d1357ac575789db0c56e7b88287519",
+     "size": 30458,
+     "type": "image/jpeg"
+    },
+    "17-eyes-screen.jpg": {
+     "name": "17-eyes-screen.jpg",
+     "blob": "ee558fb3a7b9710986a03a0329e90ccc",
+     "size": 111089,
+     "type": "image/jpeg"
+    },
+    "18-desk-at-dusk-alt.jpg": {
+     "name": "18-desk-at-dusk-alt.jpg",
+     "blob": "87b75af80ae6c38993a5522333ff5e91",
+     "size": 46119,
+     "type": "image/jpeg"
+    },
+    "18-desk-at-dusk.jpg": {
+     "name": "18-desk-at-dusk.jpg",
+     "blob": "cbc14d57438cba62e6a570091e36edda",
+     "size": 127800,
+     "type": "image/jpeg"
+    },
+    "19-blue-hour-city-alt.jpg": {
+     "name": "19-blue-hour-city-alt.jpg",
+     "blob": "a7d3544528d780c1b27312a5cfa5ed43",
+     "size": 59459,
+     "type": "image/jpeg"
+    },
+    "19-blue-hour-city.jpg": {
+     "name": "19-blue-hour-city.jpg",
+     "blob": "a44265dab8bb08b95ed6dca45baa0a6f",
+     "size": 234706,
+     "type": "image/jpeg"
+    },
+    "20-night-walk-alt.jpg": {
+     "name": "20-night-walk-alt.jpg",
+     "blob": "8ad5a15e4ae0bd856e83659e8b855be9",
+     "size": 49202,
+     "type": "image/jpeg"
+    },
+    "20-night-walk.jpg": {
+     "name": "20-night-walk.jpg",
+     "blob": "89aed45f1658c0da8dc29f7cf49029ee",
+     "size": 147105,
+     "type": "image/jpeg"
+    }
+   },
+   "tile": "l"
+  },
+  "Circles": {
+   "name": "Circles",
+   "order": [
+    "21-grandparents-call.jpg",
+    "22-flat-share.jpg",
+    "23-five-a-side.jpg",
+    "24-school-gate.jpg",
+    "25-sunday-sofa.jpg",
+    "26-cafe-opening.jpg",
+    "27-friends-platform.jpg",
+    "28-the-toast.jpg",
+    "29-freelancer.jpg",
+    "30-small-team.jpg"
+   ],
+   "files": {
+    "21-grandparents-call.jpg": {
+     "name": "21-grandparents-call.jpg",
+     "blob": "08fb7e9a7c73c3c910bb05166f72667d",
+     "size": 199697,
+     "type": "image/jpeg"
+    },
+    "22-flat-share.jpg": {
+     "name": "22-flat-share.jpg",
+     "blob": "d24c804b34cf1f34d7f1bacad8479451",
+     "size": 176229,
+     "type": "image/jpeg"
+    },
+    "23-five-a-side.jpg": {
+     "name": "23-five-a-side.jpg",
+     "blob": "7423632d9b27c6d81a288a1d41210af6",
+     "size": 215393,
+     "type": "image/jpeg"
+    },
+    "24-school-gate.jpg": {
+     "name": "24-school-gate.jpg",
+     "blob": "06c266b01bb80afff72379a0abf2e097",
+     "size": 245050,
+     "type": "image/jpeg"
+    },
+    "25-sunday-sofa.jpg": {
+     "name": "25-sunday-sofa.jpg",
+     "blob": "9a6541ee312872ee4d4386655e394153",
+     "size": 201625,
+     "type": "image/jpeg"
+    },
+    "26-cafe-opening.jpg": {
+     "name": "26-cafe-opening.jpg",
+     "blob": "167bf0cc0d52bd6c6f801d08742b9d38",
+     "size": 216727,
+     "type": "image/jpeg"
+    },
+    "27-friends-platform.jpg": {
+     "name": "27-friends-platform.jpg",
+     "blob": "5fedd40105dcff75f0e88ab3323a0466",
+     "size": 201079,
+     "type": "image/jpeg"
+    },
+    "28-the-toast.jpg": {
+     "name": "28-the-toast.jpg",
+     "blob": "1b0064d114412ccb1c181deb17e6e426",
+     "size": 147600,
+     "type": "image/jpeg"
+    },
+    "29-freelancer.jpg": {
+     "name": "29-freelancer.jpg",
+     "blob": "5497375ae8155a6f3c0e781ba9961e1d",
+     "size": 157892,
+     "type": "image/jpeg"
+    },
+    "30-small-team.jpg": {
+     "name": "30-small-team.jpg",
+     "blob": "93a269d568856f38c48112be87b8e0cf",
+     "size": 216645,
+     "type": "image/jpeg"
+    }
+   },
+   "tile": "l"
+  },
+  "Film": {
+   "name": "Film",
+   "order": [
+    "hero.mp4",
+    "connectry-film-v15-720.mp4",
+    "connectry-hero-day-loop.mp4",
+    "stills/f1-overture-kitchen.jpg",
+    "stills/f2-door-bloom.jpg",
+    "stills/f3-endcard.jpg",
+    "stills/f4-phone.jpg",
+    "stills/f5-ask-crossing.jpg",
+    "stills/f6-ask-flat.jpg",
+    "stills/f7-dashboard.jpg",
+    "01-dawn-city.mp4",
+    "03-kitchen-morning.mp4",
+    "07-train-sunrise.mp4",
+    "10-colleagues-laughing.mp4",
+    "14-meeting-room-window.mp4",
+    "20-night-walk.mp4",
+    "21-grandparents-call.mp4",
+    "22-flat-share.mp4",
+    "23-five-a-side.mp4",
+    "28-the-toast.mp4"
+   ],
+   "files": {
+    "stills/f1-overture-kitchen.jpg": {
+     "name": "stills/f1-overture-kitchen.jpg",
+     "blob": "845e546516199efe964c2da47282821b",
+     "size": 103636,
+     "type": "image/jpeg"
+    },
+    "stills/f2-door-bloom.jpg": {
+     "name": "stills/f2-door-bloom.jpg",
+     "blob": "ca27b867dda498ec565c819af0be7c25",
+     "size": 105140,
+     "type": "image/jpeg"
+    },
+    "stills/f3-endcard.jpg": {
+     "name": "stills/f3-endcard.jpg",
+     "blob": "27f567fbd0d9fb44c1d339da208e0256",
+     "size": 20868,
+     "type": "image/jpeg"
+    },
+    "stills/f4-phone.jpg": {
+     "name": "stills/f4-phone.jpg",
+     "blob": "c7b73251a010b2e9985a38a440575652",
+     "size": 51174,
+     "type": "image/jpeg"
+    },
+    "stills/f5-ask-crossing.jpg": {
+     "name": "stills/f5-ask-crossing.jpg",
+     "blob": "4cb69071918d07eab411624a64111cd2",
+     "size": 174527,
+     "type": "image/jpeg"
+    },
+    "stills/f6-ask-flat.jpg": {
+     "name": "stills/f6-ask-flat.jpg",
+     "blob": "15a91df1fb3c9e1babd726d58f1fcaa3",
+     "size": 111770,
+     "type": "image/jpeg"
+    },
+    "stills/f7-dashboard.jpg": {
+     "name": "stills/f7-dashboard.jpg",
+     "blob": "4b8b1fa1352bbe0d2790eddb2527976d",
+     "size": 199902,
+     "type": "image/jpeg"
+    },
+    "01-dawn-city.mp4": {
+     "name": "01-dawn-city.mp4",
+     "blob": "387e656b7a6cabb95a0afebd33ddd37b",
+     "size": 357863,
+     "type": "video/mp4"
+    },
+    "03-kitchen-morning.mp4": {
+     "name": "03-kitchen-morning.mp4",
+     "blob": "fed0d202ee8073d27ad5062dcdd95c16",
+     "size": 438515,
+     "type": "video/mp4"
+    },
+    "07-train-sunrise.mp4": {
+     "name": "07-train-sunrise.mp4",
+     "blob": "55e928d2851fe0c085ccc178c4f649e5",
+     "size": 690208,
+     "type": "video/mp4"
+    },
+    "10-colleagues-laughing.mp4": {
+     "name": "10-colleagues-laughing.mp4",
+     "blob": "e54663ff0fbb1a2f77eaa05ac6e36251",
+     "size": 465041,
+     "type": "video/mp4"
+    },
+    "14-meeting-room-window.mp4": {
+     "name": "14-meeting-room-window.mp4",
+     "blob": "aa41e59c51de8cc1306714676a32be98",
+     "size": 372032,
+     "type": "video/mp4"
+    },
+    "20-night-walk.mp4": {
+     "name": "20-night-walk.mp4",
+     "blob": "777d02569f26d08a12e477a6dc767438",
+     "size": 617057,
+     "type": "video/mp4"
+    },
+    "21-grandparents-call.mp4": {
+     "name": "21-grandparents-call.mp4",
+     "blob": "126968279f95b09b294c106699200861",
+     "size": 525437,
+     "type": "video/mp4"
+    },
+    "22-flat-share.mp4": {
+     "name": "22-flat-share.mp4",
+     "blob": "2e84eba1e8579e385d74be8779ae0be6",
+     "size": 626523,
+     "type": "video/mp4"
+    },
+    "23-five-a-side.mp4": {
+     "name": "23-five-a-side.mp4",
+     "blob": "5ccc79a9acf39609f4a7be5fb8fab1a7",
+     "size": 892818,
+     "type": "video/mp4"
+    },
+    "28-the-toast.mp4": {
+     "name": "28-the-toast.mp4",
+     "blob": "fa3be73424d910ebac308a13746e795b",
+     "size": 546122,
+     "type": "video/mp4"
+    },
+    "connectry-film-v15-720.mp4": {
+     "name": "connectry-film-v15-720.mp4",
+     "blob": "c720cb513f440a3beb227ea045a1c4c0",
+     "size": 12052549,
+     "type": "video/mp4"
+    },
+    "connectry-hero-day-loop.mp4": {
+     "name": "connectry-hero-day-loop.mp4",
+     "blob": "ec1d420a40d3ca233f1eca1ad9f68c29",
+     "size": 2138705,
+     "type": "video/mp4"
+    },
+    "hero.mp4": {
+     "name": "hero.mp4",
+     "blob": "f2e8ac50f2283cd6100306baf31c6ce8",
+     "size": 14015919,
+     "type": "video/mp4"
+    }
+   },
+   "tile": "l"
+  },
+  "Social": {
+   "name": "Social",
+   "order": [
+    "a-02-read-the-thread-4x5.jpg",
+    "a-03-took-notes-16x9.jpg",
+    "a-04-not-overslept-1x1.jpg",
+    "a-05-march-decision-4x5.jpg",
+    "a-06-does-not-reply-all-1x1.jpg",
+    "a-07-nights-16x9.jpg",
+    "a-08-already-done-4x5.jpg",
+    "b-01-kept-the-hour-1x1.jpg",
+    "b-02-thursdays-deck-4x5.jpg",
+    "b-03-easy-half-1x1.jpg",
+    "b-04-you-said-no-16x9.jpg",
+    "b-05-conversation-1x1.jpg",
+    "b-06-decision-card-4x5.jpg",
+    "b-07-calendar-move-1x1.jpg",
+    "b-08-night-shift-chips-16x9.jpg",
+    "c-01-forgot-1x1.jpg",
+    "c-03-ask-it-1x1.jpg",
+    "c-04-knows-why-16x9.jpg",
+    "c-05-who-answers-4x5.jpg",
+    "c-06-run-ours-1x1.jpg",
+    "d-01-a-morning-4x5.jpg",
+    "e-01-164-1x1.jpg",
+    "e-02-1715-4x5.jpg",
+    "e-03-0-1x1.jpg",
+    "f-01-same-day-4x5.jpg",
+    "g-carousel-01-4x5.jpg",
+    "g-carousel-02-4x5.jpg",
+    "g-carousel-03-4x5.jpg",
+    "g-carousel-04-4x5.jpg",
+    "g-carousel-05-4x5.jpg",
+    "g-carousel-06-4x5.jpg",
+    "h-02-story-forgot-9x16.jpg",
+    "h-03-story-already-done-9x16.jpg",
+    "h-04-story-passed-down-9x16.jpg",
+    "k-01-milk-1x1.jpg",
+    "k-02-always-late-4x5.jpg",
+    "k-03-lift-home-16x9.jpg",
+    "k-04-yours-share-4x5.jpg",
+    "k-05-year-prepared-1x1.jpg",
+    "k-06-itinerary-4x5.jpg",
+    "k-07-passed-down-1x1.jpg",
+    "k-08-nonna-4x5.jpg",
+    "k-10-builds-1x1.jpg",
+    "k-11-studio-panel-4x5.jpg",
+    "k-12-school-panel-16x9.jpg",
+    "k-13-legacy-panel-16x9.jpg",
+    "k-14-two-doors-1x1.jpg",
+    "crops/03-kitchen-morning-1x1.jpg",
+    "crops/07-train-sunrise-4x5.jpg"
+   ],
+   "files": {
+    "a-02-read-the-thread-4x5.jpg": {
+     "name": "a-02-read-the-thread-4x5.jpg",
+     "blob": "81db86829fc203d6c6ae7c30aa181da7",
+     "size": 168889,
+     "type": "image/jpeg"
+    },
+    "a-03-took-notes-16x9.jpg": {
+     "name": "a-03-took-notes-16x9.jpg",
+     "blob": "5d5dc4a4444b7900d1e8ebc4a0378a6d",
+     "size": 91960,
+     "type": "image/jpeg"
+    },
+    "a-04-not-overslept-1x1.jpg": {
+     "name": "a-04-not-overslept-1x1.jpg",
+     "blob": "9469d3ed033915f11820f4d9257a2d40",
+     "size": 169969,
+     "type": "image/jpeg"
+    },
+    "a-05-march-decision-4x5.jpg": {
+     "name": "a-05-march-decision-4x5.jpg",
+     "blob": "67ceb6b2112da9ba8c8a3bd14f1c6f28",
+     "size": 170417,
+     "type": "image/jpeg"
+    },
+    "a-06-does-not-reply-all-1x1.jpg": {
+     "name": "a-06-does-not-reply-all-1x1.jpg",
+     "blob": "52a69373fde7d8c09e58c178d4cd504c",
+     "size": 126650,
+     "type": "image/jpeg"
+    },
+    "a-07-nights-16x9.jpg": {
+     "name": "a-07-nights-16x9.jpg",
+     "blob": "3b61b3fef976302eea4c93b292ca4088",
+     "size": 112579,
+     "type": "image/jpeg"
+    },
+    "a-08-already-done-4x5.jpg": {
+     "name": "a-08-already-done-4x5.jpg",
+     "blob": "fe2df0bdf28f9a985d690cc366d9bdef",
+     "size": 120119,
+     "type": "image/jpeg"
+    },
+    "b-01-kept-the-hour-1x1.jpg": {
+     "name": "b-01-kept-the-hour-1x1.jpg",
+     "blob": "fe87355a6386b460d43afe4868cf137c",
+     "size": 126501,
+     "type": "image/jpeg"
+    },
+    "b-02-thursdays-deck-4x5.jpg": {
+     "name": "b-02-thursdays-deck-4x5.jpg",
+     "blob": "30e00a46cac3b15c8bb83d45d85234e0",
+     "size": 146006,
+     "type": "image/jpeg"
+    },
+    "b-03-easy-half-1x1.jpg": {
+     "name": "b-03-easy-half-1x1.jpg",
+     "blob": "6e60b8a5a4a02b1905e68c183de47d16",
+     "size": 123493,
+     "type": "image/jpeg"
+    },
+    "b-04-you-said-no-16x9.jpg": {
+     "name": "b-04-you-said-no-16x9.jpg",
+     "blob": "88e3837f3df20aa0f8acb5fb52709441",
+     "size": 91573,
+     "type": "image/jpeg"
+    },
+    "b-05-conversation-1x1.jpg": {
+     "name": "b-05-conversation-1x1.jpg",
+     "blob": "ec7c99ce1bf960f51c289f08603f78dc",
+     "size": 141615,
+     "type": "image/jpeg"
+    },
+    "b-06-decision-card-4x5.jpg": {
+     "name": "b-06-decision-card-4x5.jpg",
+     "blob": "f39d13995302e957c5eadb97e3783fc9",
+     "size": 162361,
+     "type": "image/jpeg"
+    },
+    "b-07-calendar-move-1x1.jpg": {
+     "name": "b-07-calendar-move-1x1.jpg",
+     "blob": "fcabcc061637e5967fb11acdd9c4dfcb",
+     "size": 165187,
+     "type": "image/jpeg"
+    },
+    "b-08-night-shift-chips-16x9.jpg": {
+     "name": "b-08-night-shift-chips-16x9.jpg",
+     "blob": "fabe7ba566e03645b46bd42bfc0c06f1",
+     "size": 115947,
+     "type": "image/jpeg"
+    },
+    "c-01-forgot-1x1.jpg": {
+     "name": "c-01-forgot-1x1.jpg",
+     "blob": "37a95e6b667e25490594556b0d19b442",
+     "size": 64367,
+     "type": "image/jpeg"
+    },
+    "c-03-ask-it-1x1.jpg": {
+     "name": "c-03-ask-it-1x1.jpg",
+     "blob": "a5b27e1d3ddb3b06db38c706a527d6e4",
+     "size": 57046,
+     "type": "image/jpeg"
+    },
+    "c-04-knows-why-16x9.jpg": {
+     "name": "c-04-knows-why-16x9.jpg",
+     "blob": "047f00f8aedda2dc20772705df2653a2",
+     "size": 27942,
+     "type": "image/jpeg"
+    },
+    "c-05-who-answers-4x5.jpg": {
+     "name": "c-05-who-answers-4x5.jpg",
+     "blob": "406a827184573d26bde517531787c243",
+     "size": 49119,
+     "type": "image/jpeg"
+    },
+    "c-06-run-ours-1x1.jpg": {
+     "name": "c-06-run-ours-1x1.jpg",
+     "blob": "bd9abfcd051fb2077fe3bbb59e496fa1",
+     "size": 47180,
+     "type": "image/jpeg"
+    },
+    "d-01-a-morning-4x5.jpg": {
+     "name": "d-01-a-morning-4x5.jpg",
+     "blob": "1f306243ba9045a5b49577769bde7c09",
+     "size": 138239,
+     "type": "image/jpeg"
+    },
+    "e-01-164-1x1.jpg": {
+     "name": "e-01-164-1x1.jpg",
+     "blob": "8ae8be1e6afc406dcd0cd1e4ed23f7a8",
+     "size": 42091,
+     "type": "image/jpeg"
+    },
+    "e-02-1715-4x5.jpg": {
+     "name": "e-02-1715-4x5.jpg",
+     "blob": "ca7e90d0437309d5fe715d6eaa1990f9",
+     "size": 45019,
+     "type": "image/jpeg"
+    },
+    "e-03-0-1x1.jpg": {
+     "name": "e-03-0-1x1.jpg",
+     "blob": "7d10502cbaae2727c54bc574e2982bc2",
+     "size": 37855,
+     "type": "image/jpeg"
+    },
+    "f-01-same-day-4x5.jpg": {
+     "name": "f-01-same-day-4x5.jpg",
+     "blob": "9c526a02d605d6d1b3eaf4528a5aa6fe",
+     "size": 79244,
+     "type": "image/jpeg"
+    },
+    "g-carousel-01-4x5.jpg": {
+     "name": "g-carousel-01-4x5.jpg",
+     "blob": "43500dec3e374db0974f570eb30a1532",
+     "size": 215283,
+     "type": "image/jpeg"
+    },
+    "g-carousel-02-4x5.jpg": {
+     "name": "g-carousel-02-4x5.jpg",
+     "blob": "0935c97fb208316ea78866103df15fa9",
+     "size": 146983,
+     "type": "image/jpeg"
+    },
+    "g-carousel-03-4x5.jpg": {
+     "name": "g-carousel-03-4x5.jpg",
+     "blob": "05bd458ddade3efee06c3df2830c1a9a",
+     "size": 187760,
+     "type": "image/jpeg"
+    },
+    "g-carousel-04-4x5.jpg": {
+     "name": "g-carousel-04-4x5.jpg",
+     "blob": "d3a8604e7b99363c0da64da7445c0754",
+     "size": 156219,
+     "type": "image/jpeg"
+    },
+    "g-carousel-05-4x5.jpg": {
+     "name": "g-carousel-05-4x5.jpg",
+     "blob": "f30c8d32cbd662edc3511c224edd1c9b",
+     "size": 146382,
+     "type": "image/jpeg"
+    },
+    "g-carousel-06-4x5.jpg": {
+     "name": "g-carousel-06-4x5.jpg",
+     "blob": "5f7dd6b6302c0e93d1bfc90bdecc232f",
+     "size": 142102,
+     "type": "image/jpeg"
+    },
+    "h-02-story-forgot-9x16.jpg": {
+     "name": "h-02-story-forgot-9x16.jpg",
+     "blob": "569ba8f7b352e4ff585405682b76f37d",
+     "size": 76458,
+     "type": "image/jpeg"
+    },
+    "h-03-story-already-done-9x16.jpg": {
+     "name": "h-03-story-already-done-9x16.jpg",
+     "blob": "6a1d889c34f7a4e1e91bd208f64aee2a",
+     "size": 177964,
+     "type": "image/jpeg"
+    },
+    "h-04-story-passed-down-9x16.jpg": {
+     "name": "h-04-story-passed-down-9x16.jpg",
+     "blob": "c49c0362c201c958e76b64e847319a69",
+     "size": 240512,
+     "type": "image/jpeg"
+    },
+    "k-01-milk-1x1.jpg": {
+     "name": "k-01-milk-1x1.jpg",
+     "blob": "bdec41215f46b8b3aedf894c640949ac",
+     "size": 142412,
+     "type": "image/jpeg"
+    },
+    "k-02-always-late-4x5.jpg": {
+     "name": "k-02-always-late-4x5.jpg",
+     "blob": "894769b8360fa1359e1e25830c4f86dc",
+     "size": 193589,
+     "type": "image/jpeg"
+    },
+    "k-03-lift-home-16x9.jpg": {
+     "name": "k-03-lift-home-16x9.jpg",
+     "blob": "bef0fdd3ace54a8ba30269733275ab18",
+     "size": 128971,
+     "type": "image/jpeg"
+    },
+    "k-04-yours-share-4x5.jpg": {
+     "name": "k-04-yours-share-4x5.jpg",
+     "blob": "081b0d34bb7a861c20ef50c002af342a",
+     "size": 188901,
+     "type": "image/jpeg"
+    },
+    "k-05-year-prepared-1x1.jpg": {
+     "name": "k-05-year-prepared-1x1.jpg",
+     "blob": "ea35adf529229ab0c2e271aa7c2d77c1",
+     "size": 137170,
+     "type": "image/jpeg"
+    },
+    "k-06-itinerary-4x5.jpg": {
+     "name": "k-06-itinerary-4x5.jpg",
+     "blob": "7414380f7163dd30aa2fb909df0e00bd",
+     "size": 200026,
+     "type": "image/jpeg"
+    },
+    "k-07-passed-down-1x1.jpg": {
+     "name": "k-07-passed-down-1x1.jpg",
+     "blob": "ede211a2e12534ab74883292f7b80907",
+     "size": 154668,
+     "type": "image/jpeg"
+    },
+    "k-08-nonna-4x5.jpg": {
+     "name": "k-08-nonna-4x5.jpg",
+     "blob": "ed96b327b934f07e4c93703507f4ebe8",
+     "size": 197744,
+     "type": "image/jpeg"
+    },
+    "k-10-builds-1x1.jpg": {
+     "name": "k-10-builds-1x1.jpg",
+     "blob": "3dd7ce6cfa69c9d465c232038ca90823",
+     "size": 176200,
+     "type": "image/jpeg"
+    },
+    "k-11-studio-panel-4x5.jpg": {
+     "name": "k-11-studio-panel-4x5.jpg",
+     "blob": "8e0233d2e6e1221279437eca63b12073",
+     "size": 214141,
+     "type": "image/jpeg"
+    },
+    "k-12-school-panel-16x9.jpg": {
+     "name": "k-12-school-panel-16x9.jpg",
+     "blob": "45cd41ae16d69b15290e534f84c7eeef",
+     "size": 123062,
+     "type": "image/jpeg"
+    },
+    "k-13-legacy-panel-16x9.jpg": {
+     "name": "k-13-legacy-panel-16x9.jpg",
+     "blob": "bcf42edfcb36702d44b6ec9998ca842b",
+     "size": 110573,
+     "type": "image/jpeg"
+    },
+    "k-14-two-doors-1x1.jpg": {
+     "name": "k-14-two-doors-1x1.jpg",
+     "blob": "e390c125f7aae9fc1d30da0d86a1b1a5",
+     "size": 59497,
+     "type": "image/jpeg"
+    },
+    "crops/03-kitchen-morning-1x1.jpg": {
+     "name": "crops/03-kitchen-morning-1x1.jpg",
+     "blob": "8fc0a8e633ac894d805e9a501bab637d",
+     "size": 83013,
+     "type": "image/jpeg"
+    },
+    "crops/07-train-sunrise-4x5.jpg": {
+     "name": "crops/07-train-sunrise-4x5.jpg",
+     "blob": "3d451abfecbb782a57995c5462c69142",
+     "size": 129534,
+     "type": "image/jpeg"
+    }
+   },
+   "tile": "m"
+  },
+  "Slides": {
+   "name": "Slides",
+   "order": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg",
+    "08.jpg",
+    "09.jpg",
+    "10.jpg",
+    "11.jpg",
+    "12.jpg",
+    "13.jpg",
+    "14.jpg",
+    "15.jpg",
+    "16.jpg",
+    "17.jpg",
+    "18.jpg"
+   ],
+   "files": {
+    "01.jpg": {
+     "name": "01.jpg",
+     "blob": "693304c0737fd6f3503daa3c6497e74b",
+     "size": 94359,
+     "type": "image/jpeg"
+    },
+    "02.jpg": {
+     "name": "02.jpg",
+     "blob": "5beba92de8236b080b2edb4fce359f51",
+     "size": 36099,
+     "type": "image/jpeg"
+    },
+    "03.jpg": {
+     "name": "03.jpg",
+     "blob": "3bcc0ad47b881139ab76e5b81ad68957",
+     "size": 14777,
+     "type": "image/jpeg"
+    },
+    "04.jpg": {
+     "name": "04.jpg",
+     "blob": "dd3cd9725817e1597160de454d366026",
+     "size": 37658,
+     "type": "image/jpeg"
+    },
+    "05.jpg": {
+     "name": "05.jpg",
+     "blob": "93a80ee18aebc622eb9f68a9a849d9a1",
+     "size": 54270,
+     "type": "image/jpeg"
+    },
+    "06.jpg": {
+     "name": "06.jpg",
+     "blob": "e08dddca95c100b84fe747289933ea51",
+     "size": 24782,
+     "type": "image/jpeg"
+    },
+    "07.jpg": {
+     "name": "07.jpg",
+     "blob": "97d7fbd23f1fc442514d946332ab8750",
+     "size": 29085,
+     "type": "image/jpeg"
+    },
+    "08.jpg": {
+     "name": "08.jpg",
+     "blob": "2975617e6144f08a4a8deff87aad5460",
+     "size": 31998,
+     "type": "image/jpeg"
+    },
+    "09.jpg": {
+     "name": "09.jpg",
+     "blob": "bed6e2f51897a0c55a04eaed1afb60bd",
+     "size": 35867,
+     "type": "image/jpeg"
+    },
+    "10.jpg": {
+     "name": "10.jpg",
+     "blob": "47c6e3b135cb7a1414907e596cf60073",
+     "size": 31119,
+     "type": "image/jpeg"
+    },
+    "11.jpg": {
+     "name": "11.jpg",
+     "blob": "f367f04a83cd828f1fac7fbbfa3d5d39",
+     "size": 35207,
+     "type": "image/jpeg"
+    },
+    "12.jpg": {
+     "name": "12.jpg",
+     "blob": "79fbb187e6796046c5c5b81b6059ece6",
+     "size": 43446,
+     "type": "image/jpeg"
+    },
+    "13.jpg": {
+     "name": "13.jpg",
+     "blob": "e0970fcc7e04eaed861809d2108ac109",
+     "size": 63540,
+     "type": "image/jpeg"
+    },
+    "14.jpg": {
+     "name": "14.jpg",
+     "blob": "7321654416d07369c27ac6ffce72cfaa",
+     "size": 20374,
+     "type": "image/jpeg"
+    },
+    "15.jpg": {
+     "name": "15.jpg",
+     "blob": "eb2fbc32d8759c1066350d8d4d9f04ad",
+     "size": 63612,
+     "type": "image/jpeg"
+    },
+    "16.jpg": {
+     "name": "16.jpg",
+     "blob": "21ec473d1164d2ca561c105336560d3c",
+     "size": 76077,
+     "type": "image/jpeg"
+    },
+    "17.jpg": {
+     "name": "17.jpg",
+     "blob": "1861c4f811f6e580509ad4d3ddfa55a3",
+     "size": 26481,
+     "type": "image/jpeg"
+    },
+    "18.jpg": {
+     "name": "18.jpg",
+     "blob": "8e12bd7f2d9c961fa09d9eed442285a5",
+     "size": 61009,
+     "type": "image/jpeg"
+    }
+   },
+   "tile": "m"
+  },
+  "Icons": {
+   "name": "Icons",
+   "order": [
+    "connectry-app-icon-blue-512.png",
+    "connectry-app-icon-ink-512.png",
+    "connectry-avatar-blue-512.png",
+    "connectry-avatar-white-512.png",
+    "favicon-16.png",
+    "favicon-32.png",
+    "favicon-48.png"
+   ],
+   "files": {
+    "connectry-app-icon-blue-512.png": {
+     "name": "connectry-app-icon-blue-512.png",
+     "blob": "cb249a4fc1c4f3df17481ee22616f0ac",
+     "size": 7967,
+     "type": "image/png"
+    },
+    "connectry-app-icon-ink-512.png": {
+     "name": "connectry-app-icon-ink-512.png",
+     "blob": "e5dc205bd69ddafa46e2b94ba183e758",
+     "size": 7860,
+     "type": "image/png"
+    },
+    "connectry-avatar-blue-512.png": {
+     "name": "connectry-avatar-blue-512.png",
+     "blob": "938641835e076f1fde81d9aee0689e56",
+     "size": 13673,
+     "type": "image/png"
+    },
+    "connectry-avatar-white-512.png": {
+     "name": "connectry-avatar-white-512.png",
+     "blob": "6ef3b14beea84bf10d62cb0bb52c9133",
+     "size": 10835,
+     "type": "image/png"
+    },
+    "favicon-16.png": {
+     "name": "favicon-16.png",
+     "blob": "3f7c91b013e6e22b0f02326b3e26c8b6",
+     "size": 355,
+     "type": "image/png"
+    },
+    "favicon-32.png": {
+     "name": "favicon-32.png",
+     "blob": "a07137dbbf9910dad6700a9dc3d937c1",
+     "size": 455,
+     "type": "image/png"
+    },
+    "favicon-48.png": {
+     "name": "favicon-48.png",
+     "blob": "813bd58e1adbb26fbfffd1105addccbc",
+     "size": 713,
+     "type": "image/png"
+    }
+   },
+   "tile": "s"
+  }
+ },
+ "blobs": {},
+ "docs": {
+  "readme": "project/README.md",
+  "sections": []
+ },
+ "source": {
+  "app": "claude-design",
+  "exportedAt": "2026-09-17T23:05:01.700Z",
+  "projectId": "8856baec-1efd-48eb-8a28-6c4b29e70f97",
+  "url": "https://claude.ai/design/p/8856baec-1efd-48eb-8a28-6c4b29e70f97",
+  "v": 1,
+  "upgradedAt": "2026-09-23T10:43:12.000Z"
+ },
+ "upgraded": {
+  "v": 1,
+  "at": "2026-09-23T10:43:12.000Z",
+  "from": "claude-design"
+ },
+ "lastChange": {
+  "by": "Fabian",
+  "at": "2026-09-24T07:06:35Z",
+  "via": "Cowork",
+  "note": "2.1: the light website edition keeps clean film edges with no fade into the grey ground; its footer sits on the ground below the last film. The dark edition is unchanged."
+ }
+}
