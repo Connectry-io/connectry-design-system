@@ -18,6 +18,8 @@ Design System type contract `0.2.47`. Exported 2026-10-09.
 | `files-manifest.json` | sha256 of every published `project/` file (pre-remap), and which are page-generated | 309 entries |
 | `tools/remap_blobs.py` | Rewrites old asset ids to the new ones after re-upload | |
 | `reference/type/` | The Design System type's own `SKILL.md` and page shell at export time (reference only; the type supplies these in the new org) | 2 files |
+| `docs/connectry-brand-guidelines-2.1.pdf` | The brand guidelines as one PDF (120 pages, 16:9): brand book, every guideline section in full, all tokens, logo, imagery, film, slides, social and all 66 components as rendered | 1 file |
+| `tools/render_previews.py`, `tools/build_brand_pdf.py` | Rebuild the PDF from `project/` after any change: render previews, then build | |
 | `REBUILD.md` | The step-by-step rebuild and the prompt to paste into Claude | |
 
 Every byte was checked against the artifact's sha256 on export: 206 of 206 assets, 309 of 309 files.
