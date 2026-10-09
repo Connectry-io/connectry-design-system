@@ -10,7 +10,7 @@ Design System type contract `0.2.47`. Exported 2026-10-09.
 
 | Path | What | Count |
 |---|---|---|
-| `project/` | Every published file of the system: README brand book, 14 guideline sections, `tokens.json`, `design-system.json` (the index), 70 components (README + live preview each), notes | 309 files |
+| `project/` | Every published file of the system: README brand book, 14 guideline sections, `tokens.json`, `design-system.json` (the index), 66 components (README + live preview each), notes | 309 files |
 | `project/assets/<Group>/` | Every asset the index names, restored to its real filename: Logo, Imagery, Circles, Film (incl. the 75s product film and the hero film), Social, Slides, Icons, Glass | 150 files |
 | `project/media/` | The published media copies the previews load by relative path (logos, icons, stills, 10 clips, slides, social cards) | included above |
 | `store-extra/` | The 56 asset-store uploads the index does not name (earlier logo uploads, alternate encodes, crops). Kept for completeness, named by original id | 56 files |
