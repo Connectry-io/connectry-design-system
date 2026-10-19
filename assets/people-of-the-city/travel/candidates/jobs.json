@@ -1,0 +1,458 @@
+[
+  {
+    "created_at": "2026-10-19T19:35:23.929175Z",
+    "display_name": "Nano Banana Pro",
+    "id": "5607f1e5-4a2a-4478-9fb9-7d3a40162aa9",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193523_5607f1e5-4a2a-4478-9fb9-7d3a40162aa9_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "b38aacf3-7964-4bc5-805f-5a6b9d703676",
+          "type": "image_job",
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193421_b38aacf3-7964-4bc5-805f-5a6b9d703676.png"
+        }
+      ],
+      "prompt": "Same person, same outfit, same place and light, reframed as a vertical 9:16 photo, person in the lower two thirds, open calm space above. Cinematic still, photorealistic, 35mm film, shallow depth of field, warm neutral grade, natural light, subtle grain, warm skin with a hint of cool blue in the shadows. The person does not look at the camera. No screen facing the camera. Absolutely no text, letters, numbers, logos, wordmarks, signage, livery, airline branding, seat-back branding, menus, boarding passes or departure boards anywhere in the frame. Bags and clothing have no visible logos or hardware lettering.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193523_5607f1e5-4a2a-4478-9fb9-7d3a40162aa9.png",
+    "status": "completed"
+  },
+  {
+    "created_at": "2026-10-19T19:35:23.348721Z",
+    "display_name": "Nano Banana Pro",
+    "id": "40c48ae1-26e0-46af-9801-ec2e66440a9c",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193523_40c48ae1-26e0-46af-9801-ec2e66440a9c_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "a5a13f28-c83d-4c3f-aed2-6883c8959804",
+          "type": "image_job",
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193421_a5a13f28-c83d-4c3f-aed2-6883c8959804.png"
+        }
+      ],
+      "prompt": "Same person, same outfit, same place and light, reframed as a vertical 9:16 photo, person in the lower two thirds, open calm space above. Cinematic still, photorealistic, 35mm film, shallow depth of field, warm neutral grade, natural light, subtle grain, warm skin with a hint of cool blue in the shadows. The person does not look at the camera. No screen facing the camera. Absolutely no text, letters, numbers, logos, wordmarks, signage, livery, airline branding, seat-back branding, menus, boarding passes or departure boards anywhere in the frame. Bags and clothing have no visible logos or hardware lettering.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193523_40c48ae1-26e0-46af-9801-ec2e66440a9c.png",
+    "status": "completed"
+  },
+  {
+    "created_at": "2026-10-19T19:35:16.860676Z",
+    "display_name": "Nano Banana Pro",
+    "id": "084b0b19-efd5-4d9a-a55f-d073b9d722d8",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193516_084b0b19-efd5-4d9a-a55f-d073b9d722d8_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "73a11881-63e4-48d4-b160-0a7bcaf41606",
+          "type": "image_job",
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193339_73a11881-63e4-48d4-b160-0a7bcaf41606.png"
+        }
+      ],
+      "prompt": "Same person, same outfit, same place and light, reframed as a vertical 9:16 photo, person in the lower two thirds, open calm space above. Cinematic still, photorealistic, 35mm film, shallow depth of field, warm neutral grade, natural light, subtle grain, warm skin with a hint of cool blue in the shadows. The person does not look at the camera. No screen facing the camera. Absolutely no text, letters, numbers, logos, wordmarks, signage, livery, airline branding, seat-back branding, menus, boarding passes or departure boards anywhere in the frame. Bags and clothing have no visible logos or hardware lettering.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193516_084b0b19-efd5-4d9a-a55f-d073b9d722d8.png",
+    "status": "completed"
+  },
+  {
+    "created_at": "2026-10-19T19:35:16.558907Z",
+    "display_name": "Nano Banana Pro",
+    "id": "38e26f98-1743-46d2-a704-eea517ac13d0",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193516_38e26f98-1743-46d2-a704-eea517ac13d0_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "a425b95f-a95a-4440-809e-8cff28b23750",
+          "type": "image_job",
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193340_a425b95f-a95a-4440-809e-8cff28b23750.png"
+        }
+      ],
+      "prompt": "Same person, same outfit, same place and light, reframed as a vertical 9:16 photo, person in the lower two thirds, open calm space above. Cinematic still, photorealistic, 35mm film, shallow depth of field, warm neutral grade, natural light, subtle grain, warm skin with a hint of cool blue in the shadows. The person does not look at the camera. No screen facing the camera. Absolutely no text, letters, numbers, logos, wordmarks, signage, livery, airline branding, seat-back branding, menus, boarding passes or departure boards anywhere in the frame. Bags and clothing have no visible logos or hardware lettering.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193516_38e26f98-1743-46d2-a704-eea517ac13d0.png",
+    "status": "completed"
+  },
+  {
+    "created_at": "2026-10-19T19:35:16.485258Z",
+    "display_name": "Nano Banana Pro",
+    "id": "e029656b-1262-4e7b-9603-a941e83b0c2a",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193516_e029656b-1262-4e7b-9603-a941e83b0c2a_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "709c900a-f3d5-4a75-98d3-0706dadb174f",
+          "type": "image_job",
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193251_709c900a-f3d5-4a75-98d3-0706dadb174f.png"
+        }
+      ],
+      "prompt": "Same person, same outfit, same place and light, reframed as a vertical 9:16 photo, person in the lower two thirds, open calm space above. Cinematic still, photorealistic, 35mm film, shallow depth of field, warm neutral grade, natural light, subtle grain, warm skin with a hint of cool blue in the shadows. The person does not look at the camera. No screen facing the camera. Absolutely no text, letters, numbers, logos, wordmarks, signage, livery, airline branding, seat-back branding, menus, boarding passes or departure boards anywhere in the frame. Bags and clothing have no visible logos or hardware lettering.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193516_e029656b-1262-4e7b-9603-a941e83b0c2a.png",
+    "status": "completed"
+  },
+  {
+    "created_at": "2026-10-19T19:35:16.370088Z",
+    "display_name": "Nano Banana Pro",
+    "id": "3fbce85a-cb0b-4c90-84fd-34e1112d7754",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193516_3fbce85a-cb0b-4c90-84fd-34e1112d7754_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "6ca0d6f1-f560-46e1-a1a1-e0708e0b325d",
+          "type": "image_job",
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193340_6ca0d6f1-f560-46e1-a1a1-e0708e0b325d.png"
+        }
+      ],
+      "prompt": "Same person, same outfit, same place and light, reframed as a vertical 9:16 photo, person in the lower two thirds, open calm space above. Cinematic still, photorealistic, 35mm film, shallow depth of field, warm neutral grade, natural light, subtle grain, warm skin with a hint of cool blue in the shadows. The person does not look at the camera. No screen facing the camera. Absolutely no text, letters, numbers, logos, wordmarks, signage, livery, airline branding, seat-back branding, menus, boarding passes or departure boards anywhere in the frame. Bags and clothing have no visible logos or hardware lettering.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193516_3fbce85a-cb0b-4c90-84fd-34e1112d7754.png",
+    "status": "completed"
+  },
+  {
+    "created_at": "2026-10-19T19:35:01.758026Z",
+    "display_name": "GPT Image 2.5",
+    "id": "e4175c3d-86b3-4d13-a852-d032f24c9b47",
+    "job_type": "gpt_image_2_5",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193501_e4175c3d-86b3-4d13-a852-d032f24c9b47_min.webp",
+    "params": {
+      "aspect_ratio": "16:9",
+      "height": 1520,
+      "medias": [],
+      "model": "flare",
+      "prompt": "An elegant Black woman about 29 in an ivory silk shirt open at the collar and camel wide-leg trousers, nude heels, long legs crossed, sunglasses pushed up into her hair, sits in a caramel leather lounge chair at a tall window at sunset in a calm airport lounge in Atlanta, a runway and a plain white jet glowing beyond the glass. A black structured top-handle bag sits beside her. She glances down at a phone held low in her lap with a slight smile; the phone screen faces away from the camera. Cinematic still, photorealistic, 35mm film photograph, shallow depth of field, warm neutral grade, natural light, subtle film grain, warm skin with a hint of cool blue in the shadows. Subject in the right half of the frame, the left third of the frame open and calm. The person does not look at the camera. No screen facing the camera. Absolutely no text, letters, numbers, logos, wordmarks, signage, livery, airline branding, seat-back branding, menus, boarding passes or departure boards anywhere in the image. Bags and clothing carry no visible logos. Elegant, editorial, candid, not posed.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2688
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193501_e4175c3d-86b3-4d13-a852-d032f24c9b47.png",
+    "status": "completed"
+  },
+  {
+    "created_at": "2026-10-19T19:35:01.589916Z",
+    "display_name": "GPT Image 2.5",
+    "id": "999ae991-5e1d-4157-863e-99784de9e68a",
+    "job_type": "gpt_image_2_5",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193501_999ae991-5e1d-4157-863e-99784de9e68a_min.webp",
+    "params": {
+      "aspect_ratio": "16:9",
+      "height": 1520,
+      "medias": [],
+      "model": "flare",
+      "prompt": "An elegant Black woman about 29 in an ivory silk shirt open at the collar and camel wide-leg trousers, nude heels, long legs crossed, sunglasses pushed up into her hair, sits in a caramel leather lounge chair at a tall window at sunset in a calm airport lounge in Atlanta, a runway and a plain white jet glowing beyond the glass. A black structured top-handle bag sits beside her. She glances down at a phone held low in her lap with a slight smile; the phone screen faces away from the camera. Cinematic still, photorealistic, 35mm film photograph, shallow depth of field, warm neutral grade, natural light, subtle film grain, warm skin with a hint of cool blue in the shadows. Subject in the right half of the frame, the left third of the frame open and calm. The person does not look at the camera. No screen facing the camera. Absolutely no text, letters, numbers, logos, wordmarks, signage, livery, airline branding, seat-back branding, menus, boarding passes or departure boards anywhere in the image. Bags and clothing carry no visible logos. Elegant, editorial, candid, not posed.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2688
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193501_999ae991-5e1d-4157-863e-99784de9e68a.png",
+    "status": "completed"
+  },
+  {
+    "created_at": "2026-10-19T19:35:01.407286Z",
+    "display_name": "GPT Image 2.5",
+    "id": "26fbc325-ca4b-4983-93ff-944c6414212a",
+    "job_type": "gpt_image_2_5",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193501_26fbc325-ca4b-4983-93ff-944c6414212a_min.webp",
+    "params": {
+      "aspect_ratio": "16:9",
+      "height": 1520,
+      "medias": [],
+      "model": "flare",
+      "prompt": "A stylish woman about 30 in a cream cashmere coat over a fitted black knit dress, low sleek bun, small gold hoop earrings, stands at a floor-to-ceiling window in a quiet minimalist New York airport lounge at dawn, holding a small espresso cup, looking out at plain white planes on the tarmac in soft pink-gold light. A tan structured top-handle leather bag rests on the low chair beside her. Cinematic still, photorealistic, 35mm film photograph, shallow depth of field, warm neutral grade, natural light, subtle film grain, warm skin with a hint of cool blue in the shadows. Subject in the right half of the frame, the left third of the frame open and calm. The person does not look at the camera. No screen facing the camera. Absolutely no text, letters, numbers, logos, wordmarks, signage, livery, airline branding, seat-back branding, menus, boarding passes or departure boards anywhere in the image. Bags and clothing carry no visible logos. Elegant, editorial, candid, not posed.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2688
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193501_26fbc325-ca4b-4983-93ff-944c6414212a.png",
+    "status": "completed"
+  },
+  {
+    "created_at": "2026-10-19T19:35:01.104805Z",
+    "display_name": "GPT Image 2.5",
+    "id": "68f60092-e31f-43fb-adf1-86c82f8974e4",
+    "job_type": "gpt_image_2_5",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193501_68f60092-e31f-43fb-adf1-86c82f8974e4_min.webp",
+    "params": {
+      "aspect_ratio": "16:9",
+      "height": 1520,
+      "medias": [],
+      "model": "flare",
+      "prompt": "A stylish woman about 30 in a cream cashmere coat over a fitted black knit dress, low sleek bun, small gold hoop earrings, stands at a floor-to-ceiling window in a quiet minimalist New York airport lounge at dawn, holding a small espresso cup, looking out at plain white planes on the tarmac in soft pink-gold light. A tan structured top-handle leather bag rests on the low chair beside her. Cinematic still, photorealistic, 35mm film photograph, shallow depth of field, warm neutral grade, natural light, subtle film grain, warm skin with a hint of cool blue in the shadows. Subject in the right half of the frame, the left third of the frame open and calm. The person does not look at the camera. No screen facing the camera. Absolutely no text, letters, numbers, logos, wordmarks, signage, livery, airline branding, seat-back branding, menus, boarding passes or departure boards anywhere in the image. Bags and clothing carry no visible logos. Elegant, editorial, candid, not posed.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2688
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193501_68f60092-e31f-43fb-adf1-86c82f8974e4.png",
+    "status": "completed"
+  },
+  {
+    "created_at": "2026-10-19T19:34:22.343941Z",
+    "display_name": "GPT Image 2.5",
+    "id": "20de1049-328a-4b12-995d-c739caa9d0ab",
+    "job_type": "gpt_image_2_5",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193422_20de1049-328a-4b12-995d-c739caa9d0ab_min.webp",
+    "params": {
+      "aspect_ratio": "16:9",
+      "height": 1520,
+      "medias": [],
+      "model": "flare",
+      "prompt": "An East Asian American woman about 27, a founder, reclines in a lie-flat business class suite at night, cashmere wrap slipping off one shoulder, silk eye mask pushed up into her hair, quiet smile toward the dark window, amber reading light. The cabin feels like a current US carrier's business class: enclosed suite with sliding door, high walls, navy or charcoal leather, warm amber reading light, wood or brushed metal trim. Young, successful, busy, elegant and quietly sexy: silk, bare skin only at shoulder, caught mid-moment, never posed. Cinematic still, photorealistic, 35mm film, shallow depth of field, warm neutral grade, natural light, subtle grain, warm skin with a hint of cool blue in the shadows. Subject in the right half of the frame, the left third open and calm for type. The person does not look at the camera. No screen facing the camera. Absolutely no text, letters, numbers, logos, wordmarks, signage, livery, airline branding, seat-back branding, menus, boarding passes or departure boards anywhere in the frame. Bags and clothing have no visible logos or hardware lettering.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2688
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193422_20de1049-328a-4b12-995d-c739caa9d0ab.png",
+    "status": "completed"
+  },
+  {
+    "created_at": "2026-10-19T19:34:21.854418Z",
+    "display_name": "GPT Image 2.5",
+    "id": "b38aacf3-7964-4bc5-805f-5a6b9d703676",
+    "job_type": "gpt_image_2_5",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193421_b38aacf3-7964-4bc5-805f-5a6b9d703676_min.webp",
+    "params": {
+      "aspect_ratio": "16:9",
+      "height": 1520,
+      "medias": [],
+      "model": "flare",
+      "prompt": "A woman about 32, mixed ethnicity, with sun-streaked hair, white oversized blazer over a champagne silk slip dress, shoulders bare under the open blazer, stands on a sunlit Los Angeles airport lounge terrace with palms, holding sunglasses, looking off to the side, a plain white jet parked beyond in hard golden afternoon sun. Any aircraft is plain white, no livery, partly out of focus. Young, successful, busy, elegant and quietly sexy: tailoring, silk, bare skin only at collar or shoulder, caught mid-moment, never posed. Cinematic still, photorealistic, 35mm film, shallow depth of field, warm neutral grade, natural light, subtle grain, warm skin with a hint of cool blue in the shadows. Subject in the right half of the frame, the left third open and calm for type. The person does not look at the camera. No screen facing the camera. Absolutely no text, letters, numbers, logos, wordmarks, signage, livery, airline branding, seat-back branding, menus, boarding passes or departure boards anywhere in the frame. Bags and clothing have no visible logos or hardware lettering.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2688
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193421_b38aacf3-7964-4bc5-805f-5a6b9d703676.png",
+    "status": "completed"
+  },
+  {
+    "created_at": "2026-10-19T19:34:21.527425Z",
+    "display_name": "GPT Image 2.5",
+    "id": "a5a13f28-c83d-4c3f-aed2-6883c8959804",
+    "job_type": "gpt_image_2_5",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193421_a5a13f28-c83d-4c3f-aed2-6883c8959804_min.webp",
+    "params": {
+      "aspect_ratio": "16:9",
+      "height": 1520,
+      "medias": [],
+      "model": "flare",
+      "prompt": "An East Asian American woman about 27, a founder, reclines in a lie-flat business class suite at night, cashmere wrap slipping off one shoulder, silk eye mask pushed up into her hair, quiet smile toward the dark window, amber reading light. The cabin feels like a current US carrier's business class: enclosed suite with sliding door, high walls, navy or charcoal leather, warm amber reading light, wood or brushed metal trim. Young, successful, busy, elegant and quietly sexy: silk, bare skin only at shoulder, caught mid-moment, never posed. Cinematic still, photorealistic, 35mm film, shallow depth of field, warm neutral grade, natural light, subtle grain, warm skin with a hint of cool blue in the shadows. Subject in the right half of the frame, the left third open and calm for type. The person does not look at the camera. No screen facing the camera. Absolutely no text, letters, numbers, logos, wordmarks, signage, livery, airline branding, seat-back branding, menus, boarding passes or departure boards anywhere in the frame. Bags and clothing have no visible logos or hardware lettering.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2688
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193421_a5a13f28-c83d-4c3f-aed2-6883c8959804.png",
+    "status": "completed"
+  },
+  {
+    "created_at": "2026-10-19T19:34:21.280273Z",
+    "display_name": "GPT Image 2.5",
+    "id": "0d660e0f-48cc-41a5-921e-47447954e25b",
+    "job_type": "gpt_image_2_5",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193421_0d660e0f-48cc-41a5-921e-47447954e25b_min.webp",
+    "params": {
+      "aspect_ratio": "16:9",
+      "height": 1520,
+      "medias": [],
+      "model": "flare",
+      "prompt": "A woman about 32, mixed ethnicity, with sun-streaked hair, white oversized blazer over a champagne silk slip dress, shoulders bare under the open blazer, stands on a sunlit Los Angeles airport lounge terrace with palms, holding sunglasses, looking off to the side, a plain white jet parked beyond in hard golden afternoon sun. Any aircraft is plain white, no livery, partly out of focus. Young, successful, busy, elegant and quietly sexy: tailoring, silk, bare skin only at collar or shoulder, caught mid-moment, never posed. Cinematic still, photorealistic, 35mm film, shallow depth of field, warm neutral grade, natural light, subtle grain, warm skin with a hint of cool blue in the shadows. Subject in the right half of the frame, the left third open and calm for type. The person does not look at the camera. No screen facing the camera. Absolutely no text, letters, numbers, logos, wordmarks, signage, livery, airline branding, seat-back branding, menus, boarding passes or departure boards anywhere in the frame. Bags and clothing have no visible logos or hardware lettering.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2688
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193421_0d660e0f-48cc-41a5-921e-47447954e25b.png",
+    "status": "completed"
+  },
+  {
+    "created_at": "2026-10-19T19:33:40.68081Z",
+    "display_name": "GPT Image 2.5",
+    "id": "6ca0d6f1-f560-46e1-a1a1-e0708e0b325d",
+    "job_type": "gpt_image_2_5",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193340_6ca0d6f1-f560-46e1-a1a1-e0708e0b325d_min.webp",
+    "params": {
+      "aspect_ratio": "16:9",
+      "height": 1520,
+      "medias": [],
+      "model": "flare",
+      "prompt": "A man about 33, mixed ethnicity, navy unstructured blazer over a white tee, slim silver watch, relaxed half smile, sits in a private first class suite at night, looking out of the window at the lights of Manhattan far below; a glass of champagne untouched on the side ledge. The cabin feels like a current US carrier's first class: enclosed suite with sliding door, high walls, navy or charcoal leather, warm amber reading light, wood or brushed metal trim. Young, successful, busy, elegant and quietly sexy: tailoring, bare skin only at collar, caught mid-moment, never posed. Cinematic still, photorealistic, 35mm film, shallow depth of field, warm neutral grade, natural light, subtle grain, warm skin with a hint of cool blue in the shadows. Subject in the right half of the frame, the left third open and calm for type. The person does not look at the camera. No screen facing the camera. Absolutely no text, letters, numbers, logos, wordmarks, signage, livery, airline branding, seat-back branding, menus, boarding passes or departure boards anywhere in the frame. Bags and clothing have no visible logos or hardware lettering.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2688
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193340_6ca0d6f1-f560-46e1-a1a1-e0708e0b325d.png",
+    "status": "completed"
+  },
+  {
+    "created_at": "2026-10-19T19:33:40.257706Z",
+    "display_name": "GPT Image 2.5",
+    "id": "a425b95f-a95a-4440-809e-8cff28b23750",
+    "job_type": "gpt_image_2_5",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193340_a425b95f-a95a-4440-809e-8cff28b23750_min.webp",
+    "params": {
+      "aspect_ratio": "16:9",
+      "height": 1520,
+      "medias": [],
+      "model": "flare",
+      "prompt": "A man about 34, mixed ethnicity, in a cream linen suit, shirt open at the neck, walks across a private-aviation tarmac at blue hour toward a small plain white business jet with its stairs down, a leather weekender in one hand, jacket moving in the wind; Atlanta skyline faint on the horizon. The aircraft is plain white, no livery, partly out of focus. Young, successful, busy, elegant and quietly sexy: tailoring, caught mid-moment, never posed. Cinematic still, photorealistic, 35mm film, shallow depth of field, warm neutral grade, natural light, subtle grain, warm skin with a hint of cool blue in the shadows. Subject in the right half of the frame, the left third open and calm for type. The person does not look at the camera. No screen facing the camera. Absolutely no text, letters, numbers, logos, wordmarks, signage, livery, airline branding, seat-back branding, menus, boarding passes or departure boards anywhere in the frame. Bags and clothing have no visible logos or hardware lettering.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2688
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193340_a425b95f-a95a-4440-809e-8cff28b23750.png",
+    "status": "completed"
+  },
+  {
+    "created_at": "2026-10-19T19:33:40.071245Z",
+    "display_name": "GPT Image 2.5",
+    "id": "b68960e6-a17a-47e0-803b-739b4ea0dc1d",
+    "job_type": "gpt_image_2_5",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193340_b68960e6-a17a-47e0-803b-739b4ea0dc1d_min.webp",
+    "params": {
+      "aspect_ratio": "16:9",
+      "height": 1520,
+      "medias": [],
+      "model": "flare",
+      "prompt": "A man about 33, mixed ethnicity, navy unstructured blazer over a white tee, slim silver watch, relaxed half smile, sits in a private first class suite at night, looking out of the window at the lights of Manhattan far below; a glass of champagne untouched on the side ledge. The cabin feels like a current US carrier's first class: enclosed suite with sliding door, high walls, navy or charcoal leather, warm amber reading light, wood or brushed metal trim. Young, successful, busy, elegant and quietly sexy: tailoring, bare skin only at collar, caught mid-moment, never posed. Cinematic still, photorealistic, 35mm film, shallow depth of field, warm neutral grade, natural light, subtle grain, warm skin with a hint of cool blue in the shadows. Subject in the right half of the frame, the left third open and calm for type. The person does not look at the camera. No screen facing the camera. Absolutely no text, letters, numbers, logos, wordmarks, signage, livery, airline branding, seat-back branding, menus, boarding passes or departure boards anywhere in the frame. Bags and clothing have no visible logos or hardware lettering.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2688
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193340_b68960e6-a17a-47e0-803b-739b4ea0dc1d.png",
+    "status": "completed"
+  },
+  {
+    "created_at": "2026-10-19T19:33:39.838393Z",
+    "display_name": "GPT Image 2.5",
+    "id": "73a11881-63e4-48d4-b160-0a7bcaf41606",
+    "job_type": "gpt_image_2_5",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193339_73a11881-63e4-48d4-b160-0a7bcaf41606_min.webp",
+    "params": {
+      "aspect_ratio": "16:9",
+      "height": 1520,
+      "medias": [],
+      "model": "flare",
+      "prompt": "A Black woman about 29 in an ivory silk shirt open at the collar and camel wide-leg trousers, heels, long legs crossed, sunglasses pushed up into her hair, sits in a leather lounge chair at a tall window at sunset in an Atlanta airport lounge, runway and a plain white jet glowing beyond; a black structured top-handle bag beside her; she is reading something on her phone held low, smiling slightly. Any aircraft is plain white, no livery, partly out of focus. Young, successful, busy, elegant and quietly sexy: tailoring, silk, bare skin only at collar or shoulder, caught mid-moment, never posed. Cinematic still, photorealistic, 35mm film, shallow depth of field, warm neutral grade, natural light, subtle grain, warm skin with a hint of cool blue in the shadows. Subject in the right half of the frame, the left third open and calm for type. The person does not look at the camera. No screen facing the camera. Absolutely no text, letters, numbers, logos, wordmarks, signage, livery, airline branding, seat-back branding, menus, boarding passes or departure boards anywhere in the frame. Bags and clothing have no visible logos or hardware lettering.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2688
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193339_73a11881-63e4-48d4-b160-0a7bcaf41606.png",
+    "status": "completed"
+  },
+  {
+    "created_at": "2026-10-19T19:32:51.935186Z",
+    "display_name": "GPT Image 2.5",
+    "id": "b3eba004-47c8-46cf-a8f4-75352026a8ae",
+    "job_type": "gpt_image_2_5",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193251_b3eba004-47c8-46cf-a8f4-75352026a8ae_min.webp",
+    "params": {
+      "aspect_ratio": "16:9",
+      "height": 1520,
+      "medias": [],
+      "model": "flare",
+      "prompt": "A man about 34, mixed ethnicity, in a cream linen suit, shirt open at the neck, walks across a private-aviation tarmac at blue hour toward a small plain white business jet with its stairs down, a leather weekender in one hand, jacket moving in the wind; Atlanta skyline faint on the horizon. The aircraft is plain white, no livery, partly out of focus. Young, successful, busy, elegant and quietly sexy: tailoring, caught mid-moment, never posed. Cinematic still, photorealistic, 35mm film, shallow depth of field, warm neutral grade, natural light, subtle grain, warm skin with a hint of cool blue in the shadows. Subject in the right half of the frame, the left third open and calm for type. The person does not look at the camera. No screen facing the camera. Absolutely no text, letters, numbers, logos, wordmarks, signage, livery, airline branding, seat-back branding, menus, boarding passes or departure boards anywhere in the frame. Bags and clothing have no visible logos or hardware lettering.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2688
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193251_b3eba004-47c8-46cf-a8f4-75352026a8ae.png",
+    "status": "completed"
+  },
+  {
+    "created_at": "2026-10-19T19:32:51.707313Z",
+    "display_name": "GPT Image 2.5",
+    "id": "709c900a-f3d5-4a75-98d3-0706dadb174f",
+    "job_type": "gpt_image_2_5",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193251_709c900a-f3d5-4a75-98d3-0706dadb174f_min.webp",
+    "params": {
+      "aspect_ratio": "16:9",
+      "height": 1520,
+      "medias": [],
+      "model": "flare",
+      "prompt": "A woman about 30, mixed ethnicity, in a cream cashmere coat over a fitted black knit dress, low sleek bun, gold hoops, stands at a floor-to-ceiling window in a quiet New York airport lounge at dawn holding an espresso, looking out at planes on the tarmac; a tan structured top-handle leather bag rests on the chair beside her. Any aircraft is plain white, no livery, partly out of focus. Young, successful, busy, elegant and quietly sexy: tailoring, silk, bare skin only at collar or shoulder, caught mid-moment, never posed. Cinematic still, photorealistic, 35mm film, shallow depth of field, warm neutral grade, natural light, subtle grain, warm skin with a hint of cool blue in the shadows. Subject in the right half of the frame, the left third open and calm for type. The person does not look at the camera. No screen facing the camera. Absolutely no text, letters, numbers, logos, wordmarks, signage, livery, airline branding, seat-back branding, menus, boarding passes or departure boards anywhere in the frame. Bags and clothing have no visible logos or hardware lettering.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2688
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F0xMy0Sc3flaXZxPZ7sogZogQs/hf_20261019_193251_709c900a-f3d5-4a75-98d3-0706dadb174f.png",
+    "status": "completed"
+  }
+]
